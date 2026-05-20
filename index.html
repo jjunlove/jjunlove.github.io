@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>캐슬 이터 (Castle Itter) 전술 마스터 가이드 - 화이트 에디션</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Malgun Gothic', sans-serif;
+            background-color: #ffffff;
+            color: #1e293b;
+            padding: 30px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 35px 20px;
+            background-color: #f8fafc;
+            border: 2px solid #e2e8f0;
+            border-bottom: 5px solid #b45309;
+            border-radius: 12px;
+            margin-bottom: 30px;
+        }
+
+        header h1 {
+            font-size: 2.3rem;
+            color: #b45309;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+            font-weight: 800;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #475569;
+            font-weight: 600;
+        }
+
+        .section-block {
+            background-color: #ffffff;
+            border: 2px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 30px;
+            margin-bottom: 30px;
+        }
+
+        .section-title {
+            font-size: 1.5rem;
+            color: #0f172a;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 3px solid #cbd5e1;
+            display: flex;
+            align-items: center;
+            font-weight: 700;
+        }
+
+        .section-title::before {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 24px;
+            margin-right: 12px;
+            border-radius: 4px;
+        }
+
+        .section-block:nth-of-type(1) .section-title::before { background-color: #d97706; }
+        .section-block:nth-of-type(2) .section-title::before { background-color: #059669; }
+        .section-block:nth-of-type(3) .section-title::before { background-color: #2563eb; }
+        .section-block:nth-of-type(4) .section-title::before { background-color: #b45309; }
+
+        .review-box {
+            background-color: #fffbeb;
+            border: 1px solid #fef3c7;
+            border-left: 5px solid #d97706;
+            padding: 20px;
+            border-radius: 6px;
+            margin-bottom: 20px;
+        }
+
+        .review-box h3 {
+            color: #b45309;
+            font-size: 1.15rem;
+            margin-bottom: 12px;
+            font-weight: 700;
+        }
+
+        .review-item {
+            margin-bottom: 12px;
+            color: #451a03;
+        }
+
+        .review-item strong {
+            color: #0f172a;
+        }
+
+        .rule-list {
+            list-style: none;
+        }
+
+        .rule-list > li {
+            margin-bottom: 30px;
+            padding-bottom: 25px;
+            border-bottom: 1px solid #e2e8f0;
+        }
+
+        .rule-list > li:last-child {
+            border-bottom: none;
+            margin-bottom: 0;
+            padding-bottom: 0;
+        }
+
+        .rule-list h3 {
+            font-size: 1.25rem;
+            color: #0f172a;
+            margin-bottom: 12px;
+            display: flex;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 10px;
+            font-weight: 700;
+        }
+
+        .sub-badge {
+            font-size: 0.8rem;
+            padding: 4px 10px;
+            border-radius: 4px;
+            font-weight: bold;
+            color: #ffffff;
+        }
+        .sub-badge.action { background-color: #1d4ed8; }
+        .sub-badge.free { background-color: #047857; }
+        .sub-badge.warning { background-color: #b91c1c; }
+
+        .sub-rules {
+            margin-left: 15px;
+            margin-top: 10px;
+        }
+
+        .sub-rule-item {
+            margin-bottom: 10px;
+            padding-left: 15px;
+            position: relative;
+            color: #334155;
+        }
+
+        .sub-rule-item::before {
+            content: '•';
+            position: absolute;
+            left: 0;
+            color: #b45309;
+            font-weight: bold;
+        }
+
+        .sub-rule-item strong {
+            color: #b45309;
+            font-weight: 700;
+        }
+        .sub-rule-item.detail strong { color: #0369a1; }
+        .sub-rule-item.exception strong { color: #be123c; }
+
+        .insight-box {
+            background-color: #f5f3ff;
+            border: 1px solid #ddd6fe;
+            border-left: 5px solid #6d28d9;
+            padding: 18px;
+            border-radius: 8px;
+            margin-top: 15px;
+            font-size: 0.95rem;
+        }
+
+        .insight-box span {
+            font-weight: bold;
+            color: #5b21b6;
+            display: block;
+            margin-bottom: 6px;
+        }
+
+        .score-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+            font-size: 0.95rem;
+        }
+
+        .score-table th, .score-table td {
+            border: 1px solid #cbd5e1;
+            padding: 12px;
+            text-align: center;
+        }
+
+        .score-table th {
+            background-color: #f1f5f9;
+            color: #0f172a;
+            font-weight: 700;
+        }
+
+        .score-table td {
+            color: #334155;
+            font-weight: 500;
+        }
+
+        .score-table tr:nth-child(even) {
+            background-color: #f8fafc;
+        }
+
+        .step-flow {
+            font-weight: bold;
+            color: #0f172a;
+            text-align: center;
+            background-color: #f1f5f9;
+            padding: 14px;
+            border-radius: 8px;
+            margin: 20px 0;
+            border: 2px dashed #cbd5e1;
+            font-size: 1.1rem;
+        }
+
+        .step-container {
+            margin-top: 20px;
+            background-color: #ffffff;
+            border: 2px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 25px;
+            margin-bottom: 25px;
+        }
+
+        .step-header {
+            font-size: 1.3rem;
+            font-weight: bold;
+            margin-bottom: 18px;
+            padding-bottom: 8px;
+            border-bottom: 2px dashed #cbd5e1;
+        }
+
+        .step-header.defender { color: #1d4ed8; border-bottom-color: #bfdbfe; }
+        .step-header.ss { color: #b91c1c; border-bottom-color: #fecaca; }
+
+        .order-list {
+            margin-left: 20px;
+            margin-top: 10px;
+        }
+
+        .order-list li {
+            margin-bottom: 10px;
+            color: #334155;
+        }
+
+        .order-list strong {
+            color: #0f172a;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+
+    <header>
+        <h1>Castle Itter Tactician Dashboard</h1>
+        <p>실시간 플레이 참조용 마스터 규칙 가이드서 (완벽 가독성 화이트 에디션)</p>
+    </header>
+
+    <div class="section-block">
+        <div class="section-title">번역 및 규칙 비교 검토 완료</div>
+        <div class="review-box">
+            <h3>제공해주신 영문 및 한글 규칙서 대조 정밀 검증 결과</h3>
+            <div class="review-item">
+                • <strong>구역 공격 주사위 수치 명확화:</strong> 영문 원본 기준 88mm Flak 카드는 주사위 3개, 75mm Pak 카드는 주사위 2개를 굴려 성벽 방어력을 깎습니다. 한글 규칙서의 문맥상 오독이 없도록 이 수치를 명확히 고정하여 요약에 반영했습니다.
+            </div>
+            <div class="review-item">
+                • <strong>초기 행동 제한의 Bottleneck:</strong> 공급처의 방어자 20명이 모두 보드에 배치되기 전까지는 지하실의 프랑스 포로들이 일절 행동할 수 없다는 특수 규칙이 한글본에서도 명확히 확인되었습니다. 이는 초반 전개 속도를 조율하는 핵심 잔규칙입니다.
+            </div>
+        </div>
+    </div>
+
+    <div class="section-block">
+        <div class="section-title">0. 게임의 목표 및 승리 조건 (Game Objective & Victory)</div>
+        <ul class="rule-list">
+            <li>
+                <div class="sub-rule-item"><strong>핵심 목표:</strong> 무장친위대(SS) 카드 덱이 모두 소진되거나, 탈출한 보로트라가 불러온 '제142보병연대 지원군 카드'가 뽑힐 때까지 SS 카운터가 성 내부(흰색 선 안쪽)로 진입하지 못하도록 방어선을 유지하는 것입니다.</div>
+                <div class="sub-rule-item"><strong>즉시 패배 조건:</strong> 게임 도중 단 한 개의 SS 카운터라도 진격 트랙의 끝(성 내부 흰색 테두리 안쪽)을 넘어서면 <strong>그 즉시 패배</strong>하며 게임이 종료됩니다.</div>
+                
+                <div style="margin-top: 25px; font-weight: bold; color: #0f172a; font-size: 1.1rem;">최종 승리 등급 (SS 덱 소진 또는 지원군 도착 시 점수 계산)</div>
+                <div class="sub-rule-item" style="margin-top: 8px;"><strong>점수 계산 공식:</strong> [공석인 상태로 파괴된 전차(+1)] + [보로트라 탈출 성공(+3)] + [보드 위 생존 프랑스 방어자당(+2)] + [지하실 내 생존 프랑스 방어자당(+1)] + [그 외 모든 생존 방어자 명당(+1)] - [보드에 남은 SS 카운터 개당(-1)]</div>
+                
+                <table class="score-table">
+                    <thead>
+                        <tr>
+                            <th>40점 이상</th>
+                            <th>30 ~ 39점</th>
+                            <th>20 ~ 29점</th>
+                            <th>10 ~ 19점</th>
+                            <th>1 ~ 9점</th>
+                            <th>0점 이하</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td style="color: #9a3412; font-weight: bold; background-color: #fffbeb;">오스트리아 국가 영웅<br>(서사적 대승리)</td>
+                            <td>명예 훈장<br>(주요 승리)</td>
+                            <td>수훈 십자 훈장<br>(보통 승리)</td>
+                            <td>은성 훈장<br>(소규모 승리)</td>
+                            <td>동성 훈장<br>(턱걸이 승리)</td>
+                            <td style="color: #b91c1c; font-weight: bold; background-color: #fef2f2;">무승부<br>(사실상의 패배)</td>
+                        </tr>
+                    </tbody>
+                </table>
+
+                <div class="insight-box">
+                    <span>💡 디자인 의도 및 전략적 가치 (Insight)</span>
+                    이 게임은 단순히 '살아남는 것'이 목표가 아니라, <strong>'얼마나 피해를 최소화하고 효율적으로 격퇴했는가'</strong>를 겨루는 고난도 다각도 스코어링 시스템을 취하고 있습니다. 특히 SS 카운터 하나당 -1점 감점 폭이 크기 때문에, 후반부에 덱이 떨어져 갈 때 무작정 버티기보다 적극적으로 청소(공격)를 해두어야 고득점(국가 영웅 등급)을 노릴 수 있습니다.
+                </div>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section-block">
+        <div class="section-title">1 & 2. 실시간 플레이용 턴 구조 및 단계별 규칙 (Turn Structure)</div>
+        <div class="step-flow">하나의 턴은 [방어자 단계] ➡️ [SS 단계] 순서로 무한 반복됩니다.</div>
+
+        <div class="step-container">
+            <div class="step-header defender">🟥 STEP 1: 방어자 단계 (Defender Phase) — 플레이어의 턴</div>
+            <p style="margin-bottom: 15px; color: #0f172a; font-weight: bold;">플레이어는 매 턴 <strong>정확히 5번의 행동</strong>을 서로 다른 방어자들을 통해 수행해야 합니다.</p>
+            <ul style="margin-left: 20px; margin-bottom: 20px; color: #475569; font-size: 0.95rem;">
+                <li>하나의 방어자는 한 턴에 <strong>오직 1번의 행동</strong>만 수행할 수 있습니다.</li>
+                <li>행동을 취한 방어자 위에는 '행동 토큰'을 올려놓으며, 행동의 종류에 따라 카운터를 소진 뒷면(회색 면)으로 뒤집습니다.</li>
+            </ul>
+
+            <ul class="rule-list">
+                <li>
+                    <h3>1. 공격 (Attack) <span class="sub-badge action">행동 토큰 배치 + 카운터 소진(회색 면) flip</span></h3>
+                    <div class="sub-rules">
+                        <div class="sub-rule-item"><strong>[핵심 규칙] :</strong> 타겟 SS 카운터와 <strong>동일한 색상</strong>의 전투 위치에 있는 방어자만 공격 가능합니다 (시야 LoS 확보). 방어자의 공격력(Attack Value)만큼 주사위를 굴려, <strong>단 하나의 주사위라도 SS 카운터의 방어력(Defense Value) 이상</strong>이 나오면 해당 SS 카운터를 제거합니다.</div>
+                        <div class="sub-rule-item detail"><strong>[놓치면 안 되는 세부 규칙] :</strong> 두 가지 색상이 섞인 듀얼 컬러 칸의 방어자는 두 색상 구역 모두에 시야를 가집니다. <strong>흰색 칸은 시야가 전혀 없으므로 공격 행동이 불가능</strong>합니다.</div>
+                        <div class="sub-rule-item exception"><strong>[잔규칙 및 예외] :</strong> 같은 구역(Location)에 소진/혼란 상태가 아닌 <strong>[Inspire(고취)] 속성의 프랑스 포로</strong>가 있다면 주사위를 1개 더 추가(+1)하여 굴립니다.</div>
+                        <div class="insight-box">
+                            <span>⚡ 전략적 가치 의견</span>
+                            연쇄 전진을 막기 위해 성벽에 바짝 붙은 소총수나 돌격병을 최우선 제거해야 합니다. 고취 속성 버프를 받아 주사위 개수를 늘리는 효율적인 배치가 화력 극대화의 핵심입니다.
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <h3>2. 제압 (Suppress) <span class="sub-badge action">행동 토큰 배치 + 카운터 소진(회색 면) flip</span></h3>
+                    <div class="sub-rules">
+                        <div class="sub-rule-item"><strong>[핵심 규칙] :</strong> 방어자의 제압력(Suppress Value) 수치만큼 '제압 토큰'을 가져와, 방어자가 위치한 전투 위치와 일치하는 색상의 보드 위 제압 칸(Suppression Area)에 올려놓습니다.</div>
+                        <div class="sub-rule-item detail"><strong>[놓치면 안 되는 세부 규칙] :</strong> 제압 토큰은 해당 색상의 SS 카운터가 '새로 배치되려고 할 때' 주사위를 굴려 배치를 차단하는 용도로만 소모됩니다. 이미 보드에 깔려 있는 SS 카운터에는 아무런 영향을 주지 못합니다.</div>
+                        <div class="sub-rule-item exception"><strong>[잔규칙 및 예외] :</strong> 구역 내에 건강한 <strong>[Inspire(고취)] 속성 방어자</strong>가 있으면 제압 토큰을 1개 더 추가(+1)로 얻습니다. 듀얼 컬러 칸의 방어자는 획득한 제압 토큰을 두 색상 칸에 원하는 비율로 나눠 담을 수 있습니다.</div>
+                        <div class="insight-box">
+                            <span>⚡ 전략적 가치 의견</span>
+                            SS 단계에서 주사위 억까(특정 트랙에 카운터가 몰려 연쇄 폭발하는 현상)를 방지하는 보험입니다. 방어력이 높은 SS 카운터(방어력 5인 Sturm 등)를 차단하려면 제압 토큰을 대량으로 쌓아두어야 안전합니다.
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <h3>3. 이동 관련 행동</h3>
+                    <div class="sub-rules">
+                        <div class="sub-rule-item"><strong>구역 내 이동 (Move Within a Location) <span class="sub-badge free">무료 행동 - 소진 안 됨</span></strong>
+                            <div style="margin-left: 15px; margin-top: 5px; color: #475569;">
+                                • <strong>[핵심/세부 규칙] :</strong> 자신이 속한 구역 내의 빈 칸으로 자리를 옮깁니다. 만약 다른 방어자가 있는 칸으로 이동하면 두 방어자의 위치를 서로 맞바꿉니다(교환).<br>
+                                • <strong>[잔규칙/예외] :</strong> 위치를 교환하려는 <strong>두 방어자 중 누구라도 소진(회색 면) 상태이거나 혼란 토큰을 갖고 있다면 위치 교환 이동이 절대 불가능</strong>합니다. 단, 이동 후에도 해당 방어자는 이번 턴 자신의 메인 행동을 연이어 수행할 수 있습니다.
+                            </div>
+                        </div>
+                        <div class="sub-rule-item" style="margin-top: 15px;"><strong>새로운 구역으로 이동 (Move to a New Location) <span class="sub-badge action">행동 토큰 배치 + 카운터 소진 flip</span></strong>
+                            <div style="margin-left: 15px; margin-top: 5px; color: #475569;">
+                                • <strong>[핵심/세부 규칙] :</strong> 행동 1번을 소모하여 완전히 다른 구역(흰색 테두리 밖의 다른 구역)의 빈 칸으로 이동합니다. 이 행동은 카운터를 소진시킵니다.<br>
+                                • <strong>[Cellar(지하실) 특수 잔규칙] :</strong> 지하실 구역에 있는 방어자들은 '새로운 구역으로 이동' 행동을 취할 때 <strong>오직 대연회장(Great Hall) 구역으로만 이동</strong>할 수 있습니다. 반대로 다른 구역에서 지하실로 들어오는 것은 제약이 없습니다.
+                            </div>
+                        </div>
+                        <div class="insight-box">
+                            <span>⚡ 전략적 가치 의견</span>
+                            저격이나 포격으로 특정 구역의 방어력이 낮아지거나 방어자가 전멸할 위기에 처했을 때 방어선을 재조정하는 소중한 기동 수단입니다. 구역 내 이동은 무료이므로 적극 활용해 시야각을 변경해야 합니다.
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <h3>4. 회복 (Recover) <span class="sub-badge action">행동 토큰 배치 + 소진 안 됨(flip back)</span></h3>
+                    <div class="sub-rules">
+                        <div class="sub-rule-item"><strong>[핵심 규칙] :</strong> 소진된 방어자(회색 면)를 일반 앞면으로 다시 뒤집거나, 방어자에게 부여된 '혼란(Disrupted) 토큰' 1개를 제거하여 공급처로 돌려놓습니다.</div>
+                        <div class="sub-rule-item detail"><strong>[놓치면 안 되는 세부 규칙] :</strong> 소진(회색 면) 상태이거나 혼란 토큰을 가진 방어자는 <strong>'회복'을 제외한 그 어떤 행동도 선언할 수 없습니다.</strong></div>
+                        <div class="sub-rule-item exception"><strong>[잔규칙 및 예외] :</strong> 1인 1행동 원칙에 의해, 한 턴에 동일한 방어자가 회복 행동을 여러 번 취하거나 회복 후 다른 행동을 수행하는 것은 불가능합니다. 즉, 소진과 혼란이 동시에 걸려 있다면 두 턴에 걸쳐 회복해야 합니다.</div>
+                        <div class="insight-box">
+                            <span>⚡ 전략적 가치 의견</span>
+                            행동 효율이 낮으므로 아래의 '지휘' 특수 행동을 통해 패키지로 회복시키는 것이 훨씬 이득입니다. 어쩔 수 없이 단독 회복을 쓸 때는 다음 무장친위대 단계에서 저격당해 즉사할 위험이 높은 캐릭터를 우선 구제해야 합니다.
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <h3>5. 특수 행동 (Special Actions) <span class="sub-badge action">행동 토큰 배치 + 카운터 소진 flip</span></h3>
+                    <div class="sub-rules">
+                        <div class="sub-rule-item"><strong>지휘 (Command [C]) :</strong>
+                            <div style="margin-left: 15px; margin-top: 5px; color: #475569;">
+                                • <strong>[핵심 규칙] :</strong> 카운터에 [C] 표식이 있는 지휘관 방어자만 사용 가능합니다. 지휘 행동 선언 시, <strong>자신과 같은 구역(Location)에 있는 방어자들에게 최대 3번의 즉각적이고 무료인 '회복' 행동을 분배</strong>합니다.<br>
+                                • <strong>[놓치면 안 되는 세부 규칙] :</strong> 지휘의 대상이 된 방어자들 위에는 '지휘 토큰'을 올려놓습니다. <strong>지휘 토큰을 받은 방어자는 이번 턴에 자신의 독자적인 행동을 취할 수 없습니다.</strong> 또한, 이미 이번 턴에 행동 토큰을 사용해 행동해 버린 방어자에게는 지휘를 내려 회복시킬 수 없습니다.<br>
+                                • <strong>[잔규칙 및 예외] :</strong> 지휘 행동은 [C] 속성을 가진 다른 지휘관 방어자에게는 무료 회복을 줄 수 없습니다.<br>
+                                <span style="color: #1d4ed8; font-weight: bold;">[전략적 가치 의견] :</span> 이 게임의 행동 경제학을 지배하는 가장 강력한 사기 행동입니다. 행동 1번을 투자해 구역 내 아군 3명을 소진 상태에서 부활시키므로 턴 효율을 비약적으로 높여줍니다.
+                            </div>
+                        </div>
+                        
+                        <div class="sub-rule-item" style="margin-top: 15px;"><strong>탈출 (Escape [E]) :</strong>
+                            <div style="margin-left: 15px; margin-top: 5px; color: #475569;">
+                                • <strong>[핵심 규칙] :</strong> 오직 보로트라(Borotra) 캐릭터만 수행할 수 있습니다. 성공 시 보로트라 카운터를 보드에서 영구 제거하고 승점 +3점을 확보합니다.<br>
+                                • <strong>[놓치면 안 되는 세부 규칙] :</strong> 보로트라가 서 있는 전투 위치의 트랙(색상)에 SS 카운터가 단 한 개라도 존재한다면 탈출 행동 자체를 시작할 수 없습니다. 또한 지하실(Cellar)이나 대연회장(Great Hall) 구역에서는 탈출할 수 없습니다.<br>
+                                • <strong>[잔규칙 및 예외 (정밀 수정 완료)] :</strong> 탈출에 성공하면 게임 내 단 1장만 존재하는 특수 지원군 카드(제142보병연대 카드)를 현재 사용 중인 무장친위대(SS) 카드 덱의 하단에 넣고 섞습니다. 탈출 성공 시점의 덱(Deck) 단계에 따라 다음과 같이 섞는 범위가 결정됩니다.
+                                <div style="margin-left: 20px; margin-top: 5px; padding: 12px; background-color: #f8fafc; border-radius: 6px; border: 1px solid #cbd5e1; color: #0f172a;">
+                                    - <strong>Deck 2 단계 탈출:</strong> 현재 무장친위대 덱의 맨 아래 9장과 지원군 카드를 함께 섞음 (최대 3라운드 압축 조기 종료)<br>
+                                    - <strong>Deck 3 단계 탈출:</strong> 현재 무장친위대 덱의 맨 아래 6장과 지원군 카드를 함께 섞음 (최대 2라운드 압축 조기 종료)<br>
+                                    - <strong>Deck 4 단계 탈출:</strong> 현재 무장친위대 덱의 맨 아래 4장과 지원군 카드를 함께 섞음 (최대 1라운드 압축 조기 종료)<br>
+                                    <span style="color: #475569; font-size: 0.85rem; font-style: italic;">*(※ Deck 1 단계에서는 탈출을 선언할 수 없거나 규칙이 적용되지 않습니다.)*</span>
+                                </div>
+                                이후 무장친위대 단계에서 이 '제142보병연대 카드'가 뽑히는 그 즉시 방어자들이 최종 승리하며 게임이 즉시 종료됩니다.<br>
+                                <div class="insight-box">
+                                     <span>⚡ 전략적 가치 의견</span>                                    
+                                     하이 리스크 하이 리턴 플레이입니다. 지원군 카드가 단 1장뿐이기 때문에 <strong>"보로트라를 얼마나 빨리(앞선 덱 단계에서) 탈출시키는가"</strong>가 이 게임의 판도를 바꿉니다. Deck 2 타이밍에 성공하면 후반부의 치명적인 포격과 SS 적들의 무더기 진격 압박을 통째로 패스할 수 있어 대승리를 거둘 확률이 비약적으로 상승하지만, 너무 늦게 탈출하면 전술적 가치가 반감되므로 타이밍 투자가 핵심입니다.
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </li>
+
+                <li>
+                    <h3>⚠️ 초반 플레이 시 필수 적용: 초기 행동 (Initial Actions) 제한 규칙 <span class="sub-badge warning">필독</span></h3>
+                    <div class="sub-rules">
+                        <div class="sub-rule-item"><strong>[핵심/세부 규칙] :</strong> 게임 시작 시 지하실의 프랑스 포로 5명과 증원군[R] 3명을 제외한 모든 방어자는 보드 밖 '공급처(Supply)'에서 시작합니다. 이들을 처음 보드에 들여올 때는 <strong>[1행동 소모 ➡️ 공급처에서 보드의 비어 있는 임의의 전투 위치로 배치 ➡️ 즉시 배치된 방어자로 행동 수행]</strong> 단계를 거칩니다.</div>
+                        <div class="sub-rule-item detail" style="color: #b91c1c; font-weight: bold;"><strong>[절대 놓치면 안 되는 잔규칙] :</strong> 공급처에 남아 있는 20명의 초기 방어자가 모두 보드에 배치되어 내려오기 전까지는 지하실(Cellar)에 있는 프랑스 포로 5명은 어떠한 행동도 취할 수 없으며 동결 상태가 됩니다.</div>
+                        <div class="insight-box" style="border-left-color: #b91c1c; background-color: #fef2f2; border-color: #fecaca;">
+                            <span style="color: #991b1b;">⚡ 전술적 분석</span>
+                            게임의 첫 4턴가량은 무조건 보드 밖 멤버들을 전선에 배치하는 데 행동을 올인해야 하므로 전술적 유연성이 떨어집니다. 지하실 프랑스인들의 강력한 고취[I] 속성을 빠르게 켜려면 초반 배치 효율을 극대화해야 합니다.
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="step-container">
+            <div class="step-header ss">⬛ STEP 2: 무장친위대 단계 (SS Phase) — 적의 턴</div>
+            <p style="margin-bottom: 15px; color: #0f172a;">방어자 단계가 끝나면 보드 위의 모든 '행동 토큰'과 '지휘 토큰'을 회수하여 공급처로 치웁니다. 그 후 <strong>SS 카드 덱에서 한 번에 1장씩, 총 3장의 카드를 뽑아 차례대로 해결</strong>합니다.</p>
+
+            <ul class="rule-list">
+                <li>
+                    <h3>1. 방어자 공격 (Attack Defenders — 저격수 카드)</h3>
+                    <div class="sub-rules">
+                        <ol class="order-list">
+                            <li>주사위 1개를 굴려 타겟이 될 구역 색상을 결정합니다. (해당 색상 구역에 방어자가 전무하다면 빗나감 처리되어 카드 폐기)</li>
+                            <li>두 번째 주사위를 굴려 보드에 적힌 구체적인 전투 위치 번호와 비교합니다.</li>
+                            <li><strong>[공격 대상 지정 세부 잔규칙] :</strong> 만약 주사위 번호 칸이 비어 있다면, <strong>그다음으로 높은 번호의 칸</strong>을 확인합니다. 가장 높은 번호까지 다 비어 있다면 <strong>다시 아래 번호로 내려가며 차례대로 스캔</strong>해 최초로 걸리는 방어자를 타겟으로 지정합니다.</li>
+                            <li>타겟이 정해지면 저격수 카드의 공격 주사위 개수만큼 주사위를 굴려, 그중 하나라도 해당 구역의 현재 방어력(Defense Value) 이상이 나오면 그 방어자는 사상자(Casualty)가 되어 보드에서 영구 제거됩니다.</li>
+                        </ol>
+                    </div>
+                </li>
+
+                <li>
+                    <h3>2. 구역 공격 (Attack Location — 포격 및 판저파우스트)</h3>
+                    <div class="sub-rules">
+                        <ol class="order-list">
+                            <li>주사위 1개를 굴려 타겟이 될 구역(Terrace, Keep, Gate House, Jenny 등)을 정합니다.</li>
+                            <li>카드의 공격력 수치만큼 주사위를 굴립니다 (<strong>88mm Flak은 주사위 3개, 75mm Pak은 주사위 2개</strong>).</li>
+                            <li>주사위 결과 중 단 하나라도 해당 구역의 방어력 토큰 수치 이상이 나오면, 그 구역의 방어력 수치 토큰을 <strong>1단계 아래 숫자로 뒤집거나 교체</strong>합니다 (성벽 파괴 프로세스).</li>
+                            <li style="color: #991b1b; font-weight: bold; list-style-type: none; margin-left: -20px; margin-top: 10px; padding: 14px; background-color: #fef2f2; border: 1px solid #fecaca; border-radius: 6px;">
+                                💥 [Besotten Jenny 전차 특수 폭발 잔규칙] : 공격 타겟이 아군 셔먼 전차(Besotten Jenny)로 지정되어 포격이 명중하는 순간, 전차는 방어력이 즉시 0이 되며 완전히 파괴됩니다. 이때 전차 내부전투 위치에 타고 있던 모든 방어자들은 연쇄 판정 없이 즉시 전원 사상자가 되어 사망합니다. 전차가 터진 이후에 다시 전차가 타겟으로 지정되면 아무 일도 일어나지 않으며, 더 이상 전차 내부로 이동할 수 없습니다.
+                            </li>
+                        </ol>
+                    </div>
+                </li>
+
+                <li>
+                    <h3>3. 방어자 혼란 (Disrupt Defenders — 대공포 및 제압 사격)</h3>
+                    <div class="sub-rules">
+                        <div class="sub-rule-item"><strong>Flak 대공포 카드 해결 :</strong> 주사위를 굴려 지정된 색상 구역의 모든 방어자 각각에 대해 독립적으로 혼란 주사위를 굴립니다. 주사위 결과가 구역 방어력 이상이면 '혼란 토큰'을 방어자 위에 얹습니다.</div>
+                        <div class="sub-rule-item"><strong>Suppressive Fire 제압 사격 카드 해결 :</strong> 보드 위에 배치된 모든 SS 기관총 사수 및 박격포 카운터를 대상으로, 가장 낮은 트랙 번호 구역부터 시작해 순서대로 해결합니다. 각 카운터가 위치한 트랙의 주사위를 굴려 무작위 방어자 1명을 지정한 뒤, 카운터의 혼란 수치(Disrupt Value)만큼 주사위를 굴려 명중 시 혼란 토큰을 부여합니다.</div>
+                        <div class="sub-rule-item detail" style="color: #b91c1c; font-weight: bold;"><strong>[치명적인 사망 잔규칙] :</strong> 만약 타겟이 된 방어자가 이미 혼란 토큰을 하나 가진 상태에서 이 효과로 또 다른 혼란 판정에 걸린다면, 토큰이 중첩되는 것이 아니라 그 즉시 사상자(사망) 처리되어 보드에서 제거됩니다.</div>
+                    </div>
+                </li>
+
+                <li>
+                    <h3>4. SS 카운터 배치 및 진격 (Place SS Counters) — ⭐️ 게임 오버의 주원인</h3>
+                    <div class="sub-rules">
+                        <ol class="order-list">
+                            <li>카드 좌측 상단에 적힌 수량(Place 1 ~ 2)을 확인합니다. 카운터 1개당 주사위 2개를 굴려 생성될 진격 트랙 라인(2 ~ 12번 원형 칸)을 결정합니다.</li>
+                            <li><strong>[제압 토큰 인터셉트 단계] :</strong> 해당 트랙 색상의 제압 칸에 제압 토큰이 있다면, 주사위를 굴리기 전 제압 시도 여부와 토큰 소모 개수를 먼저 선언합니다. 사용한 제압 토큰 1개당 주사위 1개를 굴려, 단 하나라도 해당 SS 카운터의 방어력 이상이 나오면 적 배치가 차단되어 공급처로 버려집니다. 제압에 실패하거나 제압을 안 했다면 카운터를 보드에 놓습니다.</li>
+                            <li><strong>[Rifleman, Scout, Sturm의 연쇄 전진(Cascade) 잔규칙] :</strong> 보병 계열 SS 카운터가 배치될 때, 해당 트랙 위에 이미 다른 보병 계열 카운터가 존재하고 있다면, 새로 배치된 녀석이 기존의 카운터들을 성을 향해 앞칸으로 1칸씩 밀어냅니다. 만약 밀려난 칸에 또 다른 SS 카운터가 있다면 도미노처럼 연쇄적으로 앞으로 밀려납니다 (Leapfrog 연쇄 진격). <strong>이 과정에서 트랙의 마지막 칸(흰색 경계선 내부)을 넘어 성안으로 들어가는 순간 게임은 즉시 방어자의 패배로 강제 종료됩니다.</strong></li>
+                            <li><strong>[Machine Gunner 및 Mortar 특수 잔규칙] :</strong> 기관총 사수와 박격포는 트랙을 따라 전진하지 않고 최초 배치 원형 칸에 무제한으로 쌓입니다. 배치가 차단되지 않고 성공적으로 보드에 놓이는 순간, 즉시 해당 구역의 무작위 방어자 1명을 타겟으로 지정해 혼란 판정 공격을 가합니다.</li>
+                        </ol>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="section-block">
+        <div class="section-title">3 & 4. 방어자 고급 속성 가이드 (Attributes)</div>
+        <p style="margin-bottom: 20px; color: #0f172a; font-weight: bold;">일부 방어자가 가진 고유 속성들은 행동력을 소모하지 않는 상시 패시브 효과입니다. 이들의 생존 연계 시스템을 이해하는 것이 이 게임의 핵심 전략 요점입니다.</p>
+        
+        <ul class="rule-list">
+            <li>
+                <h3>• 고취 [I] (Inspire — 프랑스 주요 포로들)</h3>
+                <div class="sub-rules">
+                    <div class="sub-rule-item"><strong>효과 :</strong> 같은 구역에 있는 아군의 공격 주사위 +1개, 제압 행동 시 제압 토큰 +1개 추가.</div>
+                    <div class="sub-rule-item detail" style="color: #b91c1c;"><strong>패널티 조건 :</strong> 고취 속성을 가진 방어자가 소진(회색 면) 상태이거나 혼란 토큰을 한 개라도 쥐고 있다면 이 버프 효과는 완전히 비활성화됩니다. (최우선적으로 케어하여 정상 상태를 유지시켜야 하는 전략적 핵심 가치).</div>
+                </div>
+            </li>
+
+            <li>
+                <h3>• 낮은 사기 [M] (Low Morale — 일반 소총수 대원들)</h3>
+                <div class="sub-rules">
+                    <div class="sub-rule-item detail" style="color: #b91c1c; font-weight: bold;"><strong>위험 규칙 :</strong> 이 속성을 가진 방어자와 같은 구역(Location)에 있는 다른 아군 방어자가 저격이나 포격 등으로 사망(Casualty)할 때마다, 낮은 사기 속성 대원도 공포에 질려 보드에서 함께 즉시 사상자 처리되어 동반 사망합니다.</div>
+                </div>
+            </li>
+
+            <li>
+                <h3>• 국방군 장교 [O] (Wehrmacht Officer)</h3>
+                <div class="sub-rules">
+                    <div class="sub-rule-item"><strong>카운터 효과 :</strong> 장교 속성을 가진 방어자가 낮은 사기 [M] 대원과 같은 구역에 동석하고 있다면, 그 구역 내 모든 대원의 '낮은 사기' 사망 패널티 효과가 상시 무효화 됩니다.</div>
+                    <div class="insight-box">
+                        <span>⚡ 전략적 가치</span>
+                        소총수 부대를 전선에 배치할 때는 반드시 국방군 장교 1명을 같은 방에 집어넣어 전선이 도미노처럼 붕괴하는 참사를 막아야 합니다.
+                    </div>
+                </div>
+            </li>
+
+            <li>
+                <h3>• 희생 [S] (Sacrifice — 강글 소령 단 1명)</h3>
+                <div class="sub-rules">
+                    <div class="sub-rule-item"><strong>효과 :</strong> 강글 소령이 고취 [I] 속성을 가진 프랑스 VIP 포로와 같은 구역에 있을 때, 프랑스 포로가 사상자가 될 위기에 처하면 <strong>포로의 사망을 무시하고 강글 소령 본인이 대신 게임에서 영구 제외(사상자 처리)</strong>될 수 있습니다. 프랑스 포로 생존 점수(+2점)를 지키기 위한 고기방패 전략용입니다.</div>
+                </div>
+            </li>
+
+            <li>
+                <h3>• 전차병 [T] (Tank Crew) & 특수 전투 위치 규칙</h3>
+                <div class="sub-rules">
+                    <div class="sub-rule-item"><strong>효과 :</strong> 보드에 [T] 마크가 그려진 5곳의 특수 칸(전차 Besotten Jenny 내 4칸, Gate House 1칸)은 오직 전차병 속성을 가진 대원만 진입할 수 있습니다. 대원 본인의 미미한 능력치 대신 보드에 인쇄된 매우 강력한 전차포/기관총 고정 스탯 수치를 사용해 공격/제압을 수행합니다.</div>
+                    <div class="sub-rule-item exception"><strong>88mm 전차포 장전 잔규칙 :</strong> 88mm Cannon Load 칸은 흰색 칸이라 적에 대한 시야가 없습니다. 전차병 1명이 이곳에서 행동 1번을 소모해 <strong>장전 토큰(Load Token)</strong>을 전차포 칸에 갖다 놓아야만, 다음 턴이든 다른 대원이든 88mm Cannon 칸에 앉아 강력한 주사위로 포격을 가할 수 있습니다 (포격 후 장전 토큰은 소비되어 공급처로 회수).</div>
+                </div>
+            </li>
+        </ul>
+    </div>
+
+</div>
+
+</body>
+</html>
