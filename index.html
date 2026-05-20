@@ -262,6 +262,35 @@
         .order-list strong {
             color: #0f172a;
         }
+    
+        /* 하단 전술 시트 바로가기 버튼 스타일 */
+        .nav-buttons {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 40px;
+            padding: 20px 0;
+            border-top: 1px solid #e2e8f0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            color: #475569;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #f1f5f9;
+            border-color: #94a3b8;
+            color: #1e293b;
+        }
     </style>
 </head>
 <body>
@@ -551,7 +580,12 @@
         </ul>
     </div>
 
-</div>
 
-</body>
+        <!-- 하단 전술 시트 바로가기 링크바 -->
+        <div class="nav-buttons">
+            <a href="sheet1.html" class="btn">🔴 시트 1: SS 행동 규칙</a>
+            <a href="sheet2.html" class="btn">🔵 시트 2: 방어자 행동 규칙</a>
+            <a href="sheet3.html" class="btn">🟤 시트 3: 대원 특수 속성</a>
+        </div>
+    </div></body>
 </html>
