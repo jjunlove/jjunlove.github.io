@@ -3,268 +3,253 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>캐슬 이터 가이드 - SS 친위대 행동 & 특수 카드 규칙</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Malgun Gothic', sans-serif;
-            background-color: #f8fafc;
-            color: #1e293b;
-            padding: 30px;
-            line-height: 1.8;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        header {
-            text-align: center;
-            padding: 35px 20px;
-            background-color: #ffffff;
-            border: 2px solid #e2e8f0;
-            border-bottom: 5px solid #991b1b;
-            border-radius: 12px;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
-        }
-
-        header h1 {
-            font-size: 2rem;
-            color: #991b1b;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            margin-bottom: 8px;
-        }
-
-        header p {
-            color: #64748b;
-            font-size: 1rem;
-        }
-
-        .section {
-            background-color: #ffffff;
-            border: 1px solid #e2e8f0;
-            border-radius: 12px;
-            padding: 25px 30px;
-            margin-bottom: 25px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
-        }
-
-        .section-title {
-            font-size: 1.4rem;
-            color: #1e293b;
-            border-left: 5px solid #991b1b;
-            padding-left: 12px;
-            margin-bottom: 20px;
-            font-weight: 700;
-        }
-
-        .rule-card {
-            background-color: #f8fafc;
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 15px;
-        }
-
-        .rule-card h3 {
-            font-size: 1.15rem;
-            color: #991b1b;
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .rule-card ul {
-            list-style-type: none;
-            padding-left: 5px;
-        }
-
-        .rule-card li {
-            position: relative;
-            padding-left: 20px;
-            margin-bottom: 8px;
-            color: #334155;
-        }
-
-        .rule-card li::before {
-            content: "•";
-            color: #991b1b;
-            font-weight: bold;
-            position: absolute;
-            left: 0;
-            top: 0;
-        }
-
-        .insight-box {
-            background-color: #fef2f2;
-            border-left: 4px solid #ef4444;
-            padding: 12px 16px;
-            border-radius: 4px;
-            margin-top: 12px;
-            font-size: 0.95rem;
-            color: #991b1b;
-        }
-
-        .insight-box span {
-            font-weight: bold;
-            display: block;
-            margin-bottom: 4px;
-        }
-
-        .badge {
-            display: inline-block;
-            background-color: #991b1b;
-            color: white;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.8rem;
-            font-weight: bold;
-            margin-left: 6px;
-        }
-        
-        .badge-blue {
-            background-color: #1d4ed8;
-        }
-
-        .nav-buttons {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 4px;
-            padding: 15px 0;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #ffffff;
-            border: 1px solid #cbd5e1;
-            border-radius: 6px;
-            color: #475569;
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 0.95rem;
-            transition: all 0.2s;
-        }
-
-        .btn:hover {
-            background-color: #f1f5f9;
-            border-color: #94a3b8;
-            color: #1e293b;
-        }
-    </style>
+    <title>캐슬 이터 가이드 — Sheet 01 · SS 친위대 행동 및 특수 카드 규칙</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>CASTLE ITTER</h1>
-            <p>시트 1: SS 무장친위대 행동 및 특수 카드 규칙 전술 대시보드</p>
-        </header>
 
-        <!-- 세션 1: 적의 주요 공격 유형 -->
-        <div class="section">
-            <div class="section-title">1. SS 적군의 공격 유형 및 처리 방식</div>
-            
-            <div class="rule-card">
-                <h3>저격수 사격 (Sniper)<span class="badge">Rulebook p.13</span></h3>
-                <ul>
-                    <li><strong>대상 선정:</strong> 전용 주사위를 굴려 공격 대상이 될 전투 위치의 색상과 정확한 칸(수비수)을 무작위로 결정합니다.</li>
-                    <li><strong>공격 실행:</strong> 주사위 총 4개를 굴려 공격을 수행합니다.</li>
-                    <li><strong>치명적 결과:</strong> 적의 저격 성공 시, 해당 칸에 있던 수비수(Defender) 카운터는 저항할 틈도 없이 <strong>게임판에서 즉시 영구 제거</strong>(사상자 처리)됩니다.</li>
-                </ul>
-            </div>
-
-            <div class="rule-card">
-                <h3>중화기 구역 공격 (Attack Location)<span class="badge">Rulebook p.14</span></h3>
-                <ul>
-                    <li><strong>공격 주체:</strong> 75mm Pak 40, 88mm Flak 37, 판저파우스트(Panzerfaust) 카드가 이에 해당합니다.</li>
-                    <li><strong>구역 타격 규칙:</strong> 주사위를 굴려 공격받을 성벽 내 특정 구역을 결정합니다. 단, <strong>판저파우스트는 주사위와 무관하게 언제나 미군 전차 '베조텐 제니(Besotten Jenny)'를 고정 표적</strong>으로 삼습니다.</li>
-                    <li><strong>방어 수치 차감:</strong> 카드에 표시된 개수만큼 주사위를 굴려, 그 합이 해당 구역의 현재 방어력(Defense Value) 이상이면 <strong>구역 방어력을 1 감소</strong>시킵니다.</li>
-                    <li><strong>집단 혼란 및 파괴:</strong> 방어력이 이미 최상(4)인 상태에서 적의 공격 주사위가 4 이상이 나오면, 해당 구역 내의 모든 수비수 카운터에 '혼란(Disrupted)' 토큰이 일제히 부여됩니다.
-                        <div class="insight-box">
-                            <span>⚠️ 치명적 예외 (베조텐 제니 전차 파괴):</span>
-                            미군 전차 '베조텐 제니'의 방어력이 4에서 결국 0까지 떨어지면 전차가 완전히 폭파됩니다. 이 때 <strong>전차 내부에 탑승해 있던 모든 수비수는 구출되지 못하고 즉시 게임에서 영구 제거</strong>됩니다.
-                        </div>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="rule-card">
-                <h3>대공포 제압 (20mm Flak 30)<span class="badge">Rulebook p.18</span></h3>
-                <ul>
-                    <li><strong>광역 교란:</strong> 주사위를 굴려 타격할 대상 전투 위치의 색상을 결정합니다.</li>
-                    <li><strong>무력화 시도:</strong> 주사위 2개를 굴려 공격을 진행하며, 성공 시 해당 색상 라인에 있는 수비수들을 진형 붕괴 및 '혼란(Disrupted)' 상태로 만듭니다.</li>
-                </ul>
-            </div>
-
-            <div class="rule-card">
-                <h3>기관총 및 박격포 제압 사격 (Suppressive Fire)<span class="badge">Rulebook p.19</span></h3>
-                <ul>
-                    <li><strong>순차적 실행:</strong> SS 카운터 배치 구역 중 가장 낮은 번호에 배치된 기관총병(Machine Gunner) 또는 박격포(Mortar)부터 차례대로 포격을 시작합니다.</li>
-                    <li><strong>표적 판정:</strong> 주사위 1개를 굴려 대응하는 수비수의 전투 위치를 매칭합니다.</li>
-                    <li><strong>화력 투사:</strong> 각 병과의 제압 수치만큼 주사위를 굴립니다. <strong>[기관총병: 주사위 2개 / 박격포: 주사위 3개]</strong></li>
-                    <li><strong>효과:</strong> 제압 사격이 성공하면 대상 수비수에게 '혼란(Disrupted)' 토큰이 올라가 전술적 행동이 크게 제약됩니다.</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- 세션 2: SS 카운터 배치 -->
-        <div class="section">
-            <div class="section-title">2. SS 카운터 전진 및 배치 규칙</div>
-            <div class="rule-card">
-                <h3>SS 카운터 배치 프로세스<span class="badge">Rulebook p.15</span></h3>
-                <ul>
-                    <li><strong>무작위 등장:</strong> 주사위 롤 결과에 따라 기관총병, 박격포, 소총병(Rifleman), 정찰병(Scout), 돌격병(Sturm) 카운터가 보드판 지정 진입로에 놓입니다.</li>
-                    <li><strong>제압 토큰 상쇄:</strong> 적이 진입할 칸에 플레이어가 미리 배치해 둔 '제압(Suppression) 토큰'이 있다면, 적 카운터의 진입을 상쇄하여 무력화할 수 있습니다.</li>
-                    <li><strong>돌격 및 전진 연쇄 효과:</strong> 제압되지 않은 소총병, 정찰병, 돌격병 등 보병 계열 카운터는 성벽을 향해 1칸 전진하며 다른 적들을 밀어내는 연쇄 전진을 유발합니다.</li>
-                    <div class="insight-box">
-                        <span>💡 방어 팁:</span>
-                        기관총병과 박격포 카운터는 후방 지원 부대이므로 전방의 다른 SS 카운터들을 강제로 전진시키지 않습니다. 따라서 보병 계열의 돌격 경로를 우선적으로 차단하는 것이 성문 붕괴를 막는 지름길입니다.
-                    </div>
-                </ul>
-            </div>
-        </div>
-
-        <!-- 세션 3: 특별 카드 규칙 -->
-        <div class="section">
-            <div class="section-title">3. 게임의 판도를 바꾸는 특수 이벤트 카드</div>
-            
-            <div class="rule-card">
-                <h3>증원군 요청 (Reinforcements)<span class="badge">Rulebook p.11</span></h3>
-                <ul>
-                    <li><strong>예비대 확보:</strong> SS 덱에서 이 카드가 공개되는 순간, 보드 밖에 격리되어 있던 <strong>증원군 속성 [R]을 가진 강력한 아군 수비수 카운터 3명</strong>이 플레이어의 수비수 공급처(Supply)로 즉시 징집됩니다.</li>
-                </ul>
-            </div>
-
-            <div class="rule-card">
-                <h3>제142보병연대 도달 (142nd Infantry Regiment)<span class="badge">Rulebook p.10</span></h3>
-                <ul>
-                    <li><strong>최종 구원병의 등장 트리거:</strong> 아군 대원 '보로트라(Borotra)'가 목숨을 건 탈출[E] 액션에 멋지게 성공했을 때만 발동하는 특수 카드입니다.</li>
-                    <li><strong>정밀한 덱 셔플 규칙:</strong> 보로트라가 탈출한 시점에 <strong>'SS 카드 버린 더미' 맨 위에 놓인 카드의 덱 번호(Deck Number)</strong>를 확인하고, 그 수치에 따라 이 구원 카드를 현재 SS 덱의 맨 아래쪽 깊숙이 정해진 장수 속에 무작위로 섞어 넣습니다.
-                        <ul style="margin-top: 8px; padding-left: 15px; list-style-type: circle;">
-                            <li><strong style="color: #b45309;">현재 덱 단계가 Deck 2인 경우:</strong> 현재 남은 SS 덱의 <strong>맨 아래쪽 9장</strong> 속에 카드를 넣고 셔플합니다.</li>
-                            <li><strong style="color: #b45309;">현재 덱 단계가 Deck 3인 경우:</strong> 현재 남은 SS 덱의 <strong>맨 아래쪽 6장</strong> 속에 카드를 넣고 셔플합니다.</li>
-                            <li><strong style="color: #b45309;">현재 덱 단계가 Deck 4인 경우:</strong> 현재 남은 SS 덱의 <strong>맨 아래쪽 4장</strong> 속에 카드를 넣고 셔플합니다.</li>
-                        </ul>
-                    </li>
-                    <li><strong>승리 조건 달성:</strong> 맹렬한 전투 속에서 마침내 이 <strong>'제142보병연대' 카드가 플레이어의 손에 뽑히는 즉시 미군 구원 부대가 성에 도달하며 게임은 플레이어의 즉시 승리</strong>로 종료됩니다.</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- 하단 네비게이션 -->
-        <div class="nav-buttons">
-            <a href="index.html" class="btn">🏠 메인 대시보드</a>
-            <a href="sheet2.html" class="btn">시트 2: 수비수 행동 규칙 ➡️</a>
-        </div>
+<nav class="gnb" aria-label="전체 페이지 내비게이션">
+    <div class="gnb-inner">
+        <a href="index.html" class="gnb-brand">
+            CASTLE&nbsp;ITTER
+            <span class="gnb-brand-sub">TACTICAL FIELD MANUAL</span>
+        </a>
+        <ul class="gnb-nav">
+            <li><a href="index.html">개요</a></li>
+            <li><a href="sheet1.html" class="is-active">SS 규칙</a></li>
+            <li><a href="sheet2.html">방어자 규칙</a></li>
+            <li><a href="sheet3.html">속성 · 대원</a></li>
+        </ul>
     </div>
+</nav>
+
+<div class="toc" aria-label="섹션 바로가기">
+    <div class="toc-inner">
+        <a href="#attack-types">공격 유형</a>
+        <a href="#placement">배치 · 진격</a>
+        <a href="#events">특수 이벤트</a>
+    </div>
+</div>
+
+<main>
+
+    <header class="page-header">
+        <span class="page-eyebrow">Sheet 01 · SS Phase Reference</span>
+        <h1>SS 무장친위대 행동 및 특수 카드 규칙</h1>
+        <p class="lede">적의 턴 — 공격 유형, 카운터 배치 규칙, 판도를 바꾸는 이벤트 카드</p>
+    </header>
+
+    <!-- =========================================================
+         1. 공격 유형
+         ========================================================= -->
+    <section id="attack-types" class="section">
+        <h2 class="section-title">
+            <span class="sec-no">§ 01</span>
+            SS 적군의 공격 유형 및 처리 방식
+        </h2>
+
+        <ul class="rule-list">
+            <!-- 저격수 -->
+            <li class="rule">
+                <div class="rule-head">
+                    <h3>저격수 사격 <span class="muted" style="font-weight:400;">Sniper</span></h3>
+                    <span class="badge is-ref">Rulebook p.13</span>
+                </div>
+                <div class="rule-item">
+                    <span class="tag">대상 선정</span>
+                    전용 주사위를 굴려 공격 대상이 될 전투 위치의 색상과 정확한 칸(수비수)을 무작위로 결정합니다.
+                </div>
+                <div class="rule-item">
+                    <span class="tag">공격 실행</span>
+                    주사위 <strong>총 4개</strong>를 굴려 공격을 수행합니다.
+                </div>
+                <div class="rule-item is-exception">
+                    <span class="tag">치명적 결과</span>
+                    적의 저격 성공 시, 해당 칸에 있던 수비수(Defender) 카운터는 저항할 틈도 없이 <strong>게임판에서 즉시 영구 제거</strong>(사상자 처리)됩니다.
+                </div>
+            </li>
+
+            <!-- 중화기 구역 공격 -->
+            <li class="rule">
+                <div class="rule-head">
+                    <h3>중화기 구역 공격 <span class="muted" style="font-weight:400;">Attack Location</span></h3>
+                    <span class="badge is-ref">Rulebook p.14</span>
+                </div>
+                <div class="rule-item">
+                    <span class="tag">공격 주체</span>
+                    75mm Pak 40, 88mm Flak 37, 판저파우스트(Panzerfaust) 카드가 이에 해당합니다.
+                </div>
+                <div class="rule-item">
+                    <span class="tag">구역 타격 규칙</span>
+                    주사위를 굴려 공격받을 성벽 내 특정 구역을 결정합니다. 단, <strong>판저파우스트는 주사위와 무관하게 언제나 미군 전차 '베조텐 제니(Besotten Jenny)'를 고정 표적</strong>으로 삼습니다.
+                </div>
+                <div class="rule-item">
+                    <span class="tag">방어 수치 차감</span>
+                    카드에 표시된 개수만큼 주사위를 굴려, 그 합이 해당 구역의 현재 방어력(Defense Value) 이상이면 <strong>구역 방어력을 1 감소</strong>시킵니다.
+                </div>
+                <div class="rule-item is-detail">
+                    <span class="tag">집단 혼란 및 파괴</span>
+                    방어력이 이미 최상(4)인 상태에서 적의 공격 주사위가 4 이상이 나오면, 해당 구역 내의 <strong>모든 수비수 카운터에 '혼란(Disrupted)' 토큰이 일제히 부여</strong>됩니다.
+                </div>
+                <div class="callout is-danger">
+                    <span class="callout-label">치명적 예외 · 베조텐 제니 전차 파괴</span>
+                    미군 전차 '베조텐 제니'의 방어력이 4에서 결국 0까지 떨어지면 전차가 완전히 폭파됩니다. 이 때 <strong>전차 내부에 탑승해 있던 모든 수비수는 구출되지 못하고 즉시 게임에서 영구 제거</strong>됩니다.
+                </div>
+            </li>
+
+            <!-- 20mm Flak -->
+            <li class="rule">
+                <div class="rule-head">
+                    <h3>대공포 제압 <span class="muted" style="font-weight:400;">20mm Flak 30</span></h3>
+                    <span class="badge is-ref">Rulebook p.18</span>
+                </div>
+                <div class="rule-item">
+                    <span class="tag">광역 교란</span>
+                    주사위를 굴려 타격할 대상 전투 위치의 색상을 결정합니다.
+                </div>
+                <div class="rule-item">
+                    <span class="tag">무력화 시도</span>
+                    주사위 2개를 굴려 공격을 진행하며, 성공 시 해당 색상 라인에 있는 수비수들을 진형 붕괴 및 <strong>'혼란(Disrupted)' 상태</strong>로 만듭니다.
+                </div>
+            </li>
+
+            <!-- Suppressive Fire -->
+            <li class="rule">
+                <div class="rule-head">
+                    <h3>기관총 및 박격포 제압 사격 <span class="muted" style="font-weight:400;">Suppressive Fire</span></h3>
+                    <span class="badge is-ref">Rulebook p.19</span>
+                </div>
+                <div class="rule-item">
+                    <span class="tag">순차적 실행</span>
+                    SS 카운터 배치 구역 중 가장 낮은 번호에 배치된 기관총병(Machine Gunner) 또는 박격포(Mortar)부터 차례대로 포격을 시작합니다.
+                </div>
+                <div class="rule-item">
+                    <span class="tag">표적 판정</span>
+                    주사위 1개를 굴려 대응하는 수비수의 전투 위치를 매칭합니다.
+                </div>
+                <div class="rule-item">
+                    <span class="tag">화력 투사</span>
+                    각 병과의 제압 수치만큼 주사위를 굴립니다. <strong>[기관총병: 주사위 2개 · 박격포: 주사위 3개]</strong>
+                </div>
+                <div class="rule-item is-detail">
+                    <span class="tag">효과</span>
+                    제압 사격이 성공하면 대상 수비수에게 <strong>'혼란(Disrupted)' 토큰</strong>이 올라가 전술적 행동이 크게 제약됩니다.
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- =========================================================
+         2. SS 카운터 배치
+         ========================================================= -->
+    <section id="placement" class="section">
+        <h2 class="section-title">
+            <span class="sec-no">§ 02</span>
+            SS 카운터 전진 및 배치 규칙
+        </h2>
+
+        <ul class="rule-list">
+            <li class="rule">
+                <div class="rule-head">
+                    <h3>SS 카운터 배치 프로세스</h3>
+                    <span class="badge is-ref">Rulebook p.15</span>
+                </div>
+                <div class="rule-item">
+                    <span class="tag">무작위 등장</span>
+                    주사위 롤 결과에 따라 기관총병, 박격포, 소총병(Rifleman), 정찰병(Scout), 돌격병(Sturm) 카운터가 보드판 지정 진입로에 놓입니다.
+                </div>
+                <div class="rule-item">
+                    <span class="tag">제압 토큰 상쇄</span>
+                    적이 진입할 칸에 플레이어가 미리 배치해 둔 <strong>'제압(Suppression) 토큰'</strong>이 있다면, 적 카운터의 진입을 상쇄하여 무력화할 수 있습니다.
+                </div>
+                <div class="rule-item is-exception">
+                    <span class="tag">돌격 및 전진 연쇄 효과</span>
+                    제압되지 않은 소총병, 정찰병, 돌격병 등 보병 계열 카운터는 성벽을 향해 <strong>1칸 전진</strong>하며 다른 적들을 밀어내는 연쇄 전진을 유발합니다.
+                </div>
+                <div class="callout">
+                    <span class="callout-label">방어 팁</span>
+                    기관총병과 박격포 카운터는 후방 지원 부대이므로 <strong>전방의 다른 SS 카운터들을 강제로 전진시키지 않습니다.</strong> 따라서 보병 계열의 돌격 경로를 우선적으로 차단하는 것이 성문 붕괴를 막는 지름길입니다.
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- =========================================================
+         3. 특수 이벤트
+         ========================================================= -->
+    <section id="events" class="section">
+        <h2 class="section-title">
+            <span class="sec-no">§ 03</span>
+            게임의 판도를 바꾸는 특수 이벤트 카드
+        </h2>
+
+        <ul class="rule-list">
+            <!-- 증원군 요청 -->
+            <li class="rule">
+                <div class="rule-head">
+                    <h3>증원군 요청 <span class="muted" style="font-weight:400;">Reinforcements</span></h3>
+                    <span class="badge is-ref">Rulebook p.11</span>
+                </div>
+                <div class="rule-item">
+                    <span class="tag">예비대 확보</span>
+                    SS 덱에서 이 카드가 공개되는 순간, 보드 밖에 격리되어 있던 <strong>증원군 속성 [R]을 가진 강력한 아군 수비수 카운터 3명</strong>이 플레이어의 수비수 공급처(Supply)로 즉시 징집됩니다.
+                </div>
+            </li>
+
+            <!-- 142nd Infantry -->
+            <li class="rule">
+                <div class="rule-head">
+                    <h3>제142보병연대 도달 <span class="muted" style="font-weight:400;">142nd Infantry Regiment</span></h3>
+                    <span class="badge is-ref">Rulebook p.10</span>
+                </div>
+                <div class="rule-item">
+                    <span class="tag">최종 구원병의 등장 트리거</span>
+                    아군 대원 <strong>'보로트라(Borotra)'</strong>가 목숨을 건 탈출[E] 액션에 멋지게 성공했을 때만 발동하는 특수 카드입니다.
+                </div>
+                <div class="rule-item">
+                    <span class="tag">정밀한 덱 셔플 규칙</span>
+                    보로트라가 탈출한 시점에 <strong>'SS 카드 버린 더미' 맨 위에 놓인 카드의 덱 번호(Deck Number)</strong>를 확인하고, 그 수치에 따라 이 구원 카드를 현재 SS 덱의 맨 아래쪽 깊숙이 정해진 장수 속에 무작위로 섞어 넣습니다.
+                </div>
+
+                <div class="deck-table" role="table" aria-label="덱 단계별 셔플 범위">
+                    <div class="deck-row">
+                        <span class="deck-tag">Deck&nbsp;2</span>
+                        <span class="deck-detail">현재 남은 SS 덱의 <strong>맨 아래쪽 9장</strong> 속에 카드를 넣고 셔플합니다.</span>
+                    </div>
+                    <div class="deck-row">
+                        <span class="deck-tag">Deck&nbsp;3</span>
+                        <span class="deck-detail">현재 남은 SS 덱의 <strong>맨 아래쪽 6장</strong> 속에 카드를 넣고 셔플합니다.</span>
+                    </div>
+                    <div class="deck-row">
+                        <span class="deck-tag">Deck&nbsp;4</span>
+                        <span class="deck-detail">현재 남은 SS 덱의 <strong>맨 아래쪽 4장</strong> 속에 카드를 넣고 셔플합니다.</span>
+                    </div>
+                </div>
+
+                <div class="rule-item is-detail" style="margin-top:1rem;">
+                    <span class="tag">승리 조건 달성</span>
+                    맹렬한 전투 속에서 마침내 이 <strong>'제142보병연대' 카드가 플레이어의 손에 뽑히는 즉시 미군 구원 부대가 성에 도달하며 게임은 플레이어의 즉시 승리</strong>로 종료됩니다.
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <nav class="page-nav" aria-label="다른 시트 바로가기">
+        <a href="index.html">
+            <span class="label">← Index</span>
+            <span class="title">메인 대시보드</span>
+        </a>
+        <a href="sheet2.html">
+            <span class="label">Sheet 02 →</span>
+            <span class="title">방어자 행동 규칙</span>
+        </a>
+        <a href="sheet3.html">
+            <span class="label">Sheet 03 →</span>
+            <span class="title">대원 특수 속성</span>
+        </a>
+    </nav>
+
+</main>
+
 </body>
 </html>
