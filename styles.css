@@ -4,35 +4,41 @@
    Reference: DESIGN.md (Zero Interface, adapted to war-game tone)
    ============================================================ */
 
+/* ------------------------------------------------------------
+   THEME TOKENS
+   default = light (warm paper-white, deep tan accent)
+   [data-theme="dark"] = original military dark
+   ------------------------------------------------------------ */
 :root {
     /* --- Surfaces & text ----------------------------------- */
-    --bg:           #0d1117;
-    --surface:      #161b22;
-    --surface-2:    #1c232c;
-    --border:       #30363d;
-    --border-soft:  #21272e;
-    --border-strong:#484f58;
+    --bg:               #fafaf7;
+    --bg-translucent:   rgba(250,250,247,0.90);
+    --surface:          #ffffff;
+    --surface-2:        #f4f3ed;
+    --border:           #d4d2c9;
+    --border-soft:      #e7e5dd;
+    --border-strong:    #b8b5aa;
 
-    --text:         #e6edf3;
-    --text-muted:   #9aa4ae;
-    --text-faint:   #6e7681;
+    --text:             #1f2024;
+    --text-muted:       #5b5f66;
+    --text-faint:       #8a8f96;
 
-    /* --- Accents (desaturated, military) ------------------- */
-    --accent:       #c9a96e;          /* tan / khaki */
-    --accent-soft:  rgba(201,169,110,0.10);
-    --accent-line:  rgba(201,169,110,0.35);
+    /* --- Accents (military, deep on white) ----------------- */
+    --accent:           #8b6b3a;          /* deeper tan */
+    --accent-soft:      rgba(139,107,58,0.08);
+    --accent-line:      rgba(139,107,58,0.40);
 
-    --danger:       #d27e7e;          /* muted red — SS / 위험 */
-    --danger-soft:  rgba(210,126,126,0.08);
-    --danger-line:  rgba(210,126,126,0.30);
+    --danger:           #a44848;
+    --danger-soft:      rgba(164,72,72,0.06);
+    --danger-line:      rgba(164,72,72,0.35);
 
-    --info:         #7c9eb2;          /* muted steel — 방어자 / 세부 */
-    --info-soft:    rgba(124,158,178,0.08);
-    --info-line:    rgba(124,158,178,0.30);
+    --info:             #486f8a;
+    --info-soft:        rgba(72,111,138,0.06);
+    --info-line:        rgba(72,111,138,0.35);
 
-    --success:      #8fa97e;          /* muted olive — 자유/이득 */
-    --success-soft: rgba(143,169,126,0.08);
-    --success-line: rgba(143,169,126,0.30);
+    --success:          #5d7748;
+    --success-soft:     rgba(93,119,72,0.06);
+    --success-line:     rgba(93,119,72,0.35);
 
     /* --- Typography --------------------------------------- */
     --font-sans:  'Pretendard', -apple-system, BlinkMacSystemFont,
@@ -46,6 +52,36 @@
 
     --r-sm: 2px;
     --r-md: 4px;
+}
+
+[data-theme="dark"] {
+    --bg:               #0d1117;
+    --bg-translucent:   rgba(13,17,23,0.88);
+    --surface:          #161b22;
+    --surface-2:        #1c232c;
+    --border:           #30363d;
+    --border-soft:      #21272e;
+    --border-strong:    #484f58;
+
+    --text:             #e6edf3;
+    --text-muted:       #9aa4ae;
+    --text-faint:       #6e7681;
+
+    --accent:           #c9a96e;
+    --accent-soft:      rgba(201,169,110,0.10);
+    --accent-line:      rgba(201,169,110,0.35);
+
+    --danger:           #d27e7e;
+    --danger-soft:      rgba(210,126,126,0.08);
+    --danger-line:      rgba(210,126,126,0.30);
+
+    --info:             #7c9eb2;
+    --info-soft:        rgba(124,158,178,0.08);
+    --info-line:        rgba(124,158,178,0.30);
+
+    --success:          #8fa97e;
+    --success-soft:     rgba(143,169,126,0.08);
+    --success-line:     rgba(143,169,126,0.30);
 }
 
 /* ============================================================
@@ -70,6 +106,14 @@ body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-rendering: optimizeLegibility;
+    transition: background-color 220ms ease, color 220ms ease;
+}
+
+/* Smooth color transitions across themes (only color-related props) */
+.gnb, .toc, .phase, .phase-meta, .callout, .data-table, .deck-table,
+.score-cell, .page-nav a, .badge, .formula, .gnb-nav a, .toc a,
+.theme-toggle, .rule-item, .data-table tr, .data-table thead th {
+    transition: background-color 220ms ease, border-color 220ms ease, color 220ms ease;
 }
 
 a { color: inherit; }
@@ -82,7 +126,7 @@ a { color: inherit; }
     top: 0;
     z-index: 100;
     height: var(--gnb-h);
-    background: rgba(13,17,23,0.88);
+    background: var(--bg-translucent);
     backdrop-filter: blur(10px) saturate(140%);
     -webkit-backdrop-filter: blur(10px) saturate(140%);
     border-bottom: 1px solid var(--border);
@@ -121,6 +165,8 @@ a { color: inherit; }
     display: flex;
     gap: 0.125rem;
     align-items: center;
+    flex-shrink: 1;
+    min-width: 0;
     overflow-x: auto;
     scrollbar-width: none;
     -ms-overflow-style: none;
@@ -144,7 +190,7 @@ a { color: inherit; }
 
 .gnb-nav a:hover {
     color: var(--text);
-    background: var(--surface);
+    background: var(--surface-2);
 }
 
 .gnb-nav a.is-active {
@@ -153,6 +199,42 @@ a { color: inherit; }
     font-weight: 600;
 }
 
+/* --- Theme toggle button ------------------------------------ */
+.theme-toggle {
+    flex-shrink: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    padding: 0;
+    background: transparent;
+    border: 1px solid var(--border);
+    color: var(--text-muted);
+    cursor: pointer;
+    border-radius: var(--r-sm);
+    font-family: inherit;
+    -webkit-tap-highlight-color: transparent;
+}
+
+.theme-toggle:hover {
+    color: var(--accent);
+    border-color: var(--accent-line);
+    background: var(--accent-soft);
+}
+
+.theme-toggle svg {
+    width: 16px;
+    height: 16px;
+    display: block;
+}
+
+.theme-toggle .icon-sun  { display: none; }
+.theme-toggle .icon-moon { display: block; }
+
+[data-theme="dark"] .theme-toggle .icon-sun  { display: block; }
+[data-theme="dark"] .theme-toggle .icon-moon { display: none; }
+
 /* ============================================================
    Section TOC (intra-page jump)
    ============================================================ */
@@ -160,7 +242,7 @@ a { color: inherit; }
     position: sticky;
     top: var(--gnb-h);
     z-index: 90;
-    background: rgba(13,17,23,0.92);
+    background: var(--bg-translucent);
     backdrop-filter: blur(8px);
     -webkit-backdrop-filter: blur(8px);
     border-bottom: 1px solid var(--border-soft);
