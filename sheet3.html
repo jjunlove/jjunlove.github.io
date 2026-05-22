@@ -1,0 +1,316 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>캐슬 이터 가이드 - 수비수 고유 속성 및 인물 데이터베이스</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Malgun Gothic', sans-serif;
+            background-color: #f8fafc;
+            color: #1e293b;
+            padding: 30px;
+            line-height: 1.8;
+        }
+
+        .container {
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        header {
+            text-align: center;
+            padding: 35px 20px;
+            background-color: #ffffff;
+            border: 2px solid #e2e8f0;
+            border-bottom: 5px solid #b45309;
+            border-radius: 12px;
+            margin-bottom: 30px;
+            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
+        }
+
+        header h1 {
+            font-size: 2rem;
+            color: #b45309;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            margin-bottom: 8px;
+        }
+
+        header p {
+            color: #64748b;
+            font-size: 1rem;
+        }
+
+        .section {
+            background-color: #ffffff;
+            border: 1px solid #e2e8f0;
+            border-radius: 12px;
+            padding: 25px 30px;
+            margin-bottom: 25px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+        }
+
+        .section-title {
+            font-size: 1.4rem;
+            color: #1e293b;
+            border-left: 5px solid #b45309;
+            padding-left: 12px;
+            margin-bottom: 20px;
+            font-weight: 700;
+        }
+
+        .rule-card {
+            background-color: #f8fafc;
+            border: 1px solid #e2e8f0;
+            border-radius: 8px;
+            padding: 20px;
+            margin-bottom: 15px;
+        }
+
+        .rule-card h3 {
+            font-size: 1.15rem;
+            color: #b45309;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .rule-card ul {
+            list-style-type: none;
+            padding-left: 5px;
+        }
+
+        .rule-card li {
+            position: relative;
+            padding-left: 20px;
+            margin-bottom: 8px;
+            color: #334155;
+        }
+
+        .rule-card li::before {
+            content: "•";
+            color: #b45309;
+            font-weight: bold;
+            position: absolute;
+            left: 0;
+            top: 0;
+        }
+
+        .insight-box {
+            background-color: #fffbeb;
+            border-left: 4px solid #f59e0b;
+            padding: 12px 16px;
+            border-radius: 4px;
+            margin-top: 12px;
+            font-size: 0.95rem;
+            color: #b45309;
+        }
+
+        .insight-box span {
+            font-weight: bold;
+            display: block;
+            margin-bottom: 4px;
+        }
+
+        .badge {
+            display: inline-block;
+            background-color: #b45309;
+            color: white;
+            padding: 2px 8px;
+            border-radius: 4px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            margin-left: 6px;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 15px;
+            font-size: 0.95rem;
+        }
+
+        th, td {
+            border: 1px solid #e2e8f0;
+            padding: 12px;
+            text-align: center;
+        }
+
+        th {
+            background-color: #f8fafc;
+            color: #475569;
+            font-weight: 700;
+        }
+
+        tr:nth-child(even) td {
+            background-color: #fdfbf7;
+        }
+
+        .attr-circle {
+            display: inline-block;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            background-color: #b45309;
+            color: white;
+            font-weight: bold;
+            font-size: 0.85rem;
+            line-height: 24px;
+            text-align: center;
+        }
+
+        .nav-buttons {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 4px;
+            padding: 15px 0;
+        }
+
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #ffffff;
+            border: 1px solid #cbd5e1;
+            border-radius: 6px;
+            color: #475569;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 0.95rem;
+            transition: all 0.2s;
+        }
+
+        .btn:hover {
+            background-color: #f1f5f9;
+            border-color: #94a3b8;
+            color: #1e293b;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>CASTLE ITTER</h1>
+            <p>시트 3: 아군 수비수 고유 고유 속성(Attributes) 및 전술 데이터베이스</p>
+        </header>
+
+        <!-- 세션 1: 수비수 속성 상세 규칙 -->
+        <div class="section">
+            <div class="section-title">1. 고유 속성(Attributes) 및 부대 시너지 규정</div>
+            
+            <div class="rule-card">
+                <h3>전원 고취 및 전술 버프 (Inspire [I])<span class="badge">Rulebook p.11</span></h3>
+                <ul>
+                    <li><strong>공격 보너스:</strong> 고취[I] 속성을 지닌 대원이 주둔 중인 구역에 함께 있는 동료가 '공격(Attack)' 행동을 취할 때, 화력을 극대화할 수 있도록 <strong>공격 주사위 1개를 무료로 추가</strong>해 줍니다.</li>
+                    <li><strong>제압 보너스:</strong> 동료가 '제압(Suppress)' 행동을 취할 때는 전선 유지력을 높이기 위해 <strong>제압 토큰 1개를 추가로 더 얹어 줍니다.</strong></li>
+                    <li><strong>기능 유지 발동 조건:</strong> 고취 버프를 주는 베테랑 대원 본인이 <strong>지침(Exhausted, 회색면) 상태이거나 머리에 혼란(Disrupted) 토큰을 달고 있다면 사기가 전파되지 않아 이 보너스 효과는 전면 중단</strong>됩니다.</li>
+                </ul>
+            </div>
+
+            <div class="rule-card">
+                <h3>낮은 사기 및 연쇄 붕괴 위험 (Low Morale [M])<span class="badge">Rulebook p.11</span></h3>
+                <ul>
+                    <li><strong>도미노 패닉 효과:</strong> 사기가 취약한 국방군 소총수 부대의 치명적 약점입니다. 이 속성을 가진 대원과 <strong>같은 구역에 주둔하던 동료 대원 중 단 1명이라도 전사(사상자 처리)하면, 공포에 질려 자신도 즉시 전장에서 함께 탈영 및 사망(사상자 처리)</strong> 처리되어 부서집니다.</li>
+                </ul>
+            </div>
+
+            <div class="rule-card">
+                <h3>독일 국방군 정체성 장교 (Wehrmacht Officer [O])<span class="badge">Rulebook p.11</span></h3>
+                <ul>
+                    <li><strong>정신적 지주 작용:</strong> 강인한 국방군 장교 고유의 전술 통제력입니다. 이 장교 속성을 가진 대원이 '낮은 사기[M]' 대원과 <strong>같은 방(구역)에 나란히 배치되어 주둔하고 있다면, 그 방에 있는 모든 대원의 낮은 사기 도미노 연쇄 전사 패널티가 상시 완벽히 무효화</strong>됩니다.</li>
+                </ul>
+            </div>
+
+            <div class="rule-card">
+                <h3>후방 작전 증원군 (Reinforcements [R])<span class="badge">Rulebook p.11</span></h3>
+                <ul>
+                    <li><strong>전술적 대기조:</strong> 오스트리아 저항군 등 특수 예비대 부대입니다. 게임 세팅 시 다른 수비수들과 섞지 않고 보드 밖에 격리 보관합니다.</li>
+                    <li><strong>배치 시점:</strong> SS 덱의 전술적 흐름 속에서 '증원군(Reinforcements)' 이벤트 카드가 뒤집혀 등장하는 즉시 아군 공급처로 조달되어 정상 기동 및 전투 배치가 가능해집니다.</li>
+                </ul>
+            </div>
+
+            <div class="rule-card">
+                <h3>살신성인 영웅적 희생 (Sacrifice [S])<span class="badge">Rulebook p.11</span></h3>
+                <ul>
+                    <li><strong>강글 소령(Major Gangl) 전용기:</strong> 역사 속 영웅인 강글 소령 단 한 명만이 구현하는 고귀한 능력입니다. 강글 소령이 '고취[I]' 속성을 지닌 고가치의 프랑스 VIP 포로와 동일 구역에 주둔하던 도중, 저격이나 포격 등으로 인해 그 <strong>VIP 대원이 사상자가 될 위기에 처하면 소령 본인이 대신 전사(게임판 영구 제거)하면서 VIP 동료를 완벽하게 무사 생존</strong>시킬 수 있습니다.</li>
+                </ul>
+            </div>
+
+            <div class="rule-card">
+                <h3>전차 운용 승무원 (Tank Crew [T])<span class="badge">Rulebook p.12</span></h3>
+                <ul>
+                    <li><strong>특수 병과 포지셔닝:</strong> 보드판 구석구석에 새겨진 <strong>특수 전투 마크 [T]가 그려진 총 5곳의 초정밀 전술 슬롯</strong>에 진입하여 진지를 구축할 수 있는 전문 병과입니다. (이 중 4개의 특수 슬롯은 요새 전차 '베조텐 제니' 내부에 밀집해 있으며, 마지막 1개 슬롯은 '게이트 하우스' 구역의 철통 방어칸에 위치합니다).</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- 세션 2: 인물 데이터베이스 테이블 -->
+        <div class="section">
+            <div class="section-title">2. 핵심 인물 및 전투원 능력치 데이터베이스</div>
+            <p style="font-size: 0.9rem; color: #64748b; margin-bottom: 10px;">* 전투 능력치 표기 방식: [공격 주사위 수 개수] / [제압 토큰 배치 수 개수]</p>
+            
+            <table>
+                <thead>
+                    <tr>
+                        <th>전투원 명칭 (카운터명)</th>
+                        <th>기본 능력치 (공격/제압)</th>
+                        <th>보유 고유 속성 마크</th>
+                        <th>전술적 핵심 역할 및 운용 가이드</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td style="font-weight: bold; color: #1e293b;">가믈랭 (GAMELIN)</td>
+                        <td><strong>0 / 1</strong></td>
+                        <td><span class="attr-circle">I</span></td>
+                        <td style="text-align: left;">공격력은 전혀 없지만 주변 아군에게 무한 주사위 버프를 주는 최고의 프랑스 VIP 참모. 지침 상태가 되지 않도록 철저히 관리 요망.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold; color: #1e293b;">국방군 소총수 (RIFLEMAN)</td>
+                        <td><strong>1 / 1</strong></td>
+                        <td><span class="attr-circle" style="background-color: #64748b;">M</span></td>
+                        <td style="text-align: left;">기본적인 전선 방어 인력이지만 사기가 낮아 동료 사망 시 동반 탈영 위험. 반드시 장교(O)급과 묶어서 전선에 투입해야 함.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold; color: #1e293b;">호켈 (HOCKEL)</td>
+                        <td><strong>1 / 1</strong></td>
+                        <td><span class="attr-circle" style="background-color: #1e40af;">O</span></td>
+                        <td style="text-align: left;">전선의 소총수 부대를 다잡는 강인한 국방군 장교. 패닉 상태에 빠지기 쉬운 일반 소총수들의 든든한 방패막이 역할 수행.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold; color: #1e293b;">발틀 (WALTL)</td>
+                        <td><strong>1 / 2</strong></td>
+                        <td><span class="attr-circle" style="background-color: #0d9488;">R</span></td>
+                        <td style="text-align: left;">게임 중반부 특수 이벤트 카드가 열려야 전장에 진입하는 오스트리아 저항군 예비대. 제압력이 매우 뛰어나 소방수 역할로 제격.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold; color: #1e293b;">강글 소령 (GANGL)</td>
+                        <td><strong>1 / 2</strong></td>
+                        <td><span class="badge">C</span> <span class="badge" style="background-color: #1e40af;">O</span> <span class="badge" style="background-color: #dc2626;">S</span></td>
+                        <td style="text-align: left;"><strong>광역 지휘[C] + 장교[O] + 살신성인 희생[S]</strong>을 혼자 다 해내는 최고의 올라운더 영웅. 프랑스 VIP 포로의 점수를 지키기 위해 최후의 순간 방패로 사용 가능.</td>
+                    </tr>
+                    <tr>
+                        <td style="font-weight: bold; color: #1e293b;">자이너 (SEINER)</td>
+                        <td><strong>1 / 2</strong></td>
+                        <td><span class="attr-circle" style="background-color: #7c2d12;">T</span></td>
+                        <td style="text-align: left;">미군 소속의 정예 전차 승무원 병과. 오직 베조텐 제니 요새 전차 내부의 전용 특수 슬롯[T]에 탑승하여 외부 SS 보병 무리를 초토화하는 역할.</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <!-- 하단 네비게이션 -->
+        <div class="nav-buttons">
+            <a href="sheet2.html" class="btn">⬅️ 시트 2: 수비수 행동 규칙</a>
+            <a href="index.html" class="btn">🏠 메인 대시보드</a>
+        </div>
+    </div>
+</body>
+</html>
