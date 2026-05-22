@@ -3,274 +3,244 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>캐슬 이터 가이드 - 아군 수비수 전술 행동 규칙</title>
-    <style>
-        * {
-            box-sizing: border-box;
-            margin: 0;
-            padding: 0;
-        }
-
-        body {
-            font-family: 'Pretendard', -apple-system, BlinkMacSystemFont, system-ui, Roboto, 'Malgun Gothic', sans-serif;
-            background-color: #f8fafc;
-            color: #1e293b;
-            padding: 30px;
-            line-height: 1.8;
-        }
-
-        .container {
-            max-width: 1000px;
-            margin: 0 auto;
-        }
-
-        header {
-            text-align: center;
-            padding: 35px 20px;
-            background-color: #ffffff;
-            border: 2px solid #e2e8f0;
-            border-bottom: 5px solid #1d4ed8;
-            border-radius: 12px;
-            margin-bottom: 30px;
-            box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);
-        }
-
-        header h1 {
-            font-size: 2rem;
-            color: #1d4ed8;
-            letter-spacing: 1px;
-            text-transform: uppercase;
-            margin-bottom: 8px;
-        }
-
-        header p {
-            color: #64748b;
-            font-size: 1rem;
-        }
-
-        .section {
-            background-color: #ffffff;
-            border: 1px solid #e2e8f0;
-            border-radius: 12px;
-            padding: 25px 30px;
-            margin-bottom: 25px;
-            box-shadow: 0 2px 4px rgba(0,0,0,0.02);
-        }
-
-        .section-title {
-            font-size: 1.4rem;
-            color: #1e293b;
-            border-left: 5px solid #1d4ed8;
-            padding-left: 12px;
-            margin-bottom: 20px;
-            font-weight: 700;
-        }
-
-        .rule-card {
-            background-color: #f8fafc;
-            border: 1px solid #e2e8f0;
-            border-radius: 8px;
-            padding: 20px;
-            margin-bottom: 15px;
-        }
-
-        .rule-card h3 {
-            font-size: 1.15rem;
-            color: #1d4ed8;
-            margin-bottom: 10px;
-            display: flex;
-            align-items: center;
-            gap: 8px;
-        }
-
-        .rule-card ul {
-            list-style-type: none;
-            padding-left: 5px;
-        }
-
-        .rule-card li {
-            position: relative;
-            padding-left: 20px;
-            margin-bottom: 8px;
-            color: #334155;
-        }
-
-        .rule-card li::before {
-            content: "•";
-            color: #1d4ed8;
-            font-weight: bold;
-            position: absolute;
-            left: 0;
-            top: 0;
-        }
-
-        .insight-box {
-            background-color: #eff6ff;
-            border-left: 4px solid #3b82f6;
-            padding: 12px 16px;
-            border-radius: 4px;
-            margin-top: 12px;
-            font-size: 0.95rem;
-            color: #1e40af;
-        }
-        
-        .insight-box-warn {
-            background-color: #fffbeb;
-            border-left: 4px solid #f59e0b;
-            padding: 12px 16px;
-            border-radius: 4px;
-            margin-top: 12px;
-            font-size: 0.95rem;
-            color: #b45309;
-        }
-
-        .insight-box span, .insight-box-warn span {
-            font-weight: bold;
-            display: block;
-            margin-bottom: 4px;
-        }
-
-        .badge {
-            display: inline-block;
-            background-color: #1d4ed8;
-            color: white;
-            padding: 2px 8px;
-            border-radius: 4px;
-            font-size: 0.8rem;
-            font-weight: bold;
-            margin-left: 6px;
-        }
-
-        .badge-exhaust {
-            background-color: #475569;
-        }
-
-        .nav-buttons {
-            display: flex;
-            justify-content: space-between;
-            margin-top: 4px;
-            padding: 15px 0;
-        }
-
-        .btn {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #ffffff;
-            border: 1px solid #cbd5e1;
-            border-radius: 6px;
-            color: #475569;
-            text-decoration: none;
-            font-weight: 500;
-            font-size: 0.95rem;
-            transition: all 0.2s;
-        }
-
-        .btn:hover {
-            background-color: #f1f5f9;
-            border-color: #94a3b8;
-            color: #1e293b;
-        }
-    </style>
+    <title>캐슬 이터 가이드 — Sheet 02 · 아군 수비수 전술 행동 규칙</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <div class="container">
-        <header>
-            <h1>CASTLE ITTER</h1>
-            <p>시트 2: 아군 수비수(Defender) 전술 행동 지침 대시보드</p>
-        </header>
 
-        <!-- 세션 1: 배치 규칙 -->
-        <div class="section">
-            <div class="section-title">1. 초기 배치 및 전장 진입 규칙</div>
-            
-            <div class="rule-card">
-                <h3>전장 배치 제한 (Initial Actions)<span class="badge">Rulebook p.5</span></h3>
-                <ul>
-                    <li><strong>스타팅 포지션:</strong> 게임 시작 시 오직 프랑스인 VIP 카운터 5명만 성의 '지하 창고(Cellar)'에 배치된 상태로 시작하며, 나머지 모든 수비수 대원들은 보드 밖 공급처에서 대기합니다.</li>
-                    <li><strong>첫 행동과 동시 배치:</strong> 대기 중인 대원에게 첫 번째 전술 행동을 명령할 때, 보드 위의 비어 있는 원하는 전투 위치(Combat Position)에 카운터를 올리면서 그 행동을 즉시 수행합니다.</li>
-                    <li><strong>프랑스 포로 행동 봉인 규칙:</strong> 공급처에 대기 중인 <strong>총 20명의 외부 수비수 대원이 최소 1번씩 모두 보드판에 배치 완료되기 전까지는, 지하 창고에 있는 프랑스 포로들은 절대 어떤 행동도 취할 수 없으며</strong> 기존 대원들의 추가 행동도 불가능합니다.</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- 세션 2: 기본 전술 행동 -->
-        <div class="section">
-            <div class="section-title">2. 기본 전술 행동 (행동 후 지침 상태 적용)</div>
-            
-            <div class="rule-card">
-                <h3>적군 격퇴 (Attack)<span class="badge">Rulebook p.6</span> <span class="badge badge-exhaust">행동 후 지침 🔄</span></h3>
-                <ul>
-                    <li><strong>시야 확보(LOS):</strong> 수비수가 위치한 칸의 색상과 타격하려는 SS 카운터가 위치한 트랙의 색상이 일치하여 시야가 완벽히 연결되어야 합니다.</li>
-                    <li><strong>사격 개시:</strong> 해당 대원의 카운터에 표기된 고유 '공격 수치(Attack Value)'만큼 주사위를 굴립니다.</li>
-                    <li><strong>전과 확인:</strong> 주사위 롤이 성공 기준을 충족하면 타겟이 된 SS 카운터를 게임판에서 영구히 격멸합니다.</li>
-                </ul>
-            </div>
-
-            <div class="rule-card">
-                <h3>진격 저지 제압 (Suppress)<span class="badge">Rulebook p.7</span> <span class="badge badge-exhaust">행동 후 지침 🔄</span></h3>
-                <ul>
-                    <li><strong>제압벽 형성:</strong> 대원의 '제압 수치(Suppress Value)'와 동일한 개수의 제압 토큰을 획득하여, 현재 수비수가 위치한 칸의 색상과 일치하는 보드판 전용 제압 공간에 배치합니다.</li>
-                    <li><strong>교차 구역 화력 분할:</strong> 만약 수비수가 <strong>두 가지 이상의 색상이 교차하는 멀티 컬러 전투 위치</strong>에 주둔 중이라면, 획득한 제압 토큰들을 해당 색상 공간들에 자유롭게 나누어 배치하는 고도의 전술적 화력 배분이 가능합니다.</li>
-                </ul>
-            </div>
-
-            <div class="rule-card">
-                <h3>새로운 진지 구축 (Move to a New Location)<span class="badge">Rulebook p.8</span> <span class="badge badge-exhaust">행동 후 지침 🔄</span></h3>
-                <ul>
-                    <li><strong>지역 간 이동:</strong> 현재 위치한 구역을 완전히 벗어나, 다른 원거리 구역의 비어 있는 전투 위치로 기동할 수 있습니다.</li>
-                    <li><strong>지하 창고 탈출 제한:</strong> 성 내부의 전술적 구조상, <strong>지하 창고(Cellar)에 고립되어 있던 대원들은 오직 '대연회장(Great Hall)' 구역으로만</strong> 첫 이동이 가능하도록 동선이 제한됩니다.</li>
-                </ul>
-            </div>
-        </div>
-
-        <!-- 세션 3: 특수 및 부가 전술 행동 -->
-        <div class="section">
-            <div class="section-title">3. 특수 및 부가 전술 행동</div>
-
-            <div class="rule-card">
-                <h3>진지 내 연계 이동 (Move Within a Location)<span class="badge">Rulebook p.7</span> <span class="badge" style="background-color: #16a34a;">연계 행동 가능 ⚡</span></h3>
-                <ul>
-                    <li><strong>위치 재조정:</strong> 동일한 구역 내부에서 비어 있는 옆 전투 위치로 한 칸 이동합니다. 이 기동은 대원을 지침 상태로 만들지 않으므로, <strong>이동 직후 즉시 사격이나 제압 등 다른 전술 행동을 이어서 수행</strong>할 수 있는 강력한 연계기입니다.</li>
-                    <li><strong>진형 스위칭:</strong> 동일 구역 내에 있는 두 대원의 위치를 서로 맞바꿀 수도 있습니다. 단, <strong>교대하려는 두 대원 모두 지침(Exhausted, 회색면) 상태이거나 혼란(Disrupted) 토큰이 없는 정상 컨디션</strong>이어야 진지 교환 융단 기동이 성립됩니다.</li>
-                </ul>
-            </div>
-
-            <div class="rule-card">
-                <h3>전열 재정비 (Recover)<span class="badge">Rulebook p.9</span> <span class="badge" style="background-color: #16a34a;">지침 면제 🛡️</span></h3>
-                <ul>
-                    <li><strong>컨디션 회복:</strong> 격렬한 전투로 인해 지침 상태(회색 면)로 뒤집힌 대원의 카운터를 원래의 활성화 면으로 원상 복구시키거나, 머리 위에 얹어진 '혼란(Disrupted)' 토큰을 깨끗이 제거합니다.</li>
-                    <li><strong>패널티 면제:</strong> 이 행동은 지친 대원을 쉬게 하는 정비 개념이므로, <strong>행동을 마친 후 대원이 다시 지침 상태로 뒤집히는 패널티가 발생하지 않습니다.</strong></li>
-                </ul>
-            </div>
-
-            <div class="rule-card">
-                <h3>현장 광역 지휘 (Command [C] 특수 행동)<span class="badge">Rulebook p.9</span> <span class="badge badge-exhaust">행동 후 지침 🔄</span></h3>
-                <ul>
-                    <li><strong>전술적 시너지:</strong> 지휘[C] 표식을 가진 베테랑 지휘관 장교가 쓸 수 있는 전술 행동입니다. 자신이 주둔하고 있는 구역 내의 <strong>다른 아군 대원들에게 즉시 무료 '회복(Recover)' 액션을 총 3회 제공</strong>하여 부대를 일깨웁니다.</li>
-                    <li><strong>지휘관 상호작용 제한:</strong> 군대 체계상의 혼선을 막기 위해, 똑같이 지휘[C] 능력을 탑재하고 있는 <strong>다른 장교급 대원에게는 이 무료 회복 혜택을 중복해서 줄 수 없습니다.</strong></li>
-                </ul>
-            </div>
-
-            <div class="rule-card">
-                <h3>목숨을 건 특사 탈출 (Escape [E] 특수 행동)<span class="badge">Rulebook p.10</span></h3>
-                <ul>
-                    <li><strong>보로트라 전용 질주:</strong> 불굴의 테니스 스타이자 포로인 '보로트라(Borotra)' 카운터만 수행 가능한 전장을 바꾸는 특수 임무입니다.</li>
-                    <li><strong>탈출 조건:</strong> 보로트라가 행동을 개시하려는 진지 주변에 <strong>그와 일치하는 색상 라인의 SS 적군 카운터가 단 한 마리도 없어야만</strong> 안전하게 성벽을 뛰어넘어 탈출을 감행할 수 있습니다.</li>
-                    <li><strong>탈출 불가 구역:</strong> 사방이 막힌 내부 핵심 요새인 '지하 창고(Cellar)' 및 '대연회장(Great Hall)' 진지에서는 탈출 액션을 원천적으로 시작할 수 없습니다.</li>
-                </ul>
-                <div class="insight-box-warn">
-                    <span>⚙️ 지침(Exhausted) 메커니즘 요약:</span>
-                    공격(Attack), 제압(Suppress), 새로운 지역 이동(Move to a New Location), 지휘(Command) 행동을 완료한 대원은 체력이 소진되어 즉시 카운터의 '회색 면'이 보이도록 뒤집어야 하며, 다음 턴에 회복(Recover)하기 전까지는 일반적인 행동이 전면 봉인됩니다.
-                </div>
-            </div>
-        </div>
-
-        <!-- 하단 네비게이션 -->
-        <div class="nav-buttons">
-            <a href="sheet1.html" class="btn">⬅️ 시트 1: SS 행동 규칙</a>
-            <a href="index.html" class="btn">🏠 메인 대시보드</a>
-            <a href="sheet3.html" class="btn">시트 3: 대원 특수 속성 ➡️</a>
-        </div>
+<nav class="gnb" aria-label="전체 페이지 내비게이션">
+    <div class="gnb-inner">
+        <a href="index.html" class="gnb-brand">
+            CASTLE&nbsp;ITTER
+            <span class="gnb-brand-sub">TACTICAL FIELD MANUAL</span>
+        </a>
+        <ul class="gnb-nav">
+            <li><a href="index.html">개요</a></li>
+            <li><a href="sheet1.html">SS 규칙</a></li>
+            <li><a href="sheet2.html" class="is-active">방어자 규칙</a></li>
+            <li><a href="sheet3.html">속성 · 대원</a></li>
+        </ul>
     </div>
+</nav>
+
+<div class="toc" aria-label="섹션 바로가기">
+    <div class="toc-inner">
+        <a href="#deploy">초기 배치</a>
+        <a href="#basic">기본 전술 행동</a>
+        <a href="#special">특수 · 부가 행동</a>
+    </div>
+</div>
+
+<main>
+
+    <header class="page-header">
+        <span class="page-eyebrow">Sheet 02 · Defender Phase Reference</span>
+        <h1>아군 수비수 전술 행동 지침</h1>
+        <p class="lede">플레이어의 턴 — 초기 배치, 기본 전술, 특수 행동 매커닉 정리</p>
+    </header>
+
+    <!-- =========================================================
+         1. 초기 배치
+         ========================================================= -->
+    <section id="deploy" class="section">
+        <h2 class="section-title">
+            <span class="sec-no">§ 01</span>
+            초기 배치 및 전장 진입 규칙
+        </h2>
+
+        <ul class="rule-list">
+            <li class="rule">
+                <div class="rule-head">
+                    <h3>전장 배치 제한 <span class="muted" style="font-weight:400;">Initial Actions</span></h3>
+                    <span class="badge is-ref">Rulebook p.5</span>
+                </div>
+                <div class="rule-item">
+                    <span class="tag">스타팅 포지션</span>
+                    게임 시작 시 오직 프랑스인 VIP 카운터 5명만 성의 <strong>'지하 창고(Cellar)'</strong>에 배치된 상태로 시작하며, 나머지 모든 수비수 대원들은 보드 밖 공급처에서 대기합니다.
+                </div>
+                <div class="rule-item">
+                    <span class="tag">첫 행동과 동시 배치</span>
+                    대기 중인 대원에게 첫 번째 전술 행동을 명령할 때, 보드 위의 비어 있는 원하는 전투 위치(Combat Position)에 카운터를 올리면서 그 행동을 즉시 수행합니다.
+                </div>
+                <div class="rule-item is-exception">
+                    <span class="tag">프랑스 포로 행동 봉인 규칙</span>
+                    <strong>공급처에 대기 중인 총 20명의 외부 수비수 대원이 최소 1번씩 모두 보드판에 배치 완료되기 전까지는, 지하 창고에 있는 프랑스 포로들은 절대 어떤 행동도 취할 수 없으며</strong> 기존 대원들의 추가 행동도 불가능합니다.
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- =========================================================
+         2. 기본 전술 행동
+         ========================================================= -->
+    <section id="basic" class="section">
+        <h2 class="section-title">
+            <span class="sec-no">§ 02</span>
+            기본 전술 행동 <span class="muted" style="font-size:0.8em; font-weight:400;">행동 후 지침 상태 적용</span>
+        </h2>
+
+        <ul class="rule-list">
+            <!-- Attack -->
+            <li class="rule">
+                <div class="rule-head">
+                    <h3>적군 격퇴 <span class="muted" style="font-weight:400;">Attack</span></h3>
+                    <span class="badge is-ref">Rulebook p.6</span>
+                    <span class="badge is-action">행동 후 지침</span>
+                </div>
+                <div class="rule-item">
+                    <span class="tag">시야 확보 · LOS</span>
+                    수비수가 위치한 칸의 색상과 타격하려는 SS 카운터가 위치한 트랙의 색상이 일치하여 시야가 완벽히 연결되어야 합니다.
+                </div>
+                <div class="rule-item">
+                    <span class="tag">사격 개시</span>
+                    해당 대원의 카운터에 표기된 고유 <strong>'공격 수치(Attack Value)'</strong>만큼 주사위를 굴립니다.
+                </div>
+                <div class="rule-item">
+                    <span class="tag">전과 확인</span>
+                    주사위 롤이 성공 기준을 충족하면 타겟이 된 SS 카운터를 <strong>게임판에서 영구히 격멸</strong>합니다.
+                </div>
+            </li>
+
+            <!-- Suppress -->
+            <li class="rule">
+                <div class="rule-head">
+                    <h3>진격 저지 제압 <span class="muted" style="font-weight:400;">Suppress</span></h3>
+                    <span class="badge is-ref">Rulebook p.7</span>
+                    <span class="badge is-action">행동 후 지침</span>
+                </div>
+                <div class="rule-item">
+                    <span class="tag">제압벽 형성</span>
+                    대원의 <strong>'제압 수치(Suppress Value)'</strong>와 동일한 개수의 제압 토큰을 획득하여, 현재 수비수가 위치한 칸의 색상과 일치하는 보드판 전용 제압 공간에 배치합니다.
+                </div>
+                <div class="rule-item is-detail">
+                    <span class="tag">교차 구역 화력 분할</span>
+                    만약 수비수가 <strong>두 가지 이상의 색상이 교차하는 멀티 컬러 전투 위치</strong>에 주둔 중이라면, 획득한 제압 토큰들을 해당 색상 공간들에 자유롭게 나누어 배치하는 고도의 전술적 화력 배분이 가능합니다.
+                </div>
+            </li>
+
+            <!-- Move to a New Location -->
+            <li class="rule">
+                <div class="rule-head">
+                    <h3>새로운 진지 구축 <span class="muted" style="font-weight:400;">Move to a New Location</span></h3>
+                    <span class="badge is-ref">Rulebook p.8</span>
+                    <span class="badge is-action">행동 후 지침</span>
+                </div>
+                <div class="rule-item">
+                    <span class="tag">지역 간 이동</span>
+                    현재 위치한 구역을 완전히 벗어나, 다른 원거리 구역의 비어 있는 전투 위치로 기동할 수 있습니다.
+                </div>
+                <div class="rule-item is-exception">
+                    <span class="tag">지하 창고 탈출 제한</span>
+                    성 내부의 전술적 구조상, <strong>지하 창고(Cellar)에 고립되어 있던 대원들은 오직 '대연회장(Great Hall)' 구역으로만</strong> 첫 이동이 가능하도록 동선이 제한됩니다.
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <!-- =========================================================
+         3. 특수 및 부가 행동
+         ========================================================= -->
+    <section id="special" class="section">
+        <h2 class="section-title">
+            <span class="sec-no">§ 03</span>
+            특수 및 부가 전술 행동
+        </h2>
+
+        <ul class="rule-list">
+            <!-- Move Within -->
+            <li class="rule">
+                <div class="rule-head">
+                    <h3>진지 내 연계 이동 <span class="muted" style="font-weight:400;">Move Within a Location</span></h3>
+                    <span class="badge is-ref">Rulebook p.7</span>
+                    <span class="badge is-free">연계 행동 가능</span>
+                </div>
+                <div class="rule-item">
+                    <span class="tag">위치 재조정</span>
+                    동일한 구역 내부에서 비어 있는 옆 전투 위치로 한 칸 이동합니다. <strong>이 기동은 대원을 지침 상태로 만들지 않으므로, 이동 직후 즉시 사격이나 제압 등 다른 전술 행동을 이어서 수행</strong>할 수 있는 강력한 연계기입니다.
+                </div>
+                <div class="rule-item is-detail">
+                    <span class="tag">진형 스위칭</span>
+                    동일 구역 내에 있는 두 대원의 위치를 서로 맞바꿀 수도 있습니다. 단, <strong>교대하려는 두 대원 모두 지침(Exhausted, 회색면) 상태이거나 혼란(Disrupted) 토큰이 없는 정상 컨디션</strong>이어야 진지 교환 융단 기동이 성립됩니다.
+                </div>
+            </li>
+
+            <!-- Recover -->
+            <li class="rule">
+                <div class="rule-head">
+                    <h3>전열 재정비 <span class="muted" style="font-weight:400;">Recover</span></h3>
+                    <span class="badge is-ref">Rulebook p.9</span>
+                    <span class="badge is-free">지침 면제</span>
+                </div>
+                <div class="rule-item">
+                    <span class="tag">컨디션 회복</span>
+                    격렬한 전투로 인해 지침 상태(회색 면)로 뒤집힌 대원의 카운터를 원래의 활성화 면으로 원상 복구시키거나, 머리 위에 얹어진 <strong>'혼란(Disrupted)' 토큰을 깨끗이 제거</strong>합니다.
+                </div>
+                <div class="rule-item">
+                    <span class="tag">패널티 면제</span>
+                    이 행동은 지친 대원을 쉬게 하는 정비 개념이므로, <strong>행동을 마친 후 대원이 다시 지침 상태로 뒤집히는 패널티가 발생하지 않습니다.</strong>
+                </div>
+            </li>
+
+            <!-- Command -->
+            <li class="rule">
+                <div class="rule-head">
+                    <h3>현장 광역 지휘 <span class="muted" style="font-weight:400;">Command [C] 특수 행동</span></h3>
+                    <span class="badge is-ref">Rulebook p.9</span>
+                    <span class="badge is-action">행동 후 지침</span>
+                </div>
+                <div class="rule-item">
+                    <span class="tag">전술적 시너지</span>
+                    지휘[C] 표식을 가진 베테랑 지휘관 장교가 쓸 수 있는 전술 행동입니다. 자신이 주둔하고 있는 구역 내의 <strong>다른 아군 대원들에게 즉시 무료 '회복(Recover)' 액션을 총 3회 제공</strong>하여 부대를 일깨웁니다.
+                </div>
+                <div class="rule-item is-exception">
+                    <span class="tag">지휘관 상호작용 제한</span>
+                    군대 체계상의 혼선을 막기 위해, <strong>똑같이 지휘[C] 능력을 탑재하고 있는 다른 장교급 대원에게는 이 무료 회복 혜택을 중복해서 줄 수 없습니다.</strong>
+                </div>
+            </li>
+
+            <!-- Escape -->
+            <li class="rule">
+                <div class="rule-head">
+                    <h3>목숨을 건 특사 탈출 <span class="muted" style="font-weight:400;">Escape [E] 특수 행동</span></h3>
+                    <span class="badge is-ref">Rulebook p.10</span>
+                </div>
+                <div class="rule-item">
+                    <span class="tag">보로트라 전용 질주</span>
+                    불굴의 테니스 스타이자 포로인 <strong>'보로트라(Borotra)' 카운터</strong>만 수행 가능한 전장을 바꾸는 특수 임무입니다.
+                </div>
+                <div class="rule-item">
+                    <span class="tag">탈출 조건</span>
+                    보로트라가 행동을 개시하려는 진지 주변에 <strong>그와 일치하는 색상 라인의 SS 적군 카운터가 단 한 마리도 없어야만</strong> 안전하게 성벽을 뛰어넘어 탈출을 감행할 수 있습니다.
+                </div>
+                <div class="rule-item is-exception">
+                    <span class="tag">탈출 불가 구역</span>
+                    사방이 막힌 내부 핵심 요새인 <strong>'지하 창고(Cellar)' 및 '대연회장(Great Hall)' 진지에서는 탈출 액션을 원천적으로 시작할 수 없습니다.</strong>
+                </div>
+
+                <div class="callout">
+                    <span class="callout-label">지침(Exhausted) 메커니즘 요약</span>
+                    공격(Attack), 제압(Suppress), 새로운 지역 이동(Move to a New Location), 지휘(Command) 행동을 완료한 대원은 체력이 소진되어 즉시 카운터의 <strong>'회색 면'</strong>이 보이도록 뒤집어야 하며, 다음 턴에 회복(Recover)하기 전까지는 일반적인 행동이 전면 봉인됩니다.
+                </div>
+            </li>
+        </ul>
+    </section>
+
+    <nav class="page-nav" aria-label="다른 시트 바로가기">
+        <a href="sheet1.html">
+            <span class="label">← Sheet 01</span>
+            <span class="title">SS 행동 규칙</span>
+        </a>
+        <a href="index.html">
+            <span class="label">Index</span>
+            <span class="title">메인 대시보드</span>
+        </a>
+        <a href="sheet3.html">
+            <span class="label">Sheet 03 →</span>
+            <span class="title">대원 특수 속성</span>
+        </a>
+    </nav>
+
+</main>
+
 </body>
 </html>
