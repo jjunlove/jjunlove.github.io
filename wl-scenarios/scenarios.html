@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>전체 공식 시나리오 목록 — Wing Leader</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="navbar"><a href="index.html">← 목차</a></div>
+    <div class="gate-title">전체 공식 시나리오 목록</div>
+    <div class="gate-sub">GMT Wing Leader 전 제품군 공식 시나리오. ✓ = 본 한국어판에 수록(클릭 시 상세).</div>
+    <details class="keybox">
+      <summary>제품 약어 (Key)</summary>
+      <div class="keygrid">
+        <span><b>Origins</b> — Origins 1936–1942</span>
+        <span><b>Blitz</b> — Blitz 1939–1942</span>
+        <span><b>Victories</b> — Victories 1940–1942</span>
+        <span><b>V2e</b> — Victories 제2판</span>
+        <span><b>Legends</b> — Legends 1937–1945</span>
+        <span><b>Supremacy</b> — Supremacy 1943–1945</span>
+        <span><b>S2e</b> — Supremacy 제2판</span>
+        <span><b>Eagles</b> — Eagles 1943–1945</span>
+        <span><b>DD</b> — 디지털 다운로드(Digital Download)</span>
+        <span><b>SS</b> — 시나리오 보충판(Scenario Supplement)</span>
+        <span><b>C3i</b> — C3i 매거진</span>
+      </div>
+    </details>
+    <div class="fbar-top">
+      <input class="search" id="q" type="search" placeholder="🔎 코드·제목·진영·지명·제작자 검색…">
+      <select class="sortsel" id="pub"></select>
+      <div class="segmented" id="done"></div>
+    </div>
+    <div class="count" id="count"></div>
+    <div style="overflow-x:auto"><table class="adc-table" id="tbl"></table></div>
+  </div>
+  <script type="module" src="assets/js/scenarios-list.js"></script>
+</body>
+</html>

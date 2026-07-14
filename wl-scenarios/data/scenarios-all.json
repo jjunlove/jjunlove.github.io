@@ -1,0 +1,2028 @@
+[
+  {
+    "date": "13 Nov 1936",
+    "code": "O15",
+    "name": "A Black Day For German Tourists",
+    "forces": "Republican vs. Nationalist",
+    "location": "Madrid",
+    "published": "Origins",
+    "creator": "Javier Hoyos",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "19 Nov 1936",
+    "code": "O16",
+    "name": "Target: Madrid",
+    "forces": "Republican vs. Nationalist",
+    "location": "Madrid",
+    "published": "Origins",
+    "creator": "Javier Hoyos",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "18 Feb 1937",
+    "code": "O17",
+    "name": "Where the Laureate Crosses Grow",
+    "forces": "Republican vs. Nationalist",
+    "location": "The Jarama",
+    "published": "Origins",
+    "creator": "Javier Hoyos",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "16 Mar 1937",
+    "code": "O18",
+    "name": "Less Trucks, More Balls",
+    "forces": "Republican vs. Nationalist",
+    "location": "Guadalajara",
+    "published": "Origins",
+    "creator": "Javier Hoyos",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "18 Jul 1937",
+    "code": "O19",
+    "name": "Chirris Over Brunete",
+    "forces": "Republican vs. Nationalist",
+    "location": "Brunete",
+    "published": "Origins",
+    "creator": "Javier Hoyos",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "19 Sep 1937",
+    "code": "L01",
+    "name": "Raid on Nanjing",
+    "forces": "Chinese vs. Japanese",
+    "location": "Nanjing",
+    "published": "Legends",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "4 Jan 1938",
+    "code": "O05",
+    "name": "Operation Zet",
+    "forces": "Chinese vs. Japanese",
+    "location": "Wuhan",
+    "published": "Origins",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "7 Feb 1938",
+    "code": "O20",
+    "name": "A Fine Winter’s Day",
+    "forces": "Republican vs. Nationalist",
+    "location": "Teruel",
+    "published": "Origins",
+    "creator": "Javier Hoyos",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "31 May 1938",
+    "code": "O06",
+    "name": "The Wuhan Clan",
+    "forces": "Chinese vs. Japanese",
+    "location": "Wuhan",
+    "published": "Origins",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "13 Aug 1938",
+    "code": "O21",
+    "name": "Supermosca",
+    "forces": "Republican vs. Nationalist",
+    "location": "Mora de Ebro",
+    "published": "Origins",
+    "creator": "Javier Hoyos",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "21 Aug 1938",
+    "code": "D04",
+    "name": "First in the Line of Fire",
+    "forces": "Republican vs. Nationalist",
+    "location": "Ebro Front",
+    "published": "DD #1",
+    "creator": "Javier Hoyos",
+    "done": false,
+    "products": [
+      "DD"
+    ]
+  },
+  {
+    "date": "30 Sep 1938",
+    "code": "O08",
+    "name": "Prague in Flames",
+    "forces": "Czech vs. German",
+    "location": "Czechoslovakia",
+    "published": "Origins",
+    "creator": "Petr Mojžiš",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "2 Oct 1938",
+    "code": "O09",
+    "name": "Slow Them At Any Cost",
+    "forces": "Czech vs. German",
+    "location": "Czechoslovakia",
+    "published": "Origins",
+    "creator": "Petr Mojžiš",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "2 Nov 1938",
+    "code": "O22",
+    "name": "Bombers First",
+    "forces": "Republican vs. Nationalist",
+    "location": "Ebro Front",
+    "published": "Origins",
+    "creator": "Javier Hoyos",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "19 Jan 1939",
+    "code": "O26",
+    "name": "Forgotten Planes",
+    "forces": "Republican vs. Nationalist",
+    "location": "Catalonia",
+    "published": "Origins",
+    "creator": "Javier Hoyos",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "27 Jun 1939",
+    "code": "O25",
+    "name": "The Great Raid",
+    "forces": "Soviet vs. Japanese",
+    "location": "Khalkin-Gol",
+    "published": "Origins",
+    "creator": "Robert Williams",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "20 Aug 1939",
+    "code": "B05",
+    "name": "Rocket Attack",
+    "forces": "Soviet vs. Japanese",
+    "location": "Khalkin Gol",
+    "published": "Blitz",
+    "creator": "Robert Williams",
+    "done": false,
+    "products": [
+      "Blitz"
+    ]
+  },
+  {
+    "date": "1 Sep 1939",
+    "code": "O02",
+    "name": "Operation Wasserkante",
+    "forces": "Polish vs. German",
+    "location": "Warsaw",
+    "published": "Origins",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "1 Sep 1939",
+    "code": "O03",
+    "name": "Warsaw Concerto",
+    "forces": "Polish vs. German",
+    "location": "Warsaw",
+    "published": "Origins",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "2 Sep 1939",
+    "code": "O04",
+    "name": "Bomber Brigade",
+    "forces": "Polish vs. German",
+    "location": "Central Poland",
+    "published": "Origins",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "26 Feb 1940",
+    "code": "O12",
+    "name": "Karelia Suite",
+    "forces": "Soviet vs. Finnish",
+    "location": "Karelia",
+    "published": "Origins",
+    "creator": "David Meyler",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "18 Apr 1940",
+    "code": "D01",
+    "name": "Operation Avonmouth",
+    "forces": "British vs. Swedish",
+    "location": "Sweden",
+    "published": "DD #1",
+    "creator": "Elias Nordling",
+    "done": false,
+    "products": [
+      "DD"
+    ]
+  },
+  {
+    "date": "10 May 1940",
+    "code": "O10",
+    "name": "Flying Fish",
+    "forces": "Dutch vs. German",
+    "location": "Noord-Holland",
+    "published": "Origins",
+    "creator": "David Meyler",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "10 May 1940",
+    "code": "O11",
+    "name": "Hunters in the Sky",
+    "forces": "Dutch vs. German",
+    "location": "Rotterdam",
+    "published": "Origins",
+    "creator": "David Meyler",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "11 May 1940",
+    "code": "B02",
+    "name": "Into the Cauldron",
+    "forces": "French vs. German",
+    "location": "Belgium",
+    "published": "Blitz",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Blitz"
+    ]
+  },
+  {
+    "date": "14 May 1940",
+    "code": "V11",
+    "name": "The Bridges at Sedan",
+    "forces": "British vs. German",
+    "location": "Battle of France",
+    "published": "Victories",
+    "creator": "Gordon Christie",
+    "done": true,
+    "title_ko": "스당의 교량",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "2 Jun 1940",
+    "code": "O01",
+    "name": "Shall We Cancel the Party?",
+    "forces": "British vs. German",
+    "location": "Dunkirk",
+    "published": "Origins",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "3 Jun 1940",
+    "code": "B04",
+    "name": "Opération Tapir",
+    "forces": "French vs. German",
+    "location": "Battle of France",
+    "published": "Blitz",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Blitz"
+    ]
+  },
+  {
+    "date": "3 Jun 1940",
+    "code": "L02",
+    "name": "A Foreign Legion",
+    "forces": "Franco-Belgians vs. German",
+    "location": "Battle of France",
+    "published": "Legends",
+    "creator": "David Meyler",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "5 Jun 1940",
+    "code": "B03",
+    "name": "The Old Guard",
+    "forces": "French vs. German",
+    "location": "Battle of France",
+    "published": "Blitz",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Blitz"
+    ]
+  },
+  {
+    "date": "15 Jun 1940",
+    "code": "L03",
+    "name": "Falcons Over France",
+    "forces": "French vs. Italian",
+    "location": "Battle of France",
+    "published": "Legends",
+    "creator": "Andrew Brazier",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "9 Jul 1940",
+    "code": "V27",
+    "name": "White Cliffs",
+    "forces": "British vs. German",
+    "location": "Battle of Britain",
+    "published": "SS #1, V2e",
+    "creator": "Andrew Brazier",
+    "done": true,
+    "title_ko": "하얀 절벽",
+    "products": [
+      "SS",
+      "V2e"
+    ]
+  },
+  {
+    "date": "Aug 1940",
+    "code": "V04",
+    "name": "Penny Packets",
+    "forces": "British vs. German",
+    "location": "Battle of Britain",
+    "published": "Victories",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "소규모 축차 투입",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "15 Aug 1940",
+    "code": "V05",
+    "name": "Haway the Lads!",
+    "forces": "British vs. German",
+    "location": "Battle of Britain",
+    "published": "Victories",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "가자, 젊은이들!",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "15 Aug 1940",
+    "code": "V06",
+    "name": "Let’s Go and Surround Them!",
+    "forces": "British vs. German",
+    "location": "Battle of Britain",
+    "published": "Victories",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "가서 포위해 버리자!",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "Sep 1940",
+    "code": "V15",
+    "name": "Taking Wing",
+    "forces": "British vs. German",
+    "location": "Battle of Britain",
+    "published": "Victories",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "날아오르다",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "13 Sep 1940",
+    "code": "O07",
+    "name": "Enter the Zero",
+    "forces": "Chinese vs. Japanese",
+    "location": "Chongqing",
+    "published": "Origins",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "15 Sep 1940",
+    "code": "V20",
+    "name": "Here Come the Last Fifty Spitfires",
+    "forces": "British vs. German",
+    "location": "Battle of Britain",
+    "published": "Victories",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "마지막 Spitfire 50대가 온다",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "13 Feb 1941",
+    "code": "V09",
+    "name": "Like Arrows Against Gladiators",
+    "forces": "British vs. Italian",
+    "location": "Greece",
+    "published": "Victories",
+    "creator": "Andrew Brazier",
+    "done": true,
+    "title_ko": "글래디에이터를 향한 화살",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "Spring 1941",
+    "code": "V21",
+    "name": "Send in the Clowns",
+    "forces": "British vs. German",
+    "location": "‘Circus’ Operations",
+    "published": "Victories",
+    "creator": "Gordon Christie",
+    "done": true,
+    "title_ko": "광대를 투입하라",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "14 Mar 1941",
+    "code": "L04",
+    "name": "Spring Offensive",
+    "forces": "British vs. Italian",
+    "location": "Albania",
+    "published": "Legends",
+    "creator": "Scott Spencer",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "6 Apr 1941",
+    "code": "L05",
+    "name": "Operation Retribution",
+    "forces": "Yugoslavia vs. German",
+    "location": "Belgrade",
+    "published": "Legends",
+    "creator": "Spencer & Brazier",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "11 Apr 1941",
+    "code": "V07",
+    "name": "Malta Recce",
+    "forces": "British vs. Axis",
+    "location": "Malta",
+    "published": "Victories",
+    "creator": "Gordon Christie",
+    "done": true,
+    "title_ko": "몰타 정찰",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "20 Apr 1941",
+    "code": "V17",
+    "name": "Nemesis",
+    "forces": "British vs. German",
+    "location": "Greece",
+    "published": "Victories",
+    "creator": "Gordon Christie",
+    "done": true,
+    "title_ko": "네메시스",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "24 Jul 1941",
+    "code": "O23",
+    "name": "Operation Sunrise",
+    "forces": "British vs. German",
+    "location": "Brest",
+    "published": "Origins",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "27 Aug 1941",
+    "code": "L06",
+    "name": "Italians in Russia",
+    "forces": "Soviet vs. Italian",
+    "location": "Ukraine",
+    "published": "Legends",
+    "creator": "Andrew Brazier",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "18 Nov 1941",
+    "code": "O24",
+    "name": "Heavy Mob",
+    "forces": "British vs. German",
+    "location": "Brest",
+    "published": "Origins",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "4 Dec 1941",
+    "code": "V16",
+    "name": "Shark Attack",
+    "forces": "Allied vs. Axis",
+    "location": "Libya",
+    "published": "Victories",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "상어의 습격",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "8 Dec 1941",
+    "code": "L07",
+    "name": "Disaster at Clark Field",
+    "forces": "American vs. Japanese",
+    "location": "Philippines",
+    "published": "Legends",
+    "creator": "Elias Nordling",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "23 Dec 1941",
+    "code": "V01",
+    "name": "Tyger! Tyger!",
+    "forces": "Chinese vs. Japanese",
+    "location": "Burma",
+    "published": "Victories",
+    "creator": "Allan Cannamore",
+    "done": true,
+    "title_ko": "호랑이여! 호랑이여!",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "23 Dec 1941",
+    "code": "B01",
+    "name": "Buffalo Wings",
+    "forces": "Allied vs. Japanese",
+    "location": "Burma",
+    "published": "Blitz",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Blitz"
+    ]
+  },
+  {
+    "date": "Jan 1942",
+    "code": "V19",
+    "name": "Circus, Circus",
+    "forces": "British vs. German",
+    "location": "‘Circus’ Operations",
+    "published": "Victories",
+    "creator": "Andy Parsons",
+    "done": true,
+    "title_ko": "서커스, 서커스",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "15 Jan 1942",
+    "code": "O13",
+    "name": "On a Little Street in Singapore",
+    "forces": "Allied vs. Japanese",
+    "location": "Singapore",
+    "published": "Origins",
+    "creator": "David Meyler",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "20 Jan 1942",
+    "code": "V25",
+    "name": "Singapore Sling",
+    "forces": "Allied vs. Japanese",
+    "location": "Singapore",
+    "published": "SS #1, V2e",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "싱가포르 슬링",
+    "products": [
+      "SS",
+      "V2e"
+    ]
+  },
+  {
+    "date": "3 Feb 1942",
+    "code": "O14",
+    "name": "Sourabaya Johnny",
+    "forces": "Allied vs. Japanese",
+    "location": "Java",
+    "published": "Origins",
+    "creator": "David Meyler",
+    "done": false,
+    "products": [
+      "Origins"
+    ]
+  },
+  {
+    "date": "12 Feb 1942",
+    "code": "V28",
+    "name": "Channel Dash",
+    "forces": "British vs. German",
+    "location": "English Channel",
+    "published": "V2e",
+    "creator": "Martin Åkerlund",
+    "done": true,
+    "title_ko": "해협 돌파",
+    "products": [
+      "V2e"
+    ]
+  },
+  {
+    "date": "Apr 42",
+    "code": "V29",
+    "name": "Demyansk Pocket",
+    "forces": "Soviet vs. German",
+    "location": "Demyansk",
+    "published": "V2e",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "데미얀스크 포위전",
+    "products": [
+      "V2e"
+    ]
+  },
+  {
+    "date": "5 Apr 1942",
+    "code": "L08",
+    "name": "The Easter Sunday Raid",
+    "forces": "British vs. Japanese",
+    "location": "Ceylon",
+    "published": "Legends",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "28 Apr 1942",
+    "code": "V02",
+    "name": "Birthday Present",
+    "forces": "Chinese vs. Japanese",
+    "location": "Burma",
+    "published": "Victories",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "생일 선물",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "8 May 1942",
+    "code": "V12",
+    "name": "The Rain Upon the Sea",
+    "forces": "American vs. Japanese",
+    "location": "Coral Sea",
+    "published": "Victories",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "바다 위의 비",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "8 May 1942",
+    "code": "V13",
+    "name": "Hey Rube!",
+    "forces": "American vs. Japanese",
+    "location": "Coral Sea",
+    "published": "Victories",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "긴급 복귀 신호",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "1 Jun 1942",
+    "code": "B09",
+    "name": "Port Moresby",
+    "forces": "American vs. Japanese",
+    "location": "New Guinea",
+    "published": "Blitz",
+    "creator": "Gordon Christie",
+    "done": false,
+    "products": [
+      "Blitz"
+    ]
+  },
+  {
+    "date": "4 Jun 1942",
+    "code": "V23",
+    "name": "Shimatta",
+    "forces": "American vs. Japanese",
+    "location": "Midway",
+    "published": "Victories",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "제기랄",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "6 Jul 1942",
+    "code": "V26",
+    "name": "Hasn’t Ivan Learned Anything?",
+    "forces": "Soviet vs. German",
+    "location": "Voronezh",
+    "published": "SS #1, V2e",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "이반은 아무것도 못 배웠나?",
+    "products": [
+      "SS",
+      "V2e"
+    ]
+  },
+  {
+    "date": "22 Jul 1942",
+    "code": "D02",
+    "name": "Loudly Flows the Don",
+    "forces": "Soviet vs. German",
+    "location": "Don Bend",
+    "published": "DD #1",
+    "creator": "Scott Spencer",
+    "done": false,
+    "products": [
+      "DD"
+    ]
+  },
+  {
+    "date": "30 July 1942",
+    "code": "B10",
+    "name": "Yanks Over Darwin",
+    "forces": "American vs. Japanese",
+    "location": "Australia",
+    "published": "Blitz",
+    "creator": "Gordon Christie",
+    "done": false,
+    "products": [
+      "Blitz"
+    ]
+  },
+  {
+    "date": "4 Aug 1942",
+    "code": "V08",
+    "name": "Jagdgeschwader Mölders",
+    "forces": "Soviet vs. German",
+    "location": "Rzhev Bulge",
+    "published": "Victories",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "묄더스 전투항공단",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "12 Aug 1942",
+    "code": "B06",
+    "name": "Operation Pedestal: Morning",
+    "forces": "British vs. Axis",
+    "location": "Mediterranean",
+    "published": "Blitz",
+    "creator": "Gordon Christie",
+    "done": false,
+    "products": [
+      "Blitz"
+    ]
+  },
+  {
+    "date": "12 Aug 1942",
+    "code": "B07",
+    "name": "Operation Pedestal: Midday",
+    "forces": "British vs. Axis",
+    "location": "Mediterranean",
+    "published": "Blitz",
+    "creator": "Gordon Christie",
+    "done": false,
+    "products": [
+      "Blitz"
+    ]
+  },
+  {
+    "date": "12 Aug 1942",
+    "code": "B08",
+    "name": "Operation Pedestal: Evening",
+    "forces": "British vs. Axis",
+    "location": "Mediterranean",
+    "published": "Blitz",
+    "creator": "Gordon Christie",
+    "done": false,
+    "products": [
+      "Blitz"
+    ]
+  },
+  {
+    "date": "19 Aug 1942",
+    "code": "V22",
+    "name": "The Day of Jubilee",
+    "forces": "Allied vs. German",
+    "location": "Dieppe Raid",
+    "published": "Victories",
+    "creator": "Andy Parsons",
+    "done": true,
+    "title_ko": "주빌리 작전의 날",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "Sep 1942",
+    "code": "V10",
+    "name": "Cactus Thorns",
+    "forces": "American vs. Japanese",
+    "location": "Guadalcanal",
+    "published": "Victories",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "캑터스의 가시",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "8 Sep 1942",
+    "code": "V30",
+    "name": "Stalingrad Outskirts",
+    "forces": "Soviet vs. Axis",
+    "location": "Stalingrad",
+    "published": "V2e",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "스탈린그라드 외곽",
+    "products": [
+      "V2e"
+    ]
+  },
+  {
+    "date": "26 Oct 1942",
+    "code": "V14",
+    "name": "The Big ‘E’",
+    "forces": "American vs. Japanese",
+    "location": "Santa Cruz",
+    "published": "Victories",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "빅 E",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "27 Oct 1942",
+    "code": "V18",
+    "name": "Yanks Over Alamein",
+    "forces": "Allied vs. Axis",
+    "location": "El Alamein",
+    "published": "Victories",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "알라메인 상공의 양키",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "31 Oct 1942",
+    "code": "L22",
+    "name": "Tip and Run",
+    "forces": "British vs. German",
+    "location": "England",
+    "published": "Legends",
+    "creator": "Scott Key",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "Dec 1942",
+    "code": "V03",
+    "name": "Stalingrad Airlift",
+    "forces": "Soviet vs. German",
+    "location": "Stalingrad",
+    "published": "Victories",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "스탈린그라드 공수",
+    "products": [
+      "Victories"
+    ]
+  },
+  {
+    "date": "14 Feb 1943",
+    "code": "L09",
+    "name": "Valentine’s Day Massacre",
+    "forces": "American vs. Japanese",
+    "location": "Solomon Islands",
+    "published": "Legends",
+    "creator": "Gordon Christie",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "3 Mar 1943",
+    "code": "L10",
+    "name": "Battle of the Bismarck Sea",
+    "forces": "American vs. Japanese",
+    "location": "New Guinea",
+    "published": "Legends",
+    "creator": "Gordon Christie",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "1 Apr 1943",
+    "code": "L11",
+    "name": "All Day Permanent Red",
+    "forces": "American vs. Japanese",
+    "location": "Solomon Islands",
+    "published": "Legends",
+    "creator": "Gordon Christie",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "3 Apr 1943",
+    "code": "S27",
+    "name": "Greycap",
+    "forces": "Allied vs. German",
+    "location": "France",
+    "published": "SS #2, S2e",
+    "creator": "Gordon Christie",
+    "done": true,
+    "title_ko": "그레이캡",
+    "products": [
+      "SS",
+      "S2e"
+    ]
+  },
+  {
+    "date": "5 Apr 1943",
+    "code": "E22",
+    "name": "Mediterranean Melee",
+    "forces": "American vs. German",
+    "location": "Tunisia",
+    "published": "Eagles",
+    "creator": "Gordon Christie",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "7 Apr 1943",
+    "code": "D03",
+    "name": "Condition Very Red",
+    "forces": "American vs. Japanese",
+    "location": "Guadalcanal",
+    "published": "DD #1",
+    "creator": "Gordon Christie",
+    "done": false,
+    "products": [
+      "DD"
+    ]
+  },
+  {
+    "date": "20 April 1943",
+    "code": "E17",
+    "name": "Kuban Meatgrinder",
+    "forces": "Soviet vs. German",
+    "location": "Novorossiysk",
+    "published": "Eagles",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "19 Apr 1943",
+    "code": "V24",
+    "name": "Operation Flax",
+    "forces": "Allied vs. Italian",
+    "location": "Tunisia",
+    "published": "SS #1, V2e",
+    "creator": "Gordon Christie",
+    "done": true,
+    "title_ko": "플랙스 작전",
+    "products": [
+      "SS",
+      "V2e"
+    ]
+  },
+  {
+    "date": "20 Jun 1943",
+    "code": "L12",
+    "name": "Army Day",
+    "forces": "Australian vs. Japanese",
+    "location": "Darwin",
+    "published": "Legends",
+    "creator": "Scott Spencer",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "30 Jun 1943",
+    "code": "L13",
+    "name": "Rikko",
+    "forces": "American vs. Japanese",
+    "location": "Solomon Islands",
+    "published": "Legends",
+    "creator": "Gordon Christie",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "Jul 1943",
+    "code": "L14",
+    "name": "Fall Polarfuchs",
+    "forces": "Swedish vs. German",
+    "location": "Sweden",
+    "published": "Legends",
+    "creator": "Elias Nordling",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "3 Jul 1943",
+    "code": "L15",
+    "name": "Tussle Over Trapani",
+    "forces": "Allied vs. Axis",
+    "location": "Sicily",
+    "published": "Legends",
+    "creator": "Scott Spencer",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "6 Jul 1943",
+    "code": "S29",
+    "name": "Kursk Counterattack",
+    "forces": "Soviet vs. German",
+    "location": "Kursk",
+    "published": "SS #2, S2e",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "쿠르스크 반격",
+    "products": [
+      "SS",
+      "S2e"
+    ]
+  },
+  {
+    "date": "15 Aug 1943",
+    "code": "E15",
+    "name": "Fire in the Sky",
+    "forces": "American vs. Japanese",
+    "location": "New Guinea",
+    "published": "Eagles",
+    "creator": "Scott Key",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "22 Aug 1943",
+    "code": "S31",
+    "name": "Apache Marauders",
+    "forces": "American vs. German",
+    "location": "Salerno",
+    "published": "S2e",
+    "creator": "Scott Spencer",
+    "done": true,
+    "title_ko": "아파치 머로더",
+    "products": [
+      "S2e"
+    ]
+  },
+  {
+    "date": "2 Sep 1943",
+    "code": "S18",
+    "name": "Ramrod 5-31",
+    "forces": "Allied vs. German",
+    "location": "France",
+    "published": "Supremacy",
+    "creator": "Gordon Christie",
+    "done": true,
+    "title_ko": "램로드 5-31 작전",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "4 Sep 1943",
+    "code": "L16",
+    "name": "Last Hurrah",
+    "forces": "British vs. Italian",
+    "location": "Calabria",
+    "published": "Legends",
+    "creator": "Scott Spencer",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "Oct 1943",
+    "code": "S21",
+    "name": "Gunships!",
+    "forces": "American vs. Japanese",
+    "location": "Rabaul",
+    "published": "Supremacy",
+    "creator": "Gordon Christie",
+    "done": true,
+    "title_ko": "건십!",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "10 Oct 1943",
+    "code": "S30",
+    "name": "Cornered Wolf",
+    "forces": "American vs. German",
+    "location": "Germany",
+    "published": "SS #2, S2e",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "궁지에 몰린 늑대",
+    "products": [
+      "SS",
+      "S2e"
+    ]
+  },
+  {
+    "date": "1 Nov 1943",
+    "code": "S11",
+    "name": "Operation RO",
+    "forces": "Allied vs. Japanese",
+    "location": "Bougainville",
+    "published": "Supremacy",
+    "creator": "Gordon Christie",
+    "done": true,
+    "title_ko": "로 작전",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "11 Nov 1943",
+    "code": "S26",
+    "name": "Two Ocean Navy",
+    "forces": "American vs. Japanese",
+    "location": "Green Islands",
+    "published": "SS #2, S2e",
+    "creator": "Gordon Christie",
+    "done": true,
+    "title_ko": "양대양 해군",
+    "products": [
+      "SS",
+      "S2e"
+    ]
+  },
+  {
+    "date": "1 Dec 1943",
+    "code": "S05",
+    "name": "Foul-Up Over Wewak",
+    "forces": "American vs. Japanese",
+    "location": "New Guinea",
+    "published": "Supremacy",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "웨왁 상공의 대혼선",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "20 Dec 1943",
+    "code": "L17",
+    "name": "Royal Bulgarian Air Force",
+    "forces": "American vs. Bulgarian",
+    "location": "Bulgaria",
+    "published": "Legends",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "24 Dec 1943",
+    "code": "S02",
+    "name": "Piling On",
+    "forces": "Allied vs. Japanese",
+    "location": "Rabaul",
+    "published": "Supremacy",
+    "creator": "Gordon Christie",
+    "done": true,
+    "title_ko": "총력전",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "Feb 1944",
+    "code": "S16",
+    "name": "Force on Force",
+    "forces": "American vs. German",
+    "location": "Germany",
+    "published": "Supremacy",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "전력 대 전력",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "6 Mar 1944",
+    "code": "S22",
+    "name": "Unlucky 13th",
+    "forces": "American vs. German",
+    "location": "Germany",
+    "published": "Supremacy",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "불운의 제13전투비행단",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "6 Mar 1944",
+    "code": "S23",
+    "name": "The Destroyers Attack",
+    "forces": "American vs. German",
+    "location": "Germany",
+    "published": "Supremacy",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "구축전투기의 공격",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "18 Mar 1944",
+    "code": "S19",
+    "name": "Asso di Bastoni",
+    "forces": "American vs. Axis",
+    "location": "Italy",
+    "published": "Supremacy",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "곤봉 에이스",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "27 Mar 1944",
+    "code": "E03",
+    "name": "Disaster Over Ledo",
+    "forces": "American vs. Japanese",
+    "location": "India",
+    "published": "Eagles",
+    "creator": "Gordon Christie",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "3 Apr 1944",
+    "code": "E21",
+    "name": "Operation Tungsten",
+    "forces": "British vs. German",
+    "location": "Norway",
+    "published": "Eagles",
+    "creator": "Gordon Christie",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "13 Apr 1944",
+    "code": "E16",
+    "name": "Battle Over Budapest",
+    "forces": "American vs. Hungarian",
+    "location": "Budapest",
+    "published": "Eagles",
+    "creator": "Andrew Brazier",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "4 May 1944",
+    "code": "S09",
+    "name": "Operation 60,000",
+    "forces": "Soviet vs. German",
+    "location": "Black Sea",
+    "published": "Supremacy",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "6만 작전",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "25 May 1944",
+    "code": "L18",
+    "name": "Fantastic Fives",
+    "forces": "American vs. Italian",
+    "location": "Italy",
+    "published": "Legends",
+    "creator": "Scott Spencer",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "30 May 1944",
+    "code": "S12",
+    "name": "The Return of the Guards",
+    "forces": "Soviet vs. German",
+    "location": "Romania",
+    "published": "Supremacy",
+    "creator": "Andy Parsons",
+    "done": true,
+    "title_ko": "근위대의 귀환",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "6 Jun 1944",
+    "code": "S08",
+    "name": "First Blood on D-Day",
+    "forces": "Allied vs. German",
+    "location": "Normandy",
+    "published": "Supremacy",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "D-데이의 첫 전과",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "10 Jun 1944",
+    "code": "S13",
+    "name": "Plastering Ploesti",
+    "forces": "American vs. Romanian",
+    "location": "Romania",
+    "published": "Supremacy",
+    "creator": "Andrew Brazier",
+    "done": true,
+    "title_ko": "플로이에슈티 강타",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "11 Jun 1944",
+    "code": "S04",
+    "name": "You Don’t Know Jack",
+    "forces": "American vs. Japanese",
+    "location": "Guam",
+    "published": "Supremacy",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "잭을 모르는군",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "14 Jun 1944",
+    "code": "D05",
+    "name": "Longer Than a Day",
+    "forces": "American vs. Axis",
+    "location": "Hungary",
+    "published": "DD #1",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "DD"
+    ]
+  },
+  {
+    "date": "20 Jun 1944",
+    "code": "L19",
+    "name": "Wrath of the Destroyers",
+    "forces": "American vs. German",
+    "location": "Germany",
+    "published": "Legends",
+    "creator": "Scott Spencer",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "26 Jun 1944",
+    "code": "E01",
+    "name": "Three Days of Greif",
+    "forces": "Soviet vs. German",
+    "location": "Byelorussia",
+    "published": "Eagles",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "2 Jul 1944",
+    "code": "E07",
+    "name": "Red Star, Blue Swastika",
+    "forces": "Soviet vs. Finnish",
+    "location": "Finland",
+    "published": "Eagles",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "14 Jul 1944",
+    "code": "S17",
+    "name": "Smashing the Line",
+    "forces": "Soviet vs. German",
+    "location": "Ukraine",
+    "published": "Supremacy",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "방어선 분쇄",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "14 Jul 1944",
+    "code": "E04",
+    "name": "Schlachtflieger",
+    "forces": "Soviet vs. German",
+    "location": "Ukraine",
+    "published": "Eagles",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "26 Jul 1944",
+    "code": "S25",
+    "name": "Escape From Tapa",
+    "forces": "Soviet vs. German",
+    "location": "Estonia",
+    "published": "SS #2, S2e",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "타파 탈출",
+    "products": [
+      "SS",
+      "S2e"
+    ]
+  },
+  {
+    "date": "27 Jul 1944",
+    "code": "E06",
+    "name": "Aces High",
+    "forces": "Soviet vs. German",
+    "location": "Latvia",
+    "published": "Eagles",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "Aug 1944",
+    "code": "S06",
+    "name": "The Last Hunters",
+    "forces": "Soviet vs. Romanian",
+    "location": "Bessarabia",
+    "published": "Supremacy",
+    "creator": "Andrew Brazier",
+    "done": true,
+    "title_ko": "마지막 사냥꾼들",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "20 Aug 1944",
+    "code": "S01",
+    "name": "Climb the Matterhorn",
+    "forces": "American vs. Japanese",
+    "location": "Japan",
+    "published": "Supremacy",
+    "creator": "Forrest Speck",
+    "done": true,
+    "title_ko": "마터호른을 오르다",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "11 Sep 1944",
+    "code": "S35",
+    "name": "Bad Day Over the Ore Mountains",
+    "forces": "American vs. German",
+    "location": "Czechoslovakia",
+    "published": "S2e",
+    "creator": "Petr Mojžíš",
+    "done": true,
+    "title_ko": "광석 산맥 위의 검은 날",
+    "products": [
+      "S2e"
+    ]
+  },
+  {
+    "date": "24 Oct 1944",
+    "code": "E14",
+    "name": "Butcher’s Bill",
+    "forces": "American vs. Japanese",
+    "location": "Okinawa",
+    "published": "Eagles",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "30 Oct 1944",
+    "code": "L20",
+    "name": "Operation Arcturus",
+    "forces": "Soviet vs. German",
+    "location": "Latvia",
+    "published": "Legends",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "2 Nov 1944",
+    "code": "E10",
+    "name": "Rocket Men",
+    "forces": "American vs. German",
+    "location": "Germany",
+    "published": "Eagles",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "24 Nov 1944",
+    "code": "S28",
+    "name": "Last Punch at Luzon",
+    "forces": "American vs. Japanese",
+    "location": "Philippines",
+    "published": "SS #2, S2e",
+    "creator": "Gordon Christie",
+    "done": true,
+    "title_ko": "루손의 마지막 일격",
+    "products": [
+      "SS",
+      "S2e"
+    ]
+  },
+  {
+    "date": "7 Dec 1944",
+    "code": "E08",
+    "name": "Bad Landfall",
+    "forces": "British vs. German",
+    "location": "Norway",
+    "published": "Eagles",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "12 Dec 1944",
+    "code": "S33",
+    "name": "Bomber Command",
+    "forces": "British vs. German",
+    "location": "Germany",
+    "published": "S2e",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "폭격기 사령부",
+    "products": [
+      "S2e"
+    ]
+  },
+  {
+    "date": "23 Dec 1944",
+    "code": "E18",
+    "name": "Zemke’s Wolfpack",
+    "forces": "American vs. German",
+    "location": "Ardennes Campaign",
+    "published": "Eagles",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "24 Dec 1944",
+    "code": "S34",
+    "name": "Counterblow",
+    "forces": "British vs. German",
+    "location": "Ardennes Campaign",
+    "published": "S2e",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "반격",
+    "products": [
+      "S2e"
+    ]
+  },
+  {
+    "date": "1 Jan 1945",
+    "code": "S24",
+    "name": "The Death of Jagdgeshwader 1",
+    "forces": "Allied vs. German",
+    "location": "Ardennes Campaign",
+    "published": "SS #2, S2e",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "제1전투항공단의 최후",
+    "products": [
+      "SS",
+      "S2e"
+    ]
+  },
+  {
+    "date": "13 Jan 1945",
+    "code": "L21",
+    "name": "Budapest Besieged",
+    "forces": "Allied vs. Axis",
+    "location": "Budapest",
+    "published": "Legends",
+    "creator": "Andrew Brazier",
+    "done": false,
+    "products": [
+      "Legends"
+    ]
+  },
+  {
+    "date": "24 Jan 1945",
+    "code": "E05",
+    "name": "Over the Oder",
+    "forces": "Soviet vs. German",
+    "location": "Silesia",
+    "published": "Eagles",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "24 Jan 1945",
+    "code": "E19",
+    "name": "Operation Meridian I",
+    "forces": "British vs. Japanese",
+    "location": "Sumatra",
+    "published": "Eagles",
+    "creator": "¶ Gordon Christie",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "29 Jan 1945",
+    "code": "E20",
+    "name": "Operation Meridian II",
+    "forces": "British vs. Japanese",
+    "location": "Sumatra",
+    "published": "Eagles",
+    "creator": "Gordon Christie",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "29 Jan 1945",
+    "code": "E12",
+    "name": "Meridian Counterattack",
+    "forces": "British vs. Japanese",
+    "location": "Sumatra",
+    "published": "Eagles",
+    "creator": "Andrew Brazier",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "9 Feb 1945",
+    "code": "S07",
+    "name": "Black Friday",
+    "forces": "British vs. German",
+    "location": "Norway",
+    "published": "Supremacy",
+    "creator": "Gordon Christie",
+    "done": true,
+    "title_ko": "검은 금요일",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "9 Feb 1945",
+    "code": "S20",
+    "name": "Last Hopes",
+    "forces": "American vs. German",
+    "location": "Germany",
+    "published": "Supremacy",
+    "creator": "Gordon Christie",
+    "done": true,
+    "title_ko": "마지막 희망",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "2 Mar 1945",
+    "code": "S03",
+    "name": "Rat Patrol",
+    "forces": "Allied vs. German",
+    "location": "Germany",
+    "published": "Supremacy",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "쥐잡이 초계",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "2 Mar 1945",
+    "code": "S32",
+    "name": "Höhenjäger",
+    "forces": "American vs. German",
+    "location": "Germany",
+    "published": "S2e",
+    "creator": "Scott Spencer",
+    "done": true,
+    "title_ko": "고고도 요격기",
+    "products": [
+      "S2e"
+    ]
+  },
+  {
+    "date": "19 Mar 1945",
+    "code": "S15",
+    "name": "Home Islands",
+    "forces": "American vs. Japanese",
+    "location": "Japan",
+    "published": "Supremacy",
+    "creator": "Gordon Christie",
+    "done": true,
+    "title_ko": "일본 본토",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "7 Apr 1945",
+    "code": "E11",
+    "name": "Things to Come",
+    "forces": "American vs. Japanese",
+    "location": "Japan",
+    "published": "Eagles",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "9 May 1945",
+    "code": "S10",
+    "name": "A First Class Show",
+    "forces": "British vs. Japanese",
+    "location": "Okinawa",
+    "published": "Supremacy",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "일류 쇼",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "11 May 1945",
+    "code": "S14",
+    "name": "Hadley & Evans",
+    "forces": "American vs. Japanese",
+    "location": "Okinawa",
+    "published": "Supremacy",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": true,
+    "title_ko": "해들리와 에번스",
+    "products": [
+      "Supremacy"
+    ]
+  },
+  {
+    "date": "18 May 1945",
+    "code": "E09",
+    "name": "Operation Rädda Danmark",
+    "forces": "Swedish vs. German",
+    "location": "Denmark",
+    "published": "Eagles",
+    "creator": "Lee Brimmicombe-Wood",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "16 Jul 1945",
+    "code": "E13",
+    "name": "Desperate Improvisation",
+    "forces": "American vs. Japanese",
+    "location": "Japan",
+    "published": "Eagles",
+    "creator": "Gordon Christie",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  },
+  {
+    "date": "8 Aug 1945",
+    "code": "E02",
+    "name": "The Last Samurai",
+    "forces": "American vs. Japanese",
+    "location": "Japan",
+    "published": "Eagles",
+    "creator": "Gordon Christie",
+    "done": false,
+    "products": [
+      "Eagles"
+    ]
+  }
+]

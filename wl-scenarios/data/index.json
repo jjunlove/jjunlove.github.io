@@ -1,0 +1,2178 @@
+[
+  {
+    "id": "S01",
+    "title_en": "Climb the Matterhorn",
+    "title_ko": "마터호른을 오르다",
+    "date": "1944-08-20",
+    "date_display": "1944년 8월 20일",
+    "theater": "pacific",
+    "location": "규슈",
+    "forces_en": "American vs. Japanese",
+    "product": "Supremacy",
+    "designer": "Forrest Speck",
+    "translated": true,
+    "sides": [
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      },
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      }
+    ],
+    "units": [
+      "B-29",
+      "Ki-84-Ia",
+      "Ki-61-I-KAIc"
+    ]
+  },
+  {
+    "id": "S02",
+    "title_en": "Piling On",
+    "title_ko": "총력전",
+    "date": "1943-12-24",
+    "date_display": "1943년 12월 24일",
+    "theater": "pacific",
+    "location": "라바울",
+    "forces_en": "Allied vs. Japanese",
+    "product": "Supremacy",
+    "designer": "Gordon Christie",
+    "translated": true,
+    "sides": [
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      },
+      {
+        "code": "al",
+        "marks": [
+          "gb1",
+          "us"
+        ]
+      }
+    ],
+    "units": [
+      "A6M5a",
+      "F4U-1",
+      "F6F-3",
+      "Kittyhawk Mk.IV"
+    ]
+  },
+  {
+    "id": "S03",
+    "title_en": "Rat Patrol",
+    "title_ko": "쥐잡이 초계",
+    "date": "1945-03-02",
+    "date_display": "1945년 3월 2일",
+    "theater": "euro-west",
+    "location": "독일",
+    "forces_en": "Allied vs. German",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "al",
+        "marks": [
+          "gb2"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      }
+    ],
+    "units": [
+      "Tempest Mk.V",
+      "Spitfire F Mk.XIV",
+      "Fw 190D-9",
+      "Bf 109K-4"
+    ]
+  },
+  {
+    "id": "S04",
+    "title_en": "You Don’t Know Jack",
+    "title_ko": "잭을 모르는군",
+    "date": "1944-06-11",
+    "date_display": "1944년 6월 11일",
+    "theater": "pacific",
+    "location": "괌",
+    "forces_en": "American vs. Japanese",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      },
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      }
+    ],
+    "units": [
+      "A6M5b",
+      "J2M3",
+      "F6F-5"
+    ]
+  },
+  {
+    "id": "S05",
+    "title_en": "Foul-up Over Wewak",
+    "title_ko": "웨왁 상공의 대혼선",
+    "date": "1943-12-01",
+    "date_display": "1943년 12월 1일",
+    "theater": "pacific",
+    "location": "뉴기니",
+    "forces_en": "American vs. Japanese",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      },
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      }
+    ],
+    "units": [
+      "Ki-61-Ib",
+      "Ki-43-IIa",
+      "B-24D",
+      "P-47D-2"
+    ]
+  },
+  {
+    "id": "S06",
+    "title_en": "The Last Hunters",
+    "title_ko": "마지막 사냥꾼들",
+    "date": "1944-08",
+    "date_display": "1944년 8월",
+    "theater": "euro-east",
+    "location": "베사라비아",
+    "forces_en": "Soviet vs. Romanian",
+    "product": "Supremacy",
+    "designer": "Andrew Brazier",
+    "translated": true,
+    "sides": [
+      {
+        "code": "ro",
+        "marks": [
+          "ro"
+        ]
+      },
+      {
+        "code": "su",
+        "marks": [
+          "su"
+        ]
+      }
+    ],
+    "units": [
+      "Bf 109G-4",
+      "IAR.81C",
+      "La-5FN",
+      "Yak-9",
+      "IL-2M"
+    ]
+  },
+  {
+    "id": "S07",
+    "title_en": "Black Friday",
+    "title_ko": "검은 금요일",
+    "date": "1945-02-09",
+    "date_display": "1945년 2월 9일",
+    "theater": "euro-west",
+    "location": "노르웨이",
+    "forces_en": "British vs. German",
+    "product": "Supremacy",
+    "designer": "Gordon Christie",
+    "translated": true,
+    "sides": [
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      },
+      {
+        "code": "al",
+        "marks": [
+          "gb2"
+        ]
+      }
+    ],
+    "units": [
+      "Fw 190A-8",
+      "Beaufighter TF Mk.X",
+      "Mustang Mk.III"
+    ]
+  },
+  {
+    "id": "S08",
+    "title_en": "First Blood on D-Day",
+    "title_ko": "D-데이의 첫 전과",
+    "date": "1944-06-06",
+    "date_display": "1944년 6월 6일",
+    "theater": "euro-west",
+    "location": "노르망디",
+    "forces_en": "Allied vs. German",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      },
+      {
+        "code": "al",
+        "marks": [
+          "us",
+          "gb2"
+        ]
+      }
+    ],
+    "units": [
+      "Fw 190A-4",
+      "P-47D-25",
+      "Typhoon Mk.IB"
+    ]
+  },
+  {
+    "id": "S09",
+    "title_en": "Operation 60,000",
+    "title_ko": "6만 작전",
+    "date": "1944-05-04",
+    "date_display": "1944년 5월 4일",
+    "theater": "euro-east",
+    "location": "흑해",
+    "forces_en": "Soviet vs. German",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      },
+      {
+        "code": "su",
+        "marks": [
+          "su"
+        ]
+      }
+    ],
+    "units": [
+      "Bf 109G-6",
+      "IL-2M",
+      "Yak-9D"
+    ]
+  },
+  {
+    "id": "S10",
+    "title_en": "A First-class Show",
+    "title_ko": "일류 쇼",
+    "date": "1945-05-09",
+    "date_display": "1945년 5월 9일",
+    "theater": "pacific",
+    "location": "오키나와",
+    "forces_en": "British vs. Japanese",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      },
+      {
+        "code": "gb",
+        "marks": [
+          "gb1"
+        ]
+      }
+    ],
+    "units": [
+      "D4Y4",
+      "A6M5b",
+      "Seafire LF Mk.III"
+    ]
+  },
+  {
+    "id": "S11",
+    "title_en": "Operation Ro",
+    "title_ko": "로 작전",
+    "date": "1943-11-01",
+    "date_display": "1943년 11월 1일",
+    "theater": "pacific",
+    "location": "부건빌",
+    "forces_en": "Allied vs. Japanese",
+    "product": "Supremacy",
+    "designer": "Gordon Christie",
+    "translated": true,
+    "sides": [
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      },
+      {
+        "code": "al",
+        "marks": [
+          "gb1",
+          "us"
+        ]
+      }
+    ],
+    "units": [
+      "A6M5a",
+      "D4Y1",
+      "Kittyhawk Mk.IV",
+      "F4U-1",
+      "P-38F"
+    ]
+  },
+  {
+    "id": "S12",
+    "title_en": "The Return of the Guards",
+    "title_ko": "근위대의 귀환",
+    "date": "1944-05-30",
+    "date_display": "1944년 5월 30일",
+    "theater": "euro-east",
+    "location": "루마니아",
+    "forces_en": "Soviet vs. German",
+    "product": "Supremacy",
+    "designer": "Andy Parsons",
+    "translated": true,
+    "sides": [
+      {
+        "code": "ax",
+        "marks": [
+          "ro",
+          "de1"
+        ]
+      },
+      {
+        "code": "su",
+        "marks": [
+          "su"
+        ]
+      }
+    ],
+    "units": [
+      "Ju 87D-1",
+      "IAR.81C",
+      "Bf 109G-6",
+      "Fw 190F-3",
+      "Fw 190A-4",
+      "P-39Q"
+    ]
+  },
+  {
+    "id": "S13",
+    "title_en": "Plastering Ploesti",
+    "title_ko": "플로이에슈티 강타",
+    "date": "1944-06-10",
+    "date_display": "1944년 6월 10일",
+    "theater": "euro-east",
+    "location": "루마니아",
+    "forces_en": "American vs. Romanian",
+    "product": "Supremacy",
+    "designer": "Andrew Brazier",
+    "translated": true,
+    "sides": [
+      {
+        "code": "ax",
+        "marks": [
+          "ro",
+          "de1"
+        ]
+      },
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      }
+    ],
+    "units": [
+      "IAR.81C",
+      "Bf 109G-6",
+      "P-38J"
+    ]
+  },
+  {
+    "id": "S14",
+    "title_en": "Hadley & Evans",
+    "title_ko": "해들리와 에번스",
+    "date": "1945-05-11",
+    "date_display": "1945년 5월 11일",
+    "theater": "pacific",
+    "location": "오키나와",
+    "forces_en": "American vs. Japanese",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      },
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      }
+    ],
+    "units": [
+      "D4Y4",
+      "B6N2",
+      "Ki-61-I-KAIc",
+      "A6M5b",
+      "F4U-1"
+    ]
+  },
+  {
+    "id": "S15",
+    "title_en": "Home Islands",
+    "title_ko": "일본 본토",
+    "date": "1945-03-19",
+    "date_display": "1945년 3월 19일",
+    "theater": "pacific",
+    "location": "일본",
+    "forces_en": "American vs. Japanese",
+    "product": "Supremacy",
+    "designer": "Gordon Christie",
+    "translated": true,
+    "sides": [
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      },
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      }
+    ],
+    "units": [
+      "F6F-5",
+      "F4U-1",
+      "SB2C-3",
+      "N1K2-J"
+    ]
+  },
+  {
+    "id": "S16",
+    "title_en": "Force on Force",
+    "title_ko": "전력 대 전력",
+    "date": "1944-02",
+    "date_display": "1944년 2월",
+    "theater": "euro-west",
+    "location": "독일",
+    "forces_en": "American vs. German",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      }
+    ],
+    "units": [
+      "B-17G",
+      "P-51B",
+      "Bf 109G-6",
+      "Fw 190A-8",
+      "Bf 110G-2"
+    ]
+  },
+  {
+    "id": "S17",
+    "title_en": "Smashing the Line",
+    "title_ko": "방어선 분쇄",
+    "date": "1944-07-14",
+    "date_display": "1944년 7월 14일",
+    "theater": "euro-east",
+    "location": "우크라이나",
+    "forces_en": "Soviet vs. German",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      },
+      {
+        "code": "su",
+        "marks": [
+          "su"
+        ]
+      }
+    ],
+    "units": [
+      "Bf 109G-6",
+      "Fw 190F-8",
+      "Fw 190A-8",
+      "Pe-2",
+      "Yak-9",
+      "IL-2M",
+      "La-5FN"
+    ]
+  },
+  {
+    "id": "S18",
+    "title_en": "Ramrod 5-31",
+    "title_ko": "램로드 5-31 작전",
+    "date": "1943-09-02",
+    "date_display": "1943년 9월 2일",
+    "theater": "euro-west",
+    "location": "프랑스 북부",
+    "forces_en": "Allied vs. German",
+    "product": "Supremacy",
+    "designer": "Gordon Christie",
+    "translated": true,
+    "sides": [
+      {
+        "code": "al",
+        "marks": [
+          "us",
+          "gb2"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de2"
+        ]
+      }
+    ],
+    "units": [
+      "B-26C",
+      "Spitfire F Mk.IX",
+      "Bf 109G-6",
+      "Fw 190A-4"
+    ]
+  },
+  {
+    "id": "S19",
+    "title_en": "Asso di Bastoni",
+    "title_ko": "곤봉 에이스",
+    "date": "1944-03-18",
+    "date_display": "1944년 3월 18일",
+    "theater": "med",
+    "location": "이탈리아",
+    "forces_en": "American vs. Axis",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "ax",
+        "marks": [
+          "ax",
+          "de1"
+        ]
+      },
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      }
+    ],
+    "units": [
+      "MC.205V",
+      "Bf 109G-6",
+      "B-24H",
+      "B-17F",
+      "P-38H",
+      "P-47D-10"
+    ]
+  },
+  {
+    "id": "S20",
+    "title_en": "Last Hopes",
+    "title_ko": "마지막 희망",
+    "date": "1945-02-09",
+    "date_display": "1945년 2월 9일",
+    "theater": "euro-west",
+    "location": "독일",
+    "forces_en": "American vs. German",
+    "product": "Supremacy",
+    "designer": "Gordon Christie",
+    "translated": true,
+    "sides": [
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      }
+    ],
+    "units": [
+      "B-17G",
+      "P-51D",
+      "Me 262A-1",
+      "Bf 109K-4",
+      "Fw 190D-9",
+      "Fw190A-8"
+    ]
+  },
+  {
+    "id": "S21",
+    "title_en": "Gunships!",
+    "title_ko": "건십!",
+    "date": "1943-10",
+    "date_display": "1943년 10월",
+    "theater": "pacific",
+    "location": "라바울",
+    "forces_en": "American vs. Japanese",
+    "product": "Supremacy",
+    "designer": "Gordon Christie",
+    "translated": true,
+    "sides": [
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      },
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      }
+    ],
+    "units": [
+      "A6M5a",
+      "B-25 건십",
+      "P-38F"
+    ]
+  },
+  {
+    "id": "S22",
+    "title_en": "Unlucky 13th",
+    "title_ko": "불운의 제13전투비행단",
+    "date": "1944-03-06",
+    "date_display": "1944년 3월 6일",
+    "theater": "euro-west",
+    "location": "독일",
+    "forces_en": "American vs. German",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      }
+    ],
+    "units": [
+      "B-17G",
+      "P-47D-10",
+      "Fw 190A-6",
+      "Bf 109G-6",
+      "Fw 190A-4"
+    ]
+  },
+  {
+    "id": "S23",
+    "title_en": "The Destroyers Attack",
+    "title_ko": "구축전투기의 공격",
+    "date": "1944-03-06",
+    "date_display": "1944년 3월 6일",
+    "theater": "euro-west",
+    "location": "독일",
+    "forces_en": "American vs. German",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      }
+    ],
+    "units": [
+      "B-17G",
+      "P-51B",
+      "Bf 110G-2",
+      "Me 410A-1",
+      "Bf 110G-2/R3",
+      "Bf 109G-6",
+      "Fw 190A-8/R8"
+    ]
+  },
+  {
+    "id": "S24",
+    "title_en": "The Death of Jagdgeschwader 1",
+    "title_ko": "제1전투항공단의 최후",
+    "date": "1945-01-01",
+    "date_display": "1945년 1월 1일",
+    "theater": "euro-west",
+    "location": "벨기에",
+    "forces_en": "Allied vs. German",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "al",
+        "marks": [
+          "gb2"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      }
+    ],
+    "units": [
+      "Spitfire F Mk.IX",
+      "Fw 190A-8"
+    ]
+  },
+  {
+    "id": "S25",
+    "title_en": "Escape from Tapa",
+    "title_ko": "타파 탈출",
+    "date": "1944-07-26",
+    "date_display": "1944년 7월 26일",
+    "theater": "euro-east",
+    "location": "에스토니아",
+    "forces_en": "Soviet vs. German",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      },
+      {
+        "code": "su",
+        "marks": [
+          "su"
+        ]
+      }
+    ],
+    "units": [
+      "Fw 190A-4",
+      "Pe-2",
+      "Yak-9"
+    ]
+  },
+  {
+    "id": "S26",
+    "title_en": "Two-ocean Navy",
+    "title_ko": "양대양 해군",
+    "date": "1943-11-11",
+    "date_display": "1943년 11월 11일",
+    "theater": "pacific",
+    "location": "그린 제도",
+    "forces_en": "American vs. Japanese",
+    "product": "Supremacy",
+    "designer": "Gordon Christie",
+    "translated": true,
+    "sides": [
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      },
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      }
+    ],
+    "units": [
+      "A6M5a",
+      "D3A2",
+      "B5N2",
+      "F4U-1",
+      "F6F-3"
+    ]
+  },
+  {
+    "id": "S27",
+    "title_en": "Greycap",
+    "title_ko": "그레이캡",
+    "date": "1943-04-03",
+    "date_display": "1943년 4월 3일",
+    "theater": "euro-west",
+    "location": "프랑스 북부",
+    "forces_en": "Allied vs. German",
+    "product": "Supremacy",
+    "designer": "Gordon Christie",
+    "translated": true,
+    "sides": [
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      },
+      {
+        "code": "ca",
+        "marks": [
+          "gb2"
+        ]
+      }
+    ],
+    "units": [
+      "Fw 190A-4",
+      "Spitfire F Mk.IX"
+    ]
+  },
+  {
+    "id": "S28",
+    "title_en": "Last Punch at Luzon",
+    "title_ko": "루손의 마지막 일격",
+    "date": "1944-11-24",
+    "date_display": "1944년 11월 24일",
+    "theater": "pacific",
+    "location": "필리핀",
+    "forces_en": "American vs. Japanese",
+    "product": "Supremacy",
+    "designer": "Gordon Christie",
+    "translated": true,
+    "sides": [
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      },
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      }
+    ],
+    "units": [
+      "Ki-61-I-KAIc",
+      "Ki-67-Ia",
+      "Ki-43-IIb",
+      "Ki-84-Ia",
+      "P-38J",
+      "P-47D-10"
+    ]
+  },
+  {
+    "id": "S29",
+    "title_en": "Kursk Counterattack",
+    "title_ko": "쿠르스크 반격",
+    "date": "1943-07-06",
+    "date_display": "1943년 7월 6일",
+    "theater": "euro-east",
+    "location": "쿠르스크",
+    "forces_en": "Soviet vs. German",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "de",
+        "marks": [
+          "de2"
+        ]
+      },
+      {
+        "code": "su",
+        "marks": [
+          "su"
+        ]
+      }
+    ],
+    "units": [
+      "Fw 190A-4",
+      "IL-2M",
+      "Yak-7",
+      "Yak-7B"
+    ]
+  },
+  {
+    "id": "S30",
+    "title_en": "Cornered Wolf",
+    "title_ko": "궁지에 몰린 늑대",
+    "date": "1943-10-10",
+    "date_display": "1943년 10월 10일",
+    "theater": "euro-west",
+    "location": "독일",
+    "forces_en": "American vs. German",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      }
+    ],
+    "units": [
+      "B-17F",
+      "Bf 109G-6",
+      "Fw 190A-6",
+      "Bf 110G-2",
+      "Me 410A-1"
+    ]
+  },
+  {
+    "id": "S31",
+    "title_en": "Apache Marauders",
+    "title_ko": "아파치 머로더",
+    "date": "1943-08-22",
+    "date_display": "1943년 8월 22일",
+    "theater": "med",
+    "location": "살레르노",
+    "forces_en": "American vs. German",
+    "product": "Supremacy",
+    "designer": "Scott Spencer",
+    "translated": true,
+    "sides": [
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de2"
+        ]
+      }
+    ],
+    "units": [
+      "B-26C",
+      "A-36A",
+      "Bf 109G-6"
+    ]
+  },
+  {
+    "id": "S32",
+    "title_en": "Höhenjäger",
+    "title_ko": "고고도 요격기",
+    "date": "1945-03-02",
+    "date_display": "1945년 3월 2일",
+    "theater": "euro-west",
+    "location": "독일 중부",
+    "forces_en": "American vs. German",
+    "product": "Supremacy",
+    "designer": "Scott Spencer",
+    "translated": true,
+    "sides": [
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      }
+    ],
+    "units": [
+      "B-17G",
+      "P-51D",
+      "Fw 190D-9",
+      "Ta 152H-1",
+      "Fw 190A-8",
+      "Bf 109G-10"
+    ]
+  },
+  {
+    "id": "S33",
+    "title_en": "Bomber Command",
+    "title_ko": "폭격기 사령부",
+    "date": "1944-12-12",
+    "date_display": "1944년 12월 12일",
+    "theater": "euro-west",
+    "location": "루르",
+    "forces_en": "British vs. German",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "gb",
+        "marks": [
+          "gb2"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      }
+    ],
+    "units": [
+      "Lancaster B Mk.III",
+      "Mustang Mk. III",
+      "Bf 109G-14"
+    ]
+  },
+  {
+    "id": "S34",
+    "title_en": "Counterblow",
+    "title_ko": "반격",
+    "date": "1944-12-24",
+    "date_display": "1944년 12월 24일",
+    "theater": "euro-west",
+    "location": "루르",
+    "forces_en": "British vs. German",
+    "product": "Supremacy",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "gb",
+        "marks": [
+          "gb2"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      }
+    ],
+    "units": [
+      "Halifax B Mk.III",
+      "Mustang Mk. III",
+      "Fw 190A-8",
+      "Bf 109G-14"
+    ]
+  },
+  {
+    "id": "S35",
+    "title_en": "Black Day Over the Ore Mountains",
+    "title_ko": "광석 산맥 위의 검은 날",
+    "date": "1944-09-11",
+    "date_display": "1944년 9월 11일",
+    "theater": "euro-west",
+    "location": "독일과 주데텐란트",
+    "forces_en": "American vs. German",
+    "product": "Supremacy",
+    "designer": "Petr Mojžíš",
+    "translated": true,
+    "sides": [
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      }
+    ],
+    "units": [
+      "B-17G",
+      "P-51D",
+      "Fw 190A-8/R8",
+      "Bf 109G-6"
+    ]
+  },
+  {
+    "id": "V01",
+    "title_en": "Tyger! Tyger!",
+    "title_ko": "호랑이여! 호랑이여!",
+    "date": "1941-12-23",
+    "date_display": "1941년 12월 23일",
+    "theater": "pacific",
+    "location": "버마",
+    "forces_en": "Chinese vs. Japanese",
+    "product": "Victories",
+    "designer": "Allan Cannamore",
+    "translated": true,
+    "sides": [
+      {
+        "code": "cn",
+        "marks": [
+          "cn"
+        ]
+      },
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      }
+    ],
+    "units": [
+      "P-40B",
+      "Ki-21-IIa"
+    ]
+  },
+  {
+    "id": "V02",
+    "title_en": "Birthday Present",
+    "title_ko": "생일 선물",
+    "date": "1942-04-28",
+    "date_display": "1942년 4월 28일",
+    "theater": "pacific",
+    "location": "버마",
+    "forces_en": "Chinese vs. Japanese",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "cn",
+        "marks": [
+          "cn"
+        ]
+      },
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      }
+    ],
+    "units": [
+      "P-40B",
+      "P-40E",
+      "Ki-21-IIa",
+      "Ki-43-Ia"
+    ]
+  },
+  {
+    "id": "V03",
+    "title_en": "Stalingrad Airlift",
+    "title_ko": "스탈린그라드 공수",
+    "date": "1942-12",
+    "date_display": "1942년 12월",
+    "theater": "euro-east",
+    "location": "스탈린그라드 접근로",
+    "forces_en": "German vs. Soviet",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "de",
+        "marks": [
+          "de2"
+        ]
+      },
+      {
+        "code": "su",
+        "marks": [
+          "su"
+        ]
+      }
+    ],
+    "units": [
+      "He 111H-1",
+      "Bf 109F-4",
+      "Yak-1"
+    ]
+  },
+  {
+    "id": "V04",
+    "title_en": "Penny Packets",
+    "title_ko": "소규모 축차 투입",
+    "date": "1940-08",
+    "date_display": "1940년 8월",
+    "theater": "euro-west",
+    "location": "잉글랜드 남부",
+    "forces_en": "British vs. German",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "gb",
+        "marks": [
+          "gb3"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de2"
+        ]
+      }
+    ],
+    "units": [
+      "Spitfire Mk.IA",
+      "Hurricane Mk.I",
+      "He 111H-1",
+      "Bf 109E-4"
+    ]
+  },
+  {
+    "id": "V05",
+    "title_en": "Haway the Lads!",
+    "title_ko": "가자, 젊은이들!",
+    "date": "1940-08-15",
+    "date_display": "1940년 8월 15일",
+    "theater": "euro-west",
+    "location": "잉글랜드 북부",
+    "forces_en": "British vs. German",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "gb",
+        "marks": [
+          "gb3"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de2"
+        ]
+      }
+    ],
+    "units": [
+      "Spitfire Mk.IA",
+      "Hurricane Mk.I",
+      "He 111H-1",
+      "Bf 110C-4"
+    ]
+  },
+  {
+    "id": "V06",
+    "title_en": "Let's Go and Surround Them!",
+    "title_ko": "가서 포위해 버리자!",
+    "date": "1940-08-15",
+    "date_display": "1940년 8월 15일",
+    "theater": "euro-west",
+    "location": "잉글랜드 남부",
+    "forces_en": "British vs. German",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "gb",
+        "marks": [
+          "gb3"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de2"
+        ]
+      }
+    ],
+    "units": [
+      "Spitfire Mk.IA",
+      "Hurricane Mk.I",
+      "Ju 87B-1",
+      "Bf 110C-4",
+      "Bf 109E-4"
+    ]
+  },
+  {
+    "id": "V07",
+    "title_en": "Malta Recce",
+    "title_ko": "몰타 정찰",
+    "date": "1941-04-11",
+    "date_display": "1941년 4월 11일",
+    "theater": "med",
+    "location": "몰타",
+    "forces_en": "British vs. Axis",
+    "product": "Victories",
+    "designer": "Gordon Christie",
+    "translated": true,
+    "sides": [
+      {
+        "code": "gb",
+        "marks": [
+          "gb3"
+        ]
+      },
+      {
+        "code": "ax",
+        "marks": [
+          "it",
+          "de2"
+        ]
+      }
+    ],
+    "units": [
+      "Hurricane Mk.IIA",
+      "Hurricane Mk.I",
+      "Bf 109E-4",
+      "Bf 110C-4",
+      "MC.200 Saetta",
+      "CR.42"
+    ]
+  },
+  {
+    "id": "V08",
+    "title_en": "Jagdgeschwader Mölders",
+    "title_ko": "묄더스 전투항공단",
+    "date": "1942-08-04",
+    "date_display": "1942년 8월 4일",
+    "theater": "euro-east",
+    "location": "러시아 르제프",
+    "forces_en": "German vs. Soviet",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "de",
+        "marks": [
+          "de2"
+        ]
+      },
+      {
+        "code": "su",
+        "marks": [
+          "su"
+        ]
+      }
+    ],
+    "units": [
+      "Bf 109F-2",
+      "LaGG-3",
+      "IL-2"
+    ]
+  },
+  {
+    "id": "V09",
+    "title_en": "Like Arrows Against Gladiators",
+    "title_ko": "글래디에이터를 향한 화살",
+    "date": "1941-02-13",
+    "date_display": "1941년 2월 13일",
+    "theater": "med",
+    "location": "그리스",
+    "forces_en": "Italian vs. British",
+    "product": "Victories",
+    "designer": "Andrew Brazier",
+    "translated": true,
+    "sides": [
+      {
+        "code": "it",
+        "marks": [
+          "it"
+        ]
+      },
+      {
+        "code": "gb",
+        "marks": [
+          "gb3"
+        ]
+      }
+    ],
+    "units": [
+      "G.50",
+      "Blenheim Mk.I",
+      "Gladiator Mk.II"
+    ]
+  },
+  {
+    "id": "V10",
+    "title_en": "Cactus Thorns",
+    "title_ko": "캑터스의 가시",
+    "date": "1942-09",
+    "date_display": "1942년 9월",
+    "theater": "pacific",
+    "location": "솔로몬 제도",
+    "forces_en": "Japanese vs. American",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      },
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      }
+    ],
+    "units": [
+      "G4M1",
+      "A6M2",
+      "F4F-4"
+    ]
+  },
+  {
+    "id": "V11",
+    "title_en": "The Bridges at Sedan",
+    "title_ko": "스당의 교량",
+    "date": "1940-05-14",
+    "date_display": "1940년 5월 14일",
+    "theater": "euro-west",
+    "location": "프랑스",
+    "forces_en": "British vs. German",
+    "product": "Victories",
+    "designer": "Gordon Christie",
+    "translated": true,
+    "sides": [
+      {
+        "code": "gb",
+        "marks": [
+          "gb3"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de2"
+        ]
+      }
+    ],
+    "units": [
+      "Hurricane Mk.I",
+      "Blenheim Mk.I",
+      "Battle Mk.I",
+      "Ju 87B-1",
+      "Bf 109E-1"
+    ]
+  },
+  {
+    "id": "V12",
+    "title_en": "The Rain Upon the Sea",
+    "title_ko": "바다 위의 비",
+    "date": "1942-05-08",
+    "date_display": "1942년 5월 8일",
+    "theater": "pacific",
+    "location": "산호해",
+    "forces_en": "American vs. Japanese",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "us",
+        "marks": [
+          "us2"
+        ]
+      },
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      }
+    ],
+    "units": [
+      "SBD-3",
+      "F4F-3",
+      "TBD-1",
+      "A6M2"
+    ]
+  },
+  {
+    "id": "V13",
+    "title_en": "Hey Rube!",
+    "title_ko": "긴급 복귀 신호",
+    "date": "1942-05-08",
+    "date_display": "1942년 5월 8일",
+    "theater": "pacific",
+    "location": "산호해",
+    "forces_en": "American vs. Japanese",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "us",
+        "marks": [
+          "us2"
+        ]
+      },
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      }
+    ],
+    "units": [
+      "SBD-3",
+      "F4F-3",
+      "A6M2",
+      "D3A1",
+      "B5N2"
+    ]
+  },
+  {
+    "id": "V14",
+    "title_en": "The Big 'E",
+    "title_ko": "빅 E",
+    "date": "1942-10-26",
+    "date_display": "1942년 10월 26일",
+    "theater": "pacific",
+    "location": "산타크루스 제도",
+    "forces_en": "American vs. Japanese",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      },
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      }
+    ],
+    "units": [
+      "F4F-4",
+      "A6M2",
+      "D3A1",
+      "B5N2"
+    ]
+  },
+  {
+    "id": "V15",
+    "title_en": "Taking Wing",
+    "title_ko": "날아오르다",
+    "date": "1940-09",
+    "date_display": "1940년 9월",
+    "theater": "euro-west",
+    "location": "잉글랜드 남부",
+    "forces_en": "British vs. German",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "gb",
+        "marks": [
+          "gb3"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de2"
+        ]
+      }
+    ],
+    "units": [
+      "Spitfire Mk.IA",
+      "Hurricane Mk.I",
+      "He 111H-1",
+      "Do 17Z-2",
+      "Bf 109E-4"
+    ]
+  },
+  {
+    "id": "V16",
+    "title_en": "Shark Attack",
+    "title_ko": "상어의 습격",
+    "date": "1941-12-04",
+    "date_display": "1941년 12월 4일",
+    "theater": "med",
+    "location": "리비아",
+    "forces_en": "Axis vs. Allied",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "ax",
+        "marks": [
+          "it",
+          "de2"
+        ]
+      },
+      {
+        "code": "al",
+        "marks": [
+          "gb2"
+        ]
+      }
+    ],
+    "units": [
+      "Ju 87B-2 Picchiatello",
+      "MC.200",
+      "MC.202",
+      "Bf 109F-2",
+      "Ju 87B-1",
+      "G.50 bis",
+      "Tomahawk Mk.II",
+      "Hurricane Mk.I"
+    ]
+  },
+  {
+    "id": "V17",
+    "title_en": "Nemesis",
+    "title_ko": "네메시스",
+    "date": "1941-04-20",
+    "date_display": "1941년 4월 20일",
+    "theater": "med",
+    "location": "그리스",
+    "forces_en": "British vs. German",
+    "product": "Victories",
+    "designer": "Gordon Christie",
+    "translated": true,
+    "sides": [
+      {
+        "code": "gb",
+        "marks": [
+          "gb2"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de2"
+        ]
+      }
+    ],
+    "units": [
+      "Hurricane Mk.I",
+      "Ju 88A-4",
+      "Bf 109E-4",
+      "Bf 110C-4"
+    ]
+  },
+  {
+    "id": "V18",
+    "title_en": "Yanks Over Alamein",
+    "title_ko": "알라메인 상공의 양키",
+    "date": "1942-10-27",
+    "date_display": "1942년 10월 27일",
+    "theater": "med",
+    "location": "이집트 엘 알라메인",
+    "forces_en": "Axis vs. Allied",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "ax",
+        "marks": [
+          "it",
+          "de2"
+        ]
+      },
+      {
+        "code": "al",
+        "marks": [
+          "us",
+          "gb2"
+        ]
+      }
+    ],
+    "units": [
+      "Ju 87B-2 Picchiatello",
+      "CR.42",
+      "MC.202",
+      "Bf 109F-4",
+      "Spitfire Mk.VB",
+      "P-40F",
+      "Hurricane Mk.IIC"
+    ]
+  },
+  {
+    "id": "V19",
+    "title_en": "Circus, Circus",
+    "title_ko": "서커스, 서커스",
+    "date": "1942-01",
+    "date_display": "1942년 1월",
+    "theater": "euro-west",
+    "location": "프랑스 북부",
+    "forces_en": "British vs. German",
+    "product": "Victories",
+    "designer": "Andy Parsons",
+    "translated": true,
+    "sides": [
+      {
+        "code": "gb",
+        "marks": [
+          "gb2"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de2"
+        ]
+      }
+    ],
+    "units": [
+      "Boston Mk.III",
+      "Spitfire Mk.VB",
+      "Fw 190A-2",
+      "Bf 109F-4"
+    ]
+  },
+  {
+    "id": "V20",
+    "title_en": "Here Come the Last Fifty Spitfires",
+    "title_ko": "마지막 Spitfire 50대가 온다",
+    "date": "1940-09-15",
+    "date_display": "1940년 9월 15일",
+    "theater": "euro-west",
+    "location": "잉글랜드 남부",
+    "forces_en": "British vs. German",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "gb",
+        "marks": [
+          "gb3"
+        ]
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de2"
+        ]
+      }
+    ],
+    "units": [
+      "Spitfire Mk.IA",
+      "Hurricane Mk.I",
+      "He 111H-1",
+      "Do 17Z-2",
+      "Bf 109E-4"
+    ]
+  },
+  {
+    "id": "V21",
+    "title_en": "Send in the Clowns",
+    "title_ko": "광대를 투입하라",
+    "date": "1941",
+    "date_display": "1941년 봄",
+    "theater": "euro-west",
+    "location": "프랑스 북부",
+    "forces_en": "German vs. British",
+    "product": "Victories",
+    "designer": "Gordon Christie",
+    "translated": true,
+    "sides": [
+      {
+        "code": "de",
+        "marks": [
+          "de2"
+        ]
+      },
+      {
+        "code": "gb",
+        "marks": [
+          "gb2"
+        ]
+      }
+    ],
+    "units": [
+      "Bf 109F-2",
+      "Blenheim Mk.IV",
+      "Hurricane Mk.IIA",
+      "Spitfire Mk.VB"
+    ]
+  },
+  {
+    "id": "V22",
+    "title_en": "The Day of Jubilee",
+    "title_ko": "주빌리 작전의 날",
+    "date": "1942-08-19",
+    "date_display": "1942년 8월 19일",
+    "theater": "euro-west",
+    "location": "프랑스 북부",
+    "forces_en": "German vs. Allied",
+    "product": "Victories",
+    "designer": "Andy Parsons",
+    "translated": true,
+    "sides": [
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      },
+      {
+        "code": "al",
+        "marks": [
+          "gb1"
+        ]
+      }
+    ],
+    "units": [
+      "Do 217E-2",
+      "Fw 190A-2",
+      "Ju 88A-4",
+      "Spitfire Mk.VB",
+      "Hurricane Mk.IIC",
+      "Boston Mk.III"
+    ]
+  },
+  {
+    "id": "V23",
+    "title_en": "Shimatta",
+    "title_ko": "제기랄",
+    "date": "1942-06-04",
+    "date_display": "1942년 6월 4일",
+    "theater": "pacific",
+    "location": "미드웨이",
+    "forces_en": "Japanese vs. American",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      },
+      {
+        "code": "us",
+        "marks": [
+          "us"
+        ]
+      }
+    ],
+    "units": [
+      "A6M2",
+      "TBD-1",
+      "F4F-4",
+      "SBD-3"
+    ]
+  },
+  {
+    "id": "V24",
+    "title_en": "Operation Flax",
+    "title_ko": "플랙스 작전",
+    "date": "1943-04-19",
+    "date_display": "1943년 4월 19일",
+    "theater": "med",
+    "location": "튀니지",
+    "forces_en": "Italian vs. Allied",
+    "product": "Victories",
+    "designer": "Gordon Christie",
+    "translated": true,
+    "sides": [
+      {
+        "code": "it",
+        "marks": [
+          "it"
+        ]
+      },
+      {
+        "code": "al",
+        "marks": [
+          "gb1"
+        ]
+      }
+    ],
+    "units": [
+      "SM.79-II",
+      "MC.202",
+      "Spitfire Mk.VB",
+      "Kittyhawk Mk.II"
+    ]
+  },
+  {
+    "id": "V25",
+    "title_en": "Singapore Sling",
+    "title_ko": "싱가포르 슬링",
+    "date": "1942-01-20",
+    "date_display": "1942년 1월 20일",
+    "theater": "pacific",
+    "location": "싱가포르",
+    "forces_en": "Allied vs. 일본군",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "al",
+        "marks": [
+          "us"
+        ]
+      },
+      {
+        "code": "jp",
+        "marks": [
+          "jp"
+        ]
+      }
+    ],
+    "units": [
+      "Hurricane Mk.IIB",
+      "Buffalo Mk.I",
+      "Ki-21-IIa",
+      "Ki-43-Ib"
+    ]
+  },
+  {
+    "id": "V26",
+    "title_en": "Hasn't Ivan Learned Anything?",
+    "title_ko": "이반은 아무것도 못 배웠나?",
+    "date": "1942-07-06",
+    "date_display": "1942년 7월 6일",
+    "theater": "euro-east",
+    "location": "보로네시",
+    "forces_en": "독일군 vs. 소련군",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      },
+      {
+        "code": "",
+        "marks": []
+      }
+    ],
+    "units": [
+      "Ju 88A-4",
+      "Bf 109F-4",
+      "Yak-1",
+      "LaGG-3",
+      "IL-2"
+    ]
+  },
+  {
+    "id": "V27",
+    "title_en": "White Cliffs",
+    "title_ko": "하얀 절벽",
+    "date": "1940-07-29",
+    "date_display": "1940년 7월 29일",
+    "theater": "euro-west",
+    "location": "잉글랜드 남부",
+    "forces_en": "영국군 vs. 독일군",
+    "product": "Victories",
+    "designer": "Andrew Brazier",
+    "translated": true,
+    "sides": [
+      {
+        "code": "",
+        "marks": []
+      },
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      }
+    ],
+    "units": [
+      "Spitfire Mk.IA",
+      "Hurricane Mk.I",
+      "Ju 87B-1",
+      "Bf 109E-4"
+    ]
+  },
+  {
+    "id": "V28",
+    "title_en": "Channel Dash",
+    "title_ko": "해협 돌파",
+    "date": "1942-02-12",
+    "date_display": "1942년 2월 12일",
+    "theater": "euro-west",
+    "location": "영국 해협",
+    "forces_en": "German vs. British",
+    "product": "Victories",
+    "designer": "Martin Åkerlund",
+    "translated": true,
+    "sides": [
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      },
+      {
+        "code": "gb",
+        "marks": [
+          "gb1"
+        ]
+      }
+    ],
+    "units": [
+      "Bf 109F-4",
+      "Fw 190A-2",
+      "Swordfish Mk.I",
+      "Spitfire Mk.VB",
+      "Hurricane Mk.IIC",
+      "Whirlwind Mk.I"
+    ]
+  },
+  {
+    "id": "V29",
+    "title_en": "Demyansk Pocket",
+    "title_ko": "데미얀스크 포위전",
+    "date": "1942-04",
+    "date_display": "1942년 4월",
+    "theater": "euro-east",
+    "location": "데미얀스크",
+    "forces_en": "German vs. Soviet",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "de",
+        "marks": [
+          "de1"
+        ]
+      },
+      {
+        "code": "su",
+        "marks": [
+          "su"
+        ]
+      }
+    ],
+    "units": [
+      "Ju 52/3m",
+      "Bf 109F-4",
+      "P-40E",
+      "LaGG-3"
+    ]
+  },
+  {
+    "id": "V30",
+    "title_en": "Stalingrad Outskirts",
+    "title_ko": "스탈린그라드 외곽",
+    "date": "1942-09-08",
+    "date_display": "1942년 9월 8일",
+    "theater": "euro-east",
+    "location": "스탈린그라드",
+    "forces_en": "Axis vs. Soviet",
+    "product": "Victories",
+    "designer": "Lee Brimmicombe-Wood",
+    "translated": true,
+    "sides": [
+      {
+        "code": "ax",
+        "marks": [
+          "ax"
+        ]
+      },
+      {
+        "code": "su",
+        "marks": [
+          "su"
+        ]
+      }
+    ],
+    "units": [
+      "Ju 88A-4",
+      "Bf 109F-4",
+      "Bf 109E-7",
+      "He 111H-4",
+      "La-5",
+      "P-40E",
+      "Yak-1"
+    ]
+  }
+]

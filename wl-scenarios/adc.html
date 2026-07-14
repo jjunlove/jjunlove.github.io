@@ -1,0 +1,23 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>어떤 ADC를 쓰나요? — Wing Leader</title>
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div class="wrap">
+    <div class="navbar"><a href="index.html">← 목차</a></div>
+    <div class="gate-title">어떤 ADC를 쓰나요?</div>
+    <div class="gate-sub">시나리오에서 기종에 밑줄이 있으면 파생형입니다 [5.1]. 왼쪽 기종에 해당하는 ADC를 오른쪽에서 찾으세요.</div>
+    <div class="fbar-top">
+      <input class="search adc-search" id="adc-search" type="search" placeholder="🔎 기종·ADC 검색…" style="margin:0">
+      <div class="segmented" id="adc-src"></div>
+    </div>
+    <div class="count" id="adc-count"></div>
+    <div style="overflow-x:auto"><table class="adc-table" id="adc-table"></table></div>
+  </div>
+  <script type="module" src="assets/js/adc.js"></script>
+</body>
+</html>

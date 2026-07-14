@@ -1,0 +1,1280 @@
+[
+  {
+    "aircraft": "A-36A ‘Apache’",
+    "adc": "A-36A ‘Apache’",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "A6M5, A6M5a ‘Zero’ (Zeke)",
+    "adc": "A6M5b ‘Zero’ (Zeke)",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "A6M5b ‘Zero’ (Zeke)",
+    "adc": "A6M5b ‘Zero’ (Zeke)",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "A6M6c ‘Zero’ (Zeke)",
+    "adc": "A6M5b ‘Zero’ (Zeke)",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "B-17E, F Flying Fortress",
+    "adc": "B-17G Flying Fortress",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "B-17G Flying Fortress",
+    "adc": "B-17G Flying Fortress",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "B-24D Liberator",
+    "adc": "B-24H Liberator",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "B-24G, H, J, L, M Liberator",
+    "adc": "B-24H Liberator",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "B-25B, C, D Mitchell",
+    "adc": "B-25C Mitchell",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "B-25 Mitchell Gunship",
+    "adc": "B-25C Mitchell",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "B-25G Mitchell",
+    "adc": "B-25C Mitchell",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "B-26A Marauder",
+    "adc": "B-26C Marauder",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "B-26B, C, F, G Marauder",
+    "adc": "B-26C Marauder",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "B-29, B-29A Superfortress",
+    "adc": "B-29 Superfortress",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "B-32",
+    "adc": "Pe-2 ‘Peshka’",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "B6N1, B6N2, B6N2a Tenzan (Jill)",
+    "adc": "B6N2 Tenzan (Jill)",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Beaufighter Mk.IC",
+    "adc": "Beaufighter TF Mk.X",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Beaufighter Mk.VIC",
+    "adc": "Beaufighter TF Mk.X",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Beaufighter TF Mk.X",
+    "adc": "Beaufighter TF Mk.X",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Beaufighter Mk.XIC",
+    "adc": "Beaufighter TF Mk.X",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Bf 109G-1 to G-6, G-14 ‘Gustav’",
+    "adc": "Bf 109G-6 ‘Gustav’",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Bf 109G-10 ‘Gustav’",
+    "adc": "Bf 109K-4 ‘Kurfürst’",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Bf 109G-10/U4 ‘Gustav’",
+    "adc": "Bf 109K-4 ‘Kurfürst’",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Bf 109K-4 ‘Kurfürst’",
+    "adc": "Bf 109K-4 ‘Kurfürst’",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Bf 110G-2",
+    "adc": "Bf 110G-2",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Bf 110G-2/R1, G-2/R3",
+    "adc": "Bf 110G-2",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Corsair Mk.I, Mk.II",
+    "adc": "F4U-1 Corsair",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "D4Y1, D4Y2, D4Y3 Suisei (Judy)",
+    "adc": "D4Y1 Suisei (Judy)",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "D4Y1-C, D4Y4 Suisei (Judy)",
+    "adc": "D4Y1 Suisei (Judy)",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "F4U-1, -1A Corsair",
+    "adc": "F4U-1 Corsair",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "F4U-1C Corsair",
+    "adc": "F4U-1 Corsair",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "F6F-3 Hellcat",
+    "adc": "F6F-5 Hellcat",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "F6F-5 Hellcat",
+    "adc": "F6F-5 Hellcat",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "FG-1A Corsair",
+    "adc": "F4U-1 Corsair",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Fw 190A-3, A-4, A-5",
+    "adc": "Fw 190A-4",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Fw 190A-6, A-7",
+    "adc": "Fw 190A-4",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Fw 190A-8",
+    "adc": "Fw 190A-8",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Fw 190A-8/R8 ‘Sturmbock’",
+    "adc": "Fw 190A-8/R8 ‘Sturmbock’",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Fw 190D-9 ‘Dora’",
+    "adc": "Fw 190D-9 ‘Dora’",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Fw 190D-11 ‘Dora’",
+    "adc": "Fw 190D-9 ‘Dora’",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Fw 190F-1, F-2, F-3",
+    "adc": "Fw 190A-8",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Fw 190F-8",
+    "adc": "Fw 190A-8/R8 ‘Sturmbock’",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Fw 190G-1, G-2, G-3",
+    "adc": "Fw 190A-4",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Halifax B Mk.III, B Mk.VI, B Mk.VII",
+    "adc": "Halifax B Mk.III",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Hellcat Mk.I",
+    "adc": "F6F-5 Hellcat",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Hellcat F Mk.II",
+    "adc": "F6F-5 Hellcat",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "IAR.80, 80A, 80B, 80C",
+    "adc": "IAR.81C",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "IAR.81A, 81B, 81C",
+    "adc": "IAR.81C",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "IL-2M ‘Ilyusha’",
+    "adc": "IL-2M ‘Ilyusha’",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "IL-2M-3, IL-2-37 ‘Ilyusha’",
+    "adc": "IL-2M ‘Ilyusha’",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "J2M2 Raiden (Jack)",
+    "adc": "J2M3 Raiden (Jack)",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "J2M3 Raiden (Jack)",
+    "adc": "J2M3 Raiden (Jack)",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Ju 87D-1, D-5, D-7, D-8 ‘Stuka’",
+    "adc": "Ju 87D-3 ‘Stuka’",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Ju 87D-3 ‘Stuka’",
+    "adc": "Ju 87D-3 ‘Stuka’",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Ju 87G-1, G-2 ‘Stuka’",
+    "adc": "Ju 87D-3 ‘Stuka’",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Ki-43-IIa, -IIb, -II-KAI, -IIIa Hayabusa (Oscar)",
+    "adc": "Ki-43-IIa Hayabusa (Oscar)",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Ki-61-Ia, -Ib Hien (Tony)",
+    "adc": "Ki-61-I-KAIc Hien (Tony)",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Ki-61-I-KAIc Hien (Tony)",
+    "adc": "Ki-61-I-KAIc Hien (Tony)",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Ki-67-Ia, -Ib Hiryu (Peggy)",
+    "adc": "Ki-67-Ia Hiryu (Peggy)",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Ki-84-Ia, -Ib, -II Hayate (Frank)",
+    "adc": "Ki-84-Ia Hayate (Frank)",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Ki-84-Ic Hayate (Frank)",
+    "adc": "Ki-84-Ia Hayate (Frank)",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Kittyhawk Mk.IV",
+    "adc": "P-40N Warhawk",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "La-5FN",
+    "adc": "La-5FN",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Lancaster B Mk.I, B Mk.III, B Mk.VII, B Mk.X",
+    "adc": "Lancaster B Mk.III",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Liberator Mk.III",
+    "adc": "B-24H Liberator",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Liberator Mk.IV",
+    "adc": "B-24H Liberator",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Marauder Mk.I",
+    "adc": "B-26C Marauder",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Marauder Mk.IA, Mk.II, Mk.III",
+    "adc": "B-26C Marauder",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "MC.205V Veltro",
+    "adc": "MC.205V Veltro",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "MC.205V Veltro Series I",
+    "adc": "MC.205V Veltro",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Me 262A-1 ‘Schwalbe’, A-2a ‘Sturmvogel’",
+    "adc": "Me 262A-1 ‘Schwalbe’",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Me 410A-1, B-1 Hornisse",
+    "adc": "Me 410A-1 Hornisse",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Me 410A-1/U2, A-1/U4 Hornisse",
+    "adc": "Me 410A-1 Hornisse",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Mitchell Mk.I, Mk.II",
+    "adc": "B-25C Mitchell",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Mustang Mk.III",
+    "adc": "P-51B Mustang",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Mustang Mk.IV",
+    "adc": "P-51D Mustang",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "N1K1-J, -Ja, -Jb, -Jc, N1K2-J, -Ja Shiden (George)",
+    "adc": "N1K2-J Shiden (George)",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "P-38F Lightning",
+    "adc": "P-38F Lightning",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "P-38G, H Lightning",
+    "adc": "P-38F Lightning",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "P-38J Lightning",
+    "adc": "P-38J Lightning",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "P-38L Lightning",
+    "adc": "P-38J Lightning",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "P-39K, L, M, N, Q Airacobra",
+    "adc": "P-39Q Airacobra",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "P-40N Warhawk",
+    "adc": "P-40N Warhawk",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "P-47C, D-1 to D-23, G Thunderbolt",
+    "adc": "P-47C Thunderbolt",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "P-47D-25 to D-40 Thunderbolt",
+    "adc": "P-47D-25 Thunderbolt",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "P-51B, C Mustang",
+    "adc": "P-51B Mustang",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "P-51D, K Mustang",
+    "adc": "P-51D Mustang",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "PB4Y-1",
+    "adc": "B-24H Liberator",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Pe-2, Pe-2B, Pe-2FT ‘Peshka’",
+    "adc": "Pe-2 ‘Peshka’",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "S-92",
+    "adc": "Me 262A-1 ‘Schwalbe’",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "S-99",
+    "adc": "Bf 109G-6 ‘Gustav’",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "SB2C-1, -4 Helldiver",
+    "adc": "SB2C-3 Helldiver",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "SB2C-1C, -3 Helldiver",
+    "adc": "SB2C-3 Helldiver",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Seafire LF Mk.IIC, F Mk.III, LF Mk.III, LR Mk.III",
+    "adc": "Seafire LF Mk.III",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Spitfire F Mk.VIII, LF Mk.VIII, HF Mk.VIII, F Mk.IX, LF Mk.IX, HF Mk.IX",
+    "adc": "Spitfire F Mk.IX",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Spitfire F Mk.XIV, F Mk.XVIII",
+    "adc": "Spitfire F Mk.XIV",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Spitfire F Mk.XIV (Late)",
+    "adc": "Spitfire F Mk.XIV",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Spitfire F Mk.XVI",
+    "adc": "Spitfire F Mk.IX",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Spitfire F.21, F.22, F.24",
+    "adc": "Spitfire F Mk.XIV",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Ta 152H-1",
+    "adc": "Ta 152H-1",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Tempest Mk.II, FB Mk.II",
+    "adc": "Tempest Mk.V",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Tempest Mk.V, Mk.VI",
+    "adc": "Tempest Mk.V",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Thunderbolt Mk.I",
+    "adc": "P-47C Thunderbolt",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Thunderbolt Mk.II",
+    "adc": "P-47D-25 Thunderbolt",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Tu-4",
+    "adc": "B-29 Superfortress",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Typhoon Mk.IB",
+    "adc": "Typhoon Mk.IB",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Typhoon Mk.IB (Early)",
+    "adc": "Typhoon Mk.IB",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Washington B Mk.I",
+    "adc": "B-29 Superfortress",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Yak-7, -7A",
+    "adc": "Yak-7",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Yak-7B",
+    "adc": "Yak-7",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Yak-9, -9B, -9D, -9M",
+    "adc": "Yak-9",
+    "derivative": false,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "Yak-9K, -9T",
+    "adc": "Yak-9",
+    "derivative": true,
+    "product": "Supremacy"
+  },
+  {
+    "aircraft": "A-20A, B, C Havoc",
+    "adc": "A-20C Havoc",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "A-20G, H Havoc",
+    "adc": "A-20C Havoc",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "A-20J, K Havoc",
+    "adc": "A-20C Havoc",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "A-24 Banshee",
+    "adc": "SBD-3 Dauntless",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "A6M2, A6M3 'Zero' (Zeke)",
+    "adc": "A6M2 'Zero' (Zeke)",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Avenger Mk.I, Mk.II",
+    "adc": "TBF-1 Avenger",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Avenger Mk.III",
+    "adc": "TBF-1 Avenger",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "B5N1, B5N2 'Kankō' (Kate)",
+    "adc": "B5N2 'Kankō' (Kate)",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Battle Mk.I, Mk.II, Mk.V",
+    "adc": "Battle Mk.I",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Bf 109E-1, E-3 'Emil'",
+    "adc": "Bf 109E-4 'Emil'",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Bf 109E-4 'Emil'",
+    "adc": "Bf 109E-4 'Emil'",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Bf 109E-7 'Emil'",
+    "adc": "Bf 109E-4 'Emil'",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Bf 109F-1, F-2 'Friedrich'",
+    "adc": "Bf 109F-2 'Friedrich'",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Bf 109F-4, F-4/R1 'Friedrich'",
+    "adc": "Bf 109F-4 'Friedrich'",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Bf 110C-1, C-2, C-3",
+    "adc": "Bf 110C-4",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Bf 110C-4",
+    "adc": "Bf 110C-4",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Bf 110C-7",
+    "adc": "Bf 110C-4",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Blenheim Mk.I",
+    "adc": "Blenheim Mk.IV",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Blenheim Mk.IF",
+    "adc": "Blenheim Mk.IV",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Blenheim Mk.IV",
+    "adc": "Blenheim Mk.IV",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Blenheim Mk.V 'Bisley'",
+    "adc": "Blenheim Mk.IV",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Boston Mk.III, Mk.IIIA",
+    "adc": "A-20C Havoc",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Buffalo Mk.I",
+    "adc": "F2A-3 Buffalo",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "CR.42, CR.42 bis Falco",
+    "adc": "CR.42 Falco",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "D3A1, D3A2 'Kanbaku' (Val)",
+    "adc": "D3A1 'Kanbaku' (Val)",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "DB-7",
+    "adc": "A-20C Havoc",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Do 17M, Z-0 to Z-5",
+    "adc": "Do 17Z-2",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Do 17P",
+    "adc": "Do 17Z-2",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Do 217E-1 to E-5, K, M",
+    "adc": "Do 217E-2",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "F2A-3 Buffalo",
+    "adc": "F2A-3 Buffalo",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "F4F-3 Wildcat",
+    "adc": "F4F-4 Wildcat",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "F4F-4 Wildcat",
+    "adc": "F4F-4 Wildcat",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "FM-1 Wildcat",
+    "adc": "F4F-4 Wildcat",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Fw 190A-1, A-2",
+    "adc": "Fw 190A-2",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "G.50 Freccia",
+    "adc": "G.50 bis Freccia",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "G.50 bis Freccia",
+    "adc": "G.50 bis Freccia",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "G4M1, G4M2 'Rikkō' (Betty)",
+    "adc": "G4M1 'Rikkō' (Betty)",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "G4M3 'Rikkō' (Betty)",
+    "adc": "G4M1 'Rikkō' (Betty)",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Gladiator Mk.I, Mk.II",
+    "adc": "Gladiator Mk.II",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "He 111H-1 to H-10",
+    "adc": "He 111H-1",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "He 111H-11 to H-16, H-20",
+    "adc": "He 111H-1",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "He 111P-0 to P-6",
+    "adc": "He 111H-1",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Hurricane Mk.I",
+    "adc": "Hurricane Mk.I",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Hurricane Mk.IIA, Mk.IIB",
+    "adc": "Hurricane Mk.IIC",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Hurricane Mk.IIC",
+    "adc": "Hurricane Mk.IIC",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Hurricane Mk.IID",
+    "adc": "Hurricane Mk.IIC",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Hurricane Mk.IV",
+    "adc": "Hurricane Mk.IIC",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "IL-2 'Ilyusha'",
+    "adc": "IL-2 'Ilyusha'",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "J 8, J 8A",
+    "adc": "Gladiator Mk.II",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "J 11",
+    "adc": "CR.42 Falco",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Ju 52/3m",
+    "adc": "Ju 52/3m",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Ju 87A 'Stuka'",
+    "adc": "Ju 87B-1 'Stuka'",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Ju 87B-1, B-2 'Stuka'",
+    "adc": "Ju 87B-1 'Stuka'",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Ju 87B-2 Picchiatello",
+    "adc": "Ju 87B-1 'Stuka'",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Ju 87R-1, R-2, R-4 'Stuka'",
+    "adc": "Ju 87B-1 'Stuka'",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Ju 88A-1 to A-5, A-10",
+    "adc": "Ju 88A-4",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Ju 88A-14 to A-17",
+    "adc": "Ju 88A-4",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Ki-21-Ia, -Ib, -Ic (Sally)",
+    "adc": "Ki-21-IIa (Sally)",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Ki-21-IIa, -IIb (Sally)",
+    "adc": "Ki-21-IIa (Sally)",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Ki-43-Ia, -Ib Hayabusa (Oscar)",
+    "adc": "Ki-43-Ia Hayabusa (Oscar)",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Ki-43-Ic Hayabusa (Oscar)",
+    "adc": "Ki-43-Ia Hayabusa (Oscar)",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Kittyhawk Mk.I",
+    "adc": "P-40E Warhawk",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Kittyhawk Mk.IA",
+    "adc": "P-40E Warhawk",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Kittyhawk Mk.II",
+    "adc": "P-40F Warhawk",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "La-5",
+    "adc": "La-5",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "La-5F",
+    "adc": "La-5",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "LaGG-3",
+    "adc": "LaGG-3",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "LaGG-3-37",
+    "adc": "LaGG-3",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Martlet Mk.I, Mk.II, Mk.III",
+    "adc": "F4F-4 Wildcat",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Martlet Mk.IV",
+    "adc": "F4F-4 Wildcat",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Martlet Mk.V",
+    "adc": "F4F-4 Wildcat",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "MC.200, MC.200CB Saetta",
+    "adc": "MC.200 Saetta",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "MC.202, MC.202AS, MC.202CB Folgore",
+    "adc": "MC.202 Folgore",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "P-40B, C Warhawk",
+    "adc": "P-40B Warhawk",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "P-40D Warhawk",
+    "adc": "P-40E Warhawk",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "P-40E Warhawk",
+    "adc": "P-40E Warhawk",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "P-40F Warhawk",
+    "adc": "P-40F Warhawk",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "P-40L Warhawk",
+    "adc": "P-40F Warhawk",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "SBD-1, -2 Dauntless",
+    "adc": "SBD-3 Dauntless",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "SBD-3, -4, -5 Dauntless",
+    "adc": "SBD-3 Dauntless",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Sea Gladiator",
+    "adc": "Gladiator Mk.II",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Sea Hurricane Mk.IB",
+    "adc": "Hurricane Mk.I",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Sea Hurricane Mk.IIC",
+    "adc": "Hurricane Mk.IIC",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "SM.79-I, -II, -III Sparviero",
+    "adc": "SM.79-II Sparviero",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Spitfire Mk.I, Mk.IA, Mk.IIA",
+    "adc": "Spitfire Mk.IA",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Spitfire Mk.IB, Mk.IIB",
+    "adc": "Spitfire Mk.IA",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Spitfire Mk.VA",
+    "adc": "Spitfire Mk.VB",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Spitfire Mk.VB, Mk.VC",
+    "adc": "Spitfire Mk.VB",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Swordfish Mk.I",
+    "adc": "Swordfish Mk.I",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Swordfish Mk.II, Mk.III",
+    "adc": "Swordfish Mk.I",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "TBD-1 Devastator",
+    "adc": "TBD-1 Devastator",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "TBF-1, -1C Avenger",
+    "adc": "TBF-1 Avenger",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "TBM Avenger",
+    "adc": "TBF-1 Avenger",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "TBM-3 Avenger",
+    "adc": "TBF-1 Avenger",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Tomahawk Mk.I",
+    "adc": "P-40B Warhawk",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Tomahawk Mk.II",
+    "adc": "P-40B Warhawk",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Whirlwind Mk.I, Mk.II",
+    "adc": "Whirlwind Mk.I",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Wildcat Mk.IV",
+    "adc": "F4F-4 Wildcat",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Wildcat Mk.V",
+    "adc": "F4F-4 Wildcat",
+    "derivative": true,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Yak-1",
+    "adc": "Yak-1",
+    "derivative": false,
+    "product": "Victories"
+  },
+  {
+    "aircraft": "Yak-1B",
+    "adc": "Yak-1",
+    "derivative": true,
+    "product": "Victories"
+  }
+]
